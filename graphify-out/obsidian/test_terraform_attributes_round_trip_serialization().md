@@ -1,0 +1,22 @@
+---
+source_file: "graphify/tests/test_terraform.py"
+type: "code"
+community: "Community 49"
+location: "L307"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_49
+---
+
+# test_terraform_attributes_round_trip_serialization()
+
+## Connections
+- [[_load_graph()]] - `calls` [EXTRACTED]
+- [[_write()_39]] - `calls` [EXTRACTED]
+- [[build_from_json()_1]] - `calls` [EXTRACTED]
+- [[extract_terraform()]] - `calls` [INFERRED]
+- [[test_terraform.py]] - `contains` [EXTRACTED]
+- [[to_json()]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_49

@@ -1,0 +1,20 @@
+---
+source_file: "graphify/tests/test_extract.py"
+type: "code"
+community: "Community 2"
+location: "L598"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_2
+---
+
+# test_collect_files_walks_each_directory_once()
+
+## Connections
+- [[collect_files must scan every directory at most once and never descend into…]] - `rationale_for` [EXTRACTED]
+- [[collect_files()]] - `calls` [EXTRACTED]
+- [[counting_scandir()]] - `indirect_call` [INFERRED]
+- [[test_extract.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_2

@@ -1,0 +1,380 @@
+---
+type: community
+cohesion: 0.01
+members: 326
+---
+
+# Community 0
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 326 nodes
+
+## Members
+- [[1-based line of the first ERROR that spans more than one line. The 2551…]] - rationale - graphify/graphify/extractors/engine.py
+- [[1-based line of the first ERRORMISSING node under ``root`` (2551). Descends…]] - rationale - graphify/graphify/extractors/engine.py
+- [[A C method's parameter signature and the argument counts it accepts. The…]] - rationale - graphify/graphify/extractors/engine.py
+- [[A C type's name as its node id spells it the arity folds in (4249). `Effect`…]] - rationale - graphify/graphify/extractors/engine.py
+- [[A stable label for an anonymous Scala 3 given (`given ShowInt with`). Derived…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Argument count of a C invocation, or None for anything else.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Build the SCOPED receiver bindings visible to one C method (2299, 2472). The…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Build the receiver type table visible to one Java method. Current-class fields…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Classify a Swift inheritance_specifier entry as `inherits` or `implements`.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Classify the symbol an `assignment_expression` LHS defines when its RHS is a…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Collect Java type names used as class literals in annotation arguments.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Collect Kotlin type names used as class literals in annotation arguments (e.g.…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Collect ``(simple, raw)`` annotation names from a Java declaration's…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Collect ``(simple, raw)`` annotation names from a Kotlin declaration's…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Collect ``name - TypeName`` for every PHP receiver whose type is written down.…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Collect ``var - Type`` from local ``let````var`` bindings in a Swift function…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Collect `decorator` nodes under `node` (e.g. parameter decorators inside a…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Collect attribute names from a C methoddeclaration's attribute_list children.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Collect binding identifier names from a JSTS pattern (a parameter, or a…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Collect the TOPMOST closure nodes (arrow  function expressions) under…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Collect the types named by a ``type_parameters`` node's context bounds. ``def…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Collect type refs from each typed parameter under a `parameters` node.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Describe a Java receiver that is itself an expression, for the resolver to type…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Detect CommonJS require imports inside lexical_declaration …]] - rationale - graphify/graphify/extractors/engine.py
+- [[Detect dynamic import() calls in JSTS and emit imports_from edges. Handles…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Dotted package FQN from the file's ``package_header``, or None. Grammar 1.1.0…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Emit `references` edges (context=decorator) from a class and its members to…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Emit a node + `contains` edge for every function lexically nested inside…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Emit a node + `contains` edge for every named `function`generator declaration…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Emit a node per C++ enumerator with a case_of edge. Returns True if handled. An…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Emit a node per PHP 8.1 enum case with a case_of edge. Returns True if handled.…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Emit a node per Scala 3 enum case with a case_of edge. Returns True if handled.…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Emit enum member nodes, and a container node for a TS `namespace``module`.…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Every name a Java method binds itself, typed or not parameters, locals (`var`…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Find names of identifiers exported from a JS module (CJS or ESM).]] - rationale - graphify/graphify/extractors/engine.py
+- [[Find the body node using config.body_field, falling back to child types.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Find the return-type node of a Kotlin function_declaration (the type after ` `…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Find the user_type node within a Kotlin property_declaration.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Flatten a Kotlin ``navigation_expression`` chain into its dotted identifier…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Full constant path of a ``constant`` or ``scope_resolution`` (``ABC`` kept…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Generic AST extractor driven by LanguageConfig. ``source_override`` parses the…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Handle C namespaces, enum members, and transparent class-member wrappers.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Handle enum_constant for Java. Returns True if handled.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Handle enum_entry for Kotlin. Returns True if handled (1700 Kotlin half).]] - rationale - graphify/graphify/extractors/engine.py
+- [[Handle enum_entry for Swift. Returns True if handled.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Handle lexical_declaration (arrow functions, CJS requires, module-level const…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Id of a namespace scope, stored in ``scope_chain``  ``scope_id`` metadata. Row…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Identifiers bound as `pattern` targets under a Python AST subtree. Recurses…]] - rationale - graphify/graphify/extractors/engine.py
+- [[If a Swift call expression is a constructor (``Foo()``), return the type name.…]] - rationale - graphify/graphify/extractors/engine.py
+- [[If a Swift call expression is a static factory call (``Factory.make()``),…]] - rationale - graphify/graphify/extractors/engine.py
+- [[In-file target of a known current-instance or base-instance method call.…]] - rationale - graphify/graphify/extractors/engine.py
+- [[In-file target of an unqualified call ``m()`` made from a method. The nearest…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Last constant of a ``constant`` or ``scope_resolution`` (``ABC`` - ``C``).]] - rationale - graphify/graphify/extractors/engine.py
+- [[Mark the member nodes that stand for both a public `name` and `name`. A…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Materialize callable members assigned in ``body`` (13223408). ``this.X =…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Module-scope names rebound to NON-function data (`const X = {...}`, `let y =…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Name of a `method_definition`, matching the id the function-types branch builds…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Names bound LOCALLY inside a Python function parameters plus assignment,…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Names bound by `let``const` declarators that are DIRECT children of node (not…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Names bound locally inside a JSTS function, into the FUNCTION-WIDE scope…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Names rebound by assignment at MODULE scope (top-level `x = ...`, `for`,…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Node id for a JSTS class member, salted when a sibling collides (4475).…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Parameters with no annotation and no default that the body never rebinds the…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Path]] - code
+- [[Pre-scan a C file for declared names that collapse to one node id. C is case-…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Pre-scan a Python module for name-only differences that collapse to one node…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Pre-scan a Swift compilation unit and return (protocol_names, class_like_names).]] - rationale - graphify/graphify/extractors/engine.py
+- [[Put each class's field types on its node as `_ts_fields`. Node ids are…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Raw calls for attribute reads that may run a `@property` getter.…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Recursively unwrap declarator to find the innermost identifier (C++).]] - rationale - graphify/graphify/extractors/engine.py
+- [[Replace the name, x leaf of a receiver chain with x's declared type…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Resolve a C declared type to a receiver-typable class name, or None. A genuine…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Resolve a C receiver name to its type at a specific call offset (2472).…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Resolve a C type name, whether it was qualified, and its qualifier prefix.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Resolve a JSTS import path string to (target_nid, resolved_path). Handles…]] - rationale - graphify/graphify/extractors/resolution.py
+- [[Resolve a declaration's real node id against the collision map. Shared by the…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return C type-parameter names visible from ``node``.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return C++ template type-parameter names visible from ``node``. A…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return Java type-parameter names visible from ``node``.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return Kotlin type-parameter names visible from ``node``. A `class BoxT` or…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return Scala type-parameter names visible from ``node``. A `class BoxT` …]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return Swift generic type-parameter names visible from ``node``. A `struct…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return annotations from a Java declaration's `modifiers` child.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return explicit constant owners modified outside their class body.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return names declared as `interface` in this C compilation unit.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return the bound name of a Swift property (``let x````var x = ...``).]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return the call_expression node if `value_node` is a `require(...)` call or…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return the concrete declared type usable for Java receiver resolution.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return the depth-1 receiver name of a Swift member call (``recv.method()``).…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return the head symbol of a Python `decorator` node. The Python twin of…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return the head symbol of a TS `decorator` node. `@Injectable` - the…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return the head type_identifier text from a Swift user_type node (without…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return the leading kind token for a Swift class_declaration…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return the named_typeprimitive_type node sitting after formal_parameters.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return the tail identifier text from a Kotlin user_type node (without…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return the type named by an ``@Environment(Type.self)`` attribute argument.…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return the type_annotation child of a Swift property_declaration, if any.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Return the unqualified name text from a PHP `name``qualified_name` node.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Ruby a constant assignment whose RHS is ``Struct.new(...)``,…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Supertypes of each class, in declaration order, for _lexical_call_target.…]] - rationale - graphify/graphify/extractors/engine.py
+- [[The `this` field that ``name`` was destructured from, or None. `const { creator…]] - rationale - graphify/graphify/extractors/engine.py
+- [[The bare name a PHP `variable_name` binds `$greeter` - `greeter`.]] - rationale - graphify/graphify/extractors/engine.py
+- [[The callee identifier of a C call-site name node. A plain `identifier` reads…]] - rationale - graphify/graphify/extractors/engine.py
+- [[The class a fixture returns or yields its return annotation, else every…]] - rationale - graphify/graphify/extractors/engine.py
+- [[The element type of a C array or list type, else None (4246). ``xsi`` on a…]] - rationale - graphify/graphify/extractors/engine.py
+- [[The first single-class type annotation among ``node``'s direct children.]] - rationale - graphify/graphify/extractors/engine.py
+- [[The single class name a PHP type annotation names, or None. Only `Greeter` and…]] - rationale - graphify/graphify/extractors/engine.py
+- [[The string literal argument of a `require(...)` call, or None.]] - rationale - graphify/graphify/extractors/engine.py
+- [[The symbol a decorator expression applies the outermost call's name. `f` - f;…]] - rationale - graphify/graphify/extractors/engine.py
+- [[The type name a module-level statement declares as an explicit alias. `type…]] - rationale - graphify/graphify/extractors/engine.py
+- [[True if a Lua `function_call` node invokes `require`, parenthesized or not.]] - rationale - graphify/graphify/extractors/engine.py
+- [[True if any materialized ERROR node spans more than one line (a recovery region…]] - rationale - graphify/graphify/extractors/engine.py
+- [[True only when `value_node` is a literal `require(...)` call (or…]] - rationale - graphify/graphify/extractors/engine.py
+- [[True when a JSTS import specifier names a module outside the scanned corpus.…]] - rationale - graphify/graphify/extractors/engine.py
+- [[True when a `require(...)` binding's specifier resolves to a file in the…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Walk a C type expression; append (name, role) tuples for user-defined types.…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Walk a C type expression; append (name, role, qualified, qualifier) tuples.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Walk a Java type expression; append (name, role) tuples.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Walk a Kotlin type expression; append (name, role) tuples. Generic type…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Walk a PHP type expression; append (name, role) tuples.]] - rationale - graphify/graphify/extractors/engine.py
+- [[Walk a Python type annotation; append (name, role) where role is 'type' or…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Walk a Scala type expression; append (name, role) tuples. Handles…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Walk a Swift type expression; append (name, role) tuples (role 'type' or…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Walk up the AST to extract grouped routing prefixes (3409).]] - rationale - graphify/graphify/extractors/engine.py
+- [[What a C ``foreach`` over a field or property of this type yields. Maps the…]] - rationale - graphify/graphify/extractors/engine.py
+- [[When Language() raises TypeError (e.g. old tree-sitter binding meets a new…]] - rationale - graphify/tests/test_extract.py
+- [[Whether ``node`` runs in a `static` method, where `this` is the class. Arrow…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Yield ``(attr, type_name)`` for every ``self.attr = ...`` in a method body…]] - rationale - graphify/graphify/extractors/engine.py
+- [[Yield identifier value-nodes of a JSTS objectarray literal that are function-…]] - rationale - graphify/graphify/extractors/engine.py
+- [[_c_collect_type_refs()]] - code - graphify/graphify/extractors/engine.py
+- [[_cpp_collect_type_refs()]] - code - graphify/graphify/extractors/engine.py
+- [[_cpp_extra_walk()]] - code - graphify/graphify/extractors/engine.py
+- [[_cpp_type_parameters_in_scope()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_argc()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_attribute_names()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_bare_call_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_classify_base()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_collect_type_refs()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_deferred_call()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_element_type_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_extra_walk()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_loop_element_types()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_loop_source()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_member_call_parts()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_method_receiver_types()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_method_signature()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_namespace_id()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_namespace_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_pre_scan_interfaces()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_pre_scan_name_collisions()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_receiver_type_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_return_info()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_scope_id()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_scoped_receiver_type()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_type_name_for_id()]] - code - graphify/graphify/extractors/engine.py
+- [[_csharp_type_parameters_in_scope()]] - code - graphify/graphify/extractors/engine.py
+- [[_dynamic_import_js()]] - code - graphify/graphify/extractors/engine.py
+- [[_emit_indirect_by_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_emit_indirect_ref()]] - code - graphify/graphify/extractors/engine.py
+- [[_emit_java_parent()]] - code - graphify/graphify/extractors/engine.py
+- [[_emit_java_parent_type()]] - code - graphify/graphify/extractors/engine.py
+- [[_extract_generic()]] - code - graphify/graphify/extractors/engine.py
+- [[_fields_up_chain()]] - code - graphify/graphify/extractors/engine.py
+- [[_find_body()]] - code - graphify/graphify/extractors/engine.py
+- [[_find_require_call()]] - code - graphify/graphify/extractors/engine.py
+- [[_first_multiline_error_line()]] - code - graphify/graphify/extractors/engine.py
+- [[_first_parse_error_line()]] - code - graphify/graphify/extractors/engine.py
+- [[_fold()]] - code - graphify/graphify/extractors/engine.py
+- [[_get_cpp_func_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_getattr_ref_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_has_multiline_error()]] - code - graphify/graphify/extractors/engine.py
+- [[_java_annotation_class_literal_refs()]] - code - graphify/graphify/extractors/engine.py
+- [[_java_annotation_names()]] - code - graphify/graphify/extractors/engine.py
+- [[_java_annotation_nodes()]] - code - graphify/graphify/extractors/engine.py
+- [[_java_bound_names()]] - code - graphify/graphify/extractors/engine.py
+- [[_java_collect_type_refs()]] - code - graphify/graphify/extractors/engine.py
+- [[_java_declarator_names()]] - code - graphify/graphify/extractors/engine.py
+- [[_java_extra_walk()]] - code - graphify/graphify/extractors/engine.py
+- [[_java_lambda_parameters()]] - code - graphify/graphify/extractors/engine.py
+- [[_java_method_receiver_types()]] - code - graphify/graphify/extractors/engine.py
+- [[_java_receiver_chain()]] - code - graphify/graphify/extractors/engine.py
+- [[_java_receiver_type_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_java_type_chain_leaf()]] - code - graphify/graphify/extractors/engine.py
+- [[_java_type_parameters_in_scope()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_collect_pattern_idents()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_direct_lexical_names()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_dispatch_value_idents()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_extra_walk()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_find_exported_objects()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_import_binds_external()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_local_bound_names()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_member_assignment_target()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_member_nid()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_module_bound_names()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_require_resolves_locally()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_require_specifier()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_scan_member_assignments()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_topmost_closures()]] - code - graphify/graphify/extractors/engine.py
+- [[_js_value_is_require()]] - code - graphify/graphify/extractors/engine.py
+- [[_kotlin_annotation_class_literal_refs()]] - code - graphify/graphify/extractors/engine.py
+- [[_kotlin_annotation_names()]] - code - graphify/graphify/extractors/engine.py
+- [[_kotlin_collect_type_refs()]] - code - graphify/graphify/extractors/engine.py
+- [[_kotlin_extra_walk()]] - code - graphify/graphify/extractors/engine.py
+- [[_kotlin_function_return_type_node()]] - code - graphify/graphify/extractors/engine.py
+- [[_kotlin_nav_identifier_segments()]] - code - graphify/graphify/extractors/engine.py
+- [[_kotlin_package_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_kotlin_property_type_node()]] - code - graphify/graphify/extractors/engine.py
+- [[_kotlin_type_parameters_in_scope()]] - code - graphify/graphify/extractors/engine.py
+- [[_kotlin_user_type_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_lexical_call_target()]] - code - graphify/graphify/extractors/engine.py
+- [[_lexical_class_bases()]] - code - graphify/graphify/extractors/engine.py
+- [[_lua_is_require_call()]] - code - graphify/graphify/extractors/engine.py
+- [[_members()]] - code - graphify/graphify/extractors/engine.py
+- [[_php_class_const_scope()]] - code - graphify/graphify/extractors/engine.py
+- [[_php_collect_type_refs()]] - code - graphify/graphify/extractors/engine.py
+- [[_php_declared_type_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_php_emit_base()]] - code - graphify/graphify/extractors/engine.py
+- [[_php_extra_walk()]] - code - graphify/graphify/extractors/engine.py
+- [[_php_first_declared_type()]] - code - graphify/graphify/extractors/engine.py
+- [[_php_get_route_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_php_method_return_type_node()]] - code - graphify/graphify/extractors/engine.py
+- [[_php_name_text()]] - code - graphify/graphify/extractors/engine.py
+- [[_php_receiver_type_table()]] - code - graphify/graphify/extractors/engine.py
+- [[_php_variable_text()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_alias_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_annotation_class()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_attribute_is_store()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_collect_assignment_targets()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_collect_param_refs()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_collect_type_refs()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_decorator_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_dispatch_value_idents()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_fixture_type()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_is_property()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_is_pytest_fixture()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_is_test_module()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_local_bound_names()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_module_bound_names()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_pre_scan_underscore_collisions()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_property_reads()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_ref_value_idents()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_self_attr()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_self_attr_bindings()]] - code - graphify/graphify/extractors/engine.py
+- [[_python_untouched_params()]] - code - graphify/graphify/extractors/engine.py
+- [[_raise()]] - code - graphify/tests/test_extract.py
+- [[_read_csharp_type_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_record()]] - code - graphify/graphify/extractors/engine.py
+- [[_require_imports_js()]] - code - graphify/graphify/extractors/engine.py
+- [[_resolve_js_import_target()]] - code - graphify/graphify/extractors/resolution.py
+- [[_ruby_const_full_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_ruby_const_last_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_ruby_external_method_owners()]] - code - graphify/graphify/extractors/engine.py
+- [[_ruby_extra_walk()]] - code - graphify/graphify/extractors/engine.py
+- [[_same_node()]] - code - graphify/graphify/extractors/engine.py
+- [[_scala_collect_context_bounds()]] - code - graphify/graphify/extractors/engine.py
+- [[_scala_collect_type_refs()]] - code - graphify/graphify/extractors/engine.py
+- [[_scala_extra_walk()]] - code - graphify/graphify/extractors/engine.py
+- [[_scala_given_synthetic_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_scala_type_parameters_in_scope()]] - code - graphify/graphify/extractors/engine.py
+- [[_scan_js_module_dispatch()]] - code - graphify/graphify/extractors/engine.py
+- [[_scan_js_nested_function_declarations()]] - code - graphify/graphify/extractors/engine.py
+- [[_scan_module_dispatch()]] - code - graphify/graphify/extractors/engine.py
+- [[_scan_python_nested_function_declarations()]] - code - graphify/graphify/extractors/engine.py
+- [[_self_call_target()]] - code - graphify/graphify/extractors/engine.py
+- [[_semantic_reference_edge()]] - code - graphify/graphify/extractors/engine.py
+- [[_source_location()]] - code - graphify/graphify/extractors/engine.py
+- [[_swift_attribute_type_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_swift_classify_base()]] - code - graphify/graphify/extractors/engine.py
+- [[_swift_collect_type_refs()]] - code - graphify/graphify/extractors/engine.py
+- [[_swift_constructor_type()]] - code - graphify/graphify/extractors/engine.py
+- [[_swift_declaration_keyword()]] - code - graphify/graphify/extractors/engine.py
+- [[_swift_extra_walk()]] - code - graphify/graphify/extractors/engine.py
+- [[_swift_factory_call()]] - code - graphify/graphify/extractors/engine.py
+- [[_swift_local_var_types()]] - code - graphify/graphify/extractors/engine.py
+- [[_swift_pre_scan()]] - code - graphify/graphify/extractors/engine.py
+- [[_swift_property_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_swift_property_type_node()]] - code - graphify/graphify/extractors/engine.py
+- [[_swift_receiver_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_swift_type_parameters_in_scope()]] - code - graphify/graphify/extractors/engine.py
+- [[_swift_user_type_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_ts_attach_class_fields()]] - code - graphify/graphify/extractors/engine.py
+- [[_ts_decorator_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_ts_decorator_target_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_ts_descendant_decorators()]] - code - graphify/graphify/extractors/engine.py
+- [[_ts_emit_decorator_edges()]] - code - graphify/graphify/extractors/engine.py
+- [[_ts_extra_walk()]] - code - graphify/graphify/extractors/engine.py
+- [[_ts_field_destructured_from_this()]] - code - graphify/graphify/extractors/engine.py
+- [[_ts_in_static_method()]] - code - graphify/graphify/extractors/engine.py
+- [[_ts_mark_public_twins()]] - code - graphify/graphify/extractors/engine.py
+- [[_ts_method_name()]] - code - graphify/graphify/extractors/engine.py
+- [[_undecorated()]] - code - graphify/graphify/extractors/engine.py
+- [[_underscore_salted_nid()]] - code - graphify/graphify/extractors/engine.py
+- [[_visit()]] - code - graphify/graphify/extractors/engine.py
+- [[`@property`  `@cached_property`  `@x.getter` reading the attribute runs it.]] - rationale - graphify/graphify/extractors/engine.py
+- [[`Client`, `mod.Client`, or the item of `IteratorClient`  `GeneratorClient,…]] - rationale - graphify/graphify/extractors/engine.py
+- [[``(field, suffix)`` for a ``foreach`` over ``f``, ``this.f``, ``f.Values`` or…]] - rationale - graphify/graphify/extractors/engine.py
+- [[``(name, receiver)`` nodes of a C member call's ``function``, else None.…]] - rationale - graphify/graphify/extractors/engine.py
+- [[``X`` when ``node`` is the attribute ``self.X`` (2860), else None.]] - rationale - graphify/graphify/extractors/engine.py
+- [[``receiver, method, type args`` for ``var x = R.MA(...)`` (4266). The…]] - rationale - graphify/graphify/extractors/engine.py
+- [[``return type, type-parameter count`` of a C method declaration (4266). The…]] - rationale - graphify/graphify/extractors/engine.py
+- [[`implements` if the base name is an interface (declared or by I-prefix…]] - rationale - graphify/graphify/extractors/engine.py
+- [[`x.a = ...`, `for x.a in ...`, `del x.a` not a read of `a`. `x.a += ...` is…]] - rationale - graphify/graphify/extractors/engine.py
+- [[add_edge()]] - code - graphify/graphify/extractors/engine.py
+- [[add_node()]] - code - graphify/graphify/extractors/engine.py
+- [[alias_rhs_refs()]] - code - graphify/graphify/extractors/engine.py
+- [[bind()]] - code - graphify/graphify/extractors/engine.py
+- [[bind()_1]] - code - graphify/graphify/extractors/engine.py
+- [[bind_parameter()]] - code - graphify/graphify/extractors/engine.py
+- [[collect()]] - code - graphify/graphify/extractors/engine.py
+- [[constant_refs()]] - code - graphify/graphify/extractors/engine.py
+- [[edges()]] - code - graphify/tests/test_watch.py
+- [[emit()]] - code - graphify/graphify/extractors/engine.py
+- [[engine — moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/engine.py
+- [[engine.py]] - code - graphify/graphify/extractors/engine.py
+- [[ensure_named_node()]] - code - graphify/graphify/extractors/engine.py
+- [[prefix_marker()]] - code - graphify/graphify/extractors/engine.py
+- [[rec()]] - code - graphify/graphify/extractors/engine.py
+- [[scala_base_name()]] - code - graphify/graphify/extractors/engine.py
+- [[test_extract_generic_surfaces_tree_sitter_version_mismatch_hint()]] - code - graphify/tests/test_extract.py
+- [[visit()]] - code - graphify/graphify/extractors/engine.py
+- [[walk()]] - code - graphify/graphify/extractors/engine.py
+- [[walk()_1]] - code - graphify/graphify/extractors/engine.py
+- [[walk()_2]] - code - graphify/graphify/extractors/engine.py
+- [[walk()_3]] - code - graphify/graphify/extractors/engine.py
+- [[walk()_4]] - code - graphify/graphify/extractors/engine.py
+- [[walk_calls()]] - code - graphify/graphify/extractors/engine.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_0
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 135 edges to [[_COMMUNITY_Community 16]]
+- 69 edges to [[_COMMUNITY_Community 1]]
+- 43 edges to [[_COMMUNITY_Community 3]]
+- 7 edges to [[_COMMUNITY_Community 45]]
+- 6 edges to [[_COMMUNITY_Community 8]]
+- 5 edges to [[_COMMUNITY_Community 188]]
+- 4 edges to [[_COMMUNITY_Community 427]]
+- 3 edges to [[_COMMUNITY_Community 68]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 2 edges to [[_COMMUNITY_Community 76]]
+- 2 edges to [[_COMMUNITY_Community 92]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 56]]
+- 1 edge to [[_COMMUNITY_Community 275]]
+- 1 edge to [[_COMMUNITY_Community 60]]
+- 1 edge to [[_COMMUNITY_Community 149]]
+- 1 edge to [[_COMMUNITY_Community 54]]
+- 1 edge to [[_COMMUNITY_Community 51]]
+- 1 edge to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 163]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 197]]
+- 1 edge to [[_COMMUNITY_Community 259]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 220]]
+- 1 edge to [[_COMMUNITY_Community 115]]
+
+## Top bridge nodes
+- [[_extract_generic()]] - degree 80, connects to 18 communities
+- [[engine.py]] - degree 183, connects to 8 communities
+- [[_semantic_reference_edge()]] - degree 12, connects to 6 communities
+- [[_resolve_js_import_target()]] - degree 16, connects to 5 communities
+- [[walk()]] - degree 83, connects to 4 communities

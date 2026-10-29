@@ -1,0 +1,32 @@
+---
+source_file: "graphify/graphify/extractors/models.py"
+type: "code"
+community: "Community 1"
+location: "L1"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_1
+---
+
+# extractors/models.py
+
+## Connections
+- [[LanguageConfig]] - `contains` [EXTRACTED]
+- [[_NamespaceExportFact]] - `contains` [EXTRACTED]
+- [[_StarExportFact]] - `contains` [EXTRACTED]
+- [[_SymbolAliasFact]] - `contains` [EXTRACTED]
+- [[_SymbolDeclarationFact]] - `contains` [EXTRACTED]
+- [[_SymbolExportFact]] - `contains` [EXTRACTED]
+- [[_SymbolImportFact]] - `contains` [EXTRACTED]
+- [[_SymbolResolutionFacts]] - `contains` [EXTRACTED]
+- [[_SymbolUseFact]] - `contains` [EXTRACTED]
+- [[dataclasses]] - `imports_from` [EXTRACTED]
+- [[engine.py]] - `imports_from` [EXTRACTED]
+- [[extract.py]] - `imports_from` [EXTRACTED]
+- [[models — moved verbatim from graphifyextract.py.]] - `rationale_for` [EXTRACTED]
+- [[pathlib]] - `imports_from` [EXTRACTED]
+- [[resolution.py]] - `imports_from` [EXTRACTED]
+- [[typing]] - `imports_from` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_1

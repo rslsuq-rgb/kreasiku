@@ -1,0 +1,394 @@
+---
+type: community
+cohesion: 0.04
+members: 147
+---
+
+# Community 14
+
+**Cohesion:** 0.04 - loosely connected
+**Members:** 147 nodes
+
+## Members
+- [[2243 the SAME corpus, scanned from two differently-named, differently nested…]] - rationale - graphify/tests/test_extract.py
+- [[A generic type's methods must attach to the type's own node (3368). `(b…]] - rationale - graphify/tests/test_go_generic_receiver_methods.py
+- [[A nested duplicate must not shadow the resolver's scan-root-first hit.]] - rationale - graphify/tests/test_src_layout_import_resolution.py
+- [[An element id was minted from its window's node id, which embeds the absolute…]] - rationale - graphify/tests/test_languages.py
+- [[C++ template type parameters must not mint sourceless god nodes. A…]] - rationale - graphify/tests/test_cpp_template_type_params.py
+- [[Collapse duplicate C namespace node entries to one canonical node per label.]] - rationale - graphify/graphify/extract.py
+- [[Control two same-named non-generic types in different namespaces are already…]] - rationale - graphify/tests/test_csharp_type_resolution.py
+- [[D. Package isolation pkg__init__.py + pkghelper.py + pkgapp.py with `import…]] - rationale - graphify/tests/test_loose_sibling_import_resolution.py
+- [[E. No cross-directory leakage scriptsutils.py + srcapp.py with `import…]] - rationale - graphify/tests/test_loose_sibling_import_resolution.py
+- [[Extract AST nodes and edges from a list of code files. Two-pass process 1.…]] - rationale - graphify/graphify/extract.py
+- [[Go generic type parameters must not mint sourceless god nodes. A `T any` type…]] - rationale - graphify/tests/test_go_generic_type_params.py
+- [[Method nodes by id and their owning type, for C methods with an arity.]] - rationale - graphify/graphify/extract.py
+- [[Namespace scope ids were byte offsets, so a CRLF checkout (Windows,…]] - rationale - graphify/tests/test_csharp_type_resolution.py
+- [[PEP 673 `Self` must not mint a sourceless god node. A `- Self` (or ` Self`,…]] - rationale - graphify/tests/test_python_self_type_ref.py
+- [[Path_29]] - code
+- [[Raise a clear error if tree-sitter is too old for the new Language API.]] - rationale - graphify/graphify/extract.py
+- [[Rust prelude types must not become hubs, and constructions are not calls. Two…]] - rationale - graphify/tests/test_rust_builtin_type_hubs.py
+- [[Swift `Self` must not mint a sourceless god node. A `- Self` (or ` Self`)…]] - rationale - graphify/tests/test_swift_self_type_ref.py
+- [[Swift generic type parameters must not mint sourceless god nodes. A `struct…]] - rationale - graphify/tests/test_swift_generic_type_params.py
+- [[_build()_2]] - code - graphify/tests/test_extract.py
+- [[_canon()]] - code - graphify/graphify/extract.py
+- [[_canonicalize_csharp_namespace_nodes()]] - code - graphify/graphify/extract.py
+- [[_check_tree_sitter_version()]] - code - graphify/graphify/extract.py
+- [[_crlf_vs_lf()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[_csharp_overload_index()]] - code - graphify/graphify/extract.py
+- [[_decompose()]] - code - graphify/graphify/extract.py
+- [[_defs()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[_describe_syntax_error()]] - code - graphify/graphify/extract.py
+- [[_edge_key()]] - code - graphify/graphify/extract.py
+- [[_has_import_evidence()]] - code - graphify/graphify/extract.py
+- [[_learn()]] - code - graphify/graphify/extract.py
+- [[_looks_like_bash()]] - code - graphify/graphify/extract.py
+- [[_method_owner()]] - code - graphify/tests/test_go_generic_receiver_methods.py
+- [[_n()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[_node_by_id()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[_portable_out_of_root_sf()]] - code - graphify/graphify/extract.py
+- [[_remapped()]] - code - graphify/graphify/extract.py
+- [[_resolve1()]] - code - graphify/graphify/extract.py
+- [[_resolved()]] - code - graphify/graphify/extract.py
+- [[_sf_entry()]] - code - graphify/graphify/extract.py
+- [[_sourceless()]] - code - graphify/tests/test_cpp_template_type_params.py
+- [[_sourceless()_1]] - code - graphify/tests/test_go_generic_type_params.py
+- [[_sourceless()_2]] - code - graphify/tests/test_python_self_type_ref.py
+- [[_sourceless()_3]] - code - graphify/tests/test_swift_generic_type_params.py
+- [[_targets()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[_write()_5]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[`Effect`  `EffectT` (a common base-pair shape `Comparer``ComparerT` is…]] - rationale - graphify/tests/test_csharp_type_resolution.py
+- [[extract()]] - code - graphify/graphify/extract.py
+- [[ids_for()]] - code - graphify/tests/test_languages.py
+- [[shape()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_a_generic_type_mints_exactly_one_callable_class_node()]] - code - graphify/tests/test_go_generic_receiver_methods.py
+- [[test_c_include_out_of_root_target_id_is_deterministic_across_checkout_paths()]] - code - graphify/tests/test_extract.py
+- [[test_class_and_function_template_params_mint_no_stub()]] - code - graphify/tests/test_cpp_template_type_params.py
+- [[test_constrained_param_dropped_but_real_type_kept()]] - code - graphify/tests/test_swift_generic_type_params.py
+- [[test_cpp_template_type_params.py]] - code - graphify/tests/test_cpp_template_type_params.py
+- [[test_csharp_alias_matching_file_stem_resolves_via_token()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_alias_using_scoped_to_its_block()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_ambiguous_static_imports_dangle()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_ambiguous_using_does_not_resolve()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_collision_disambiguated_by_using()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_cross_file_collision_resolved_by_kind_not_filename_order()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_cross_file_inherits_resolves_to_real_def()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_cross_namespace_enum_reference_resolves_to_real_def()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_cross_namespace_ref_not_misbound()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_cross_namespace_struct_and_record_references_resolve()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_declaration_nodes_carry_enclosing_namespace()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_enclosing_namespace_dotted()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_enclosing_namespace_file_scoped()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_enclosing_namespace_multilevel_shadowing()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_enclosing_namespace_nested_blocks()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_enclosing_namespace_regression_controls()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_enum_member_cannot_steal_external_parameter_type()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_external_type_shares_one_placeholder_across_files()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_file_level_using_applies_across_blocks()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_generic_alias_resolves_to_base_type()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_generic_and_non_generic_type_of_same_name_get_separate_nodes()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_global_scope_id_unchanged()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_global_using_and_global_namespace()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_import_edges_carry_using_kind()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_import_edges_resolve_internal_namespace_and_alias()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_inherits_does_not_bind_namespace_node()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_namespace_nodes_canonical_and_discriminated()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_namespace_scoped_using_isolated_to_sibling_block()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_namespaced_id_carries_namespace_segment()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_nested_type_carries_metadata()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_nested_type_not_importable_via_using()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_non_generic_pair_with_no_relation_stays_two_plain_nodes()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_one_file_same_name_binds_own_namespace()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_one_file_same_name_no_collision_flag()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_property_cannot_steal_external_parameter_type()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_qualified_alias_namespace_resolves()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_qualified_base_ref_is_flagged()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_qualified_generic_resolves_to_real_def()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_qualified_in_scope_alias_shadows_namespace()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_qualified_out_of_scope_alias_falls_through_to_namespace()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_qualified_ref_known_namespace_resolves()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_qualified_ref_unknown_qualifier_dangles()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_same_file_cross_namespace_ref_not_misbound()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_same_file_enum_member_does_not_preempt_class_inheritance()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_same_name_diff_namespace_have_distinct_ids()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_scope_metadata_does_not_depend_on_line_endings()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_static_import_vs_namespace_conflict_dangles()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_two_namespaces_each_resolve_own_type()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_type_parameter_emits_no_reference()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_type_ref_edges_carry_ref_token()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_type_ref_never_targets_a_file_label()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_type_resolution.py]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_unimported_nested_type_dangles()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_using_alias_resolves_to_aliased_type()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_using_flows_into_nested_block()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_using_static_multi_level_nested_type()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_using_static_on_partial_holder_class()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_using_static_resolves_nested_constructor_call()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_using_static_resolves_nested_type_reference()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_csharp_using_static_scoped_to_namespace_block()]] - code - graphify/tests/test_csharp_type_resolution.py
+- [[test_dmf_element_ids_do_not_depend_on_the_checkout_path()]] - code - graphify/tests/test_languages.py
+- [[test_generic_function_type_params_mint_no_stub()]] - code - graphify/tests/test_go_generic_type_params.py
+- [[test_generic_interface_type_params_mint_no_stub()]] - code - graphify/tests/test_go_generic_type_params.py
+- [[test_generic_receiver_method_attaches_to_its_own_type()]] - code - graphify/tests/test_go_generic_receiver_methods.py
+- [[test_generic_receivers_concrete_field_chain_resolves_through_its_own_type()]] - code - graphify/tests/test_go_generic_receiver_methods.py
+- [[test_generic_struct_and_method_type_params_mint_no_stub()]] - code - graphify/tests/test_go_generic_type_params.py
+- [[test_generic_struct_and_method_type_params_mint_no_stub()_1]] - code - graphify/tests/test_swift_generic_type_params.py
+- [[test_go_generic_receiver_methods.py]] - code - graphify/tests/test_go_generic_receiver_methods.py
+- [[test_go_generic_type_params.py]] - code - graphify/tests/test_go_generic_type_params.py
+- [[test_no_cross_directory_leakage()]] - code - graphify/tests/test_loose_sibling_import_resolution.py
+- [[test_non_type_param_and_real_types_unaffected()]] - code - graphify/tests/test_cpp_template_type_params.py
+- [[test_package_isolation_pep328()]] - code - graphify/tests/test_loose_sibling_import_resolution.py
+- [[test_python_self_type_ref.py]] - code - graphify/tests/test_python_self_type_ref.py
+- [[test_real_return_type_still_referenced()]] - code - graphify/tests/test_python_self_type_ref.py
+- [[test_real_return_type_still_referenced()_1]] - code - graphify/tests/test_swift_self_type_ref.py
+- [[test_rust_builtin_type_hubs.py]] - code - graphify/tests/test_rust_builtin_type_hubs.py
+- [[test_rust_function_call_still_emits_calls()]] - code - graphify/tests/test_rust_builtin_type_hubs.py
+- [[test_rust_locally_defined_prelude_name_is_kept()]] - code - graphify/tests/test_rust_builtin_type_hubs.py
+- [[test_rust_newtype_construction_is_reference_not_call()]] - code - graphify/tests/test_rust_builtin_type_hubs.py
+- [[test_rust_prelude_types_produce_no_nodes()]] - code - graphify/tests/test_rust_builtin_type_hubs.py
+- [[test_rust_same_file_construction_is_reference_not_call()]] - code - graphify/tests/test_rust_builtin_type_hubs.py
+- [[test_scan_root_module_wins_over_nested_same_name()]] - code - graphify/tests/test_src_layout_import_resolution.py
+- [[test_self_is_not_a_cross_file_god_node()]] - code - graphify/tests/test_python_self_type_ref.py
+- [[test_self_is_not_a_cross_file_god_node()_1]] - code - graphify/tests/test_swift_self_type_ref.py
+- [[test_self_parameter_type_mints_no_stub()]] - code - graphify/tests/test_swift_self_type_ref.py
+- [[test_self_return_annotation_mints_no_stub()]] - code - graphify/tests/test_python_self_type_ref.py
+- [[test_self_return_type_mints_no_stub()]] - code - graphify/tests/test_swift_self_type_ref.py
+- [[test_swift_generic_type_params.py]] - code - graphify/tests/test_swift_generic_type_params.py
+- [[test_swift_self_type_ref.py]] - code - graphify/tests/test_swift_self_type_ref.py
+- [[test_typing_qualified_self_mints_no_stub()]] - code - graphify/tests/test_python_self_type_ref.py
+- [[test_user_and_container_types_still_referenced()]] - code - graphify/tests/test_go_generic_type_params.py
+- [[test_value_receiver_without_a_pointer_also_attaches_to_its_own_type()]] - code - graphify/tests/test_go_generic_receiver_methods.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_14
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 99 edges to [[_COMMUNITY_Community 2]]
+- 53 edges to [[_COMMUNITY_Community 27]]
+- 27 edges to [[_COMMUNITY_Community 1]]
+- 22 edges to [[_COMMUNITY_Community 102]]
+- 20 edges to [[_COMMUNITY_Community 139]]
+- 20 edges to [[_COMMUNITY_Community 141]]
+- 18 edges to [[_COMMUNITY_Community 3]]
+- 18 edges to [[_COMMUNITY_Community 184]]
+- 17 edges to [[_COMMUNITY_Community 140]]
+- 16 edges to [[_COMMUNITY_Community 285]]
+- 16 edges to [[_COMMUNITY_Community 202]]
+- 15 edges to [[_COMMUNITY_Community 231]]
+- 14 edges to [[_COMMUNITY_Community 172]]
+- 14 edges to [[_COMMUNITY_Community 8]]
+- 14 edges to [[_COMMUNITY_Community 248]]
+- 13 edges to [[_COMMUNITY_Community 310]]
+- 11 edges to [[_COMMUNITY_Community 19]]
+- 11 edges to [[_COMMUNITY_Community 281]]
+- 11 edges to [[_COMMUNITY_Community 404]]
+- 11 edges to [[_COMMUNITY_Community 309]]
+- 10 edges to [[_COMMUNITY_Community 315]]
+- 10 edges to [[_COMMUNITY_Community 28]]
+- 10 edges to [[_COMMUNITY_Community 329]]
+- 9 edges to [[_COMMUNITY_Community 54]]
+- 9 edges to [[_COMMUNITY_Community 368]]
+- 9 edges to [[_COMMUNITY_Community 31]]
+- 9 edges to [[_COMMUNITY_Community 30]]
+- 9 edges to [[_COMMUNITY_Community 287]]
+- 9 edges to [[_COMMUNITY_Community 359]]
+- 9 edges to [[_COMMUNITY_Community 381]]
+- 9 edges to [[_COMMUNITY_Community 259]]
+- 8 edges to [[_COMMUNITY_Community 53]]
+- 8 edges to [[_COMMUNITY_Community 346]]
+- 7 edges to [[_COMMUNITY_Community 92]]
+- 7 edges to [[_COMMUNITY_Community 104]]
+- 7 edges to [[_COMMUNITY_Community 377]]
+- 7 edges to [[_COMMUNITY_Community 410]]
+- 6 edges to [[_COMMUNITY_Community 121]]
+- 6 edges to [[_COMMUNITY_Community 325]]
+- 6 edges to [[_COMMUNITY_Community 289]]
+- 6 edges to [[_COMMUNITY_Community 483]]
+- 6 edges to [[_COMMUNITY_Community 460]]
+- 5 edges to [[_COMMUNITY_Community 154]]
+- 5 edges to [[_COMMUNITY_Community 96]]
+- 5 edges to [[_COMMUNITY_Community 556]]
+- 5 edges to [[_COMMUNITY_Community 312]]
+- 5 edges to [[_COMMUNITY_Community 376]]
+- 5 edges to [[_COMMUNITY_Community 59]]
+- 5 edges to [[_COMMUNITY_Community 445]]
+- 5 edges to [[_COMMUNITY_Community 227]]
+- 5 edges to [[_COMMUNITY_Community 403]]
+- 5 edges to [[_COMMUNITY_Community 270]]
+- 5 edges to [[_COMMUNITY_Community 430]]
+- 5 edges to [[_COMMUNITY_Community 547]]
+- 4 edges to [[_COMMUNITY_Community 105]]
+- 4 edges to [[_COMMUNITY_Community 66]]
+- 4 edges to [[_COMMUNITY_Community 573]]
+- 4 edges to [[_COMMUNITY_Community 487]]
+- 4 edges to [[_COMMUNITY_Community 97]]
+- 4 edges to [[_COMMUNITY_Community 156]]
+- 4 edges to [[_COMMUNITY_Community 175]]
+- 4 edges to [[_COMMUNITY_Community 98]]
+- 4 edges to [[_COMMUNITY_Community 246]]
+- 4 edges to [[_COMMUNITY_Community 426]]
+- 4 edges to [[_COMMUNITY_Community 348]]
+- 4 edges to [[_COMMUNITY_Community 203]]
+- 4 edges to [[_COMMUNITY_Community 427]]
+- 4 edges to [[_COMMUNITY_Community 382]]
+- 4 edges to [[_COMMUNITY_Community 308]]
+- 3 edges to [[_COMMUNITY_Community 106]]
+- 3 edges to [[_COMMUNITY_Community 113]]
+- 3 edges to [[_COMMUNITY_Community 16]]
+- 3 edges to [[_COMMUNITY_Community 21]]
+- 3 edges to [[_COMMUNITY_Community 149]]
+- 3 edges to [[_COMMUNITY_Community 267]]
+- 3 edges to [[_COMMUNITY_Community 322]]
+- 3 edges to [[_COMMUNITY_Community 515]]
+- 3 edges to [[_COMMUNITY_Community 307]]
+- 3 edges to [[_COMMUNITY_Community 160]]
+- 3 edges to [[_COMMUNITY_Community 357]]
+- 3 edges to [[_COMMUNITY_Community 62]]
+- 3 edges to [[_COMMUNITY_Community 286]]
+- 3 edges to [[_COMMUNITY_Community 557]]
+- 3 edges to [[_COMMUNITY_Community 601]]
+- 3 edges to [[_COMMUNITY_Community 88]]
+- 3 edges to [[_COMMUNITY_Community 480]]
+- 3 edges to [[_COMMUNITY_Community 493]]
+- 3 edges to [[_COMMUNITY_Community 222]]
+- 3 edges to [[_COMMUNITY_Community 481]]
+- 3 edges to [[_COMMUNITY_Community 405]]
+- 3 edges to [[_COMMUNITY_Community 383]]
+- 3 edges to [[_COMMUNITY_Community 561]]
+- 3 edges to [[_COMMUNITY_Community 291]]
+- 3 edges to [[_COMMUNITY_Community 603]]
+- 3 edges to [[_COMMUNITY_Community 495]]
+- 3 edges to [[_COMMUNITY_Community 546]]
+- 3 edges to [[_COMMUNITY_Community 588]]
+- 3 edges to [[_COMMUNITY_Community 220]]
+- 2 edges to [[_COMMUNITY_Community 301]]
+- 2 edges to [[_COMMUNITY_Community 109]]
+- 2 edges to [[_COMMUNITY_Community 111]]
+- 2 edges to [[_COMMUNITY_Community 124]]
+- 2 edges to [[_COMMUNITY_Community 13]]
+- 2 edges to [[_COMMUNITY_Community 17]]
+- 2 edges to [[_COMMUNITY_Community 414]]
+- 2 edges to [[_COMMUNITY_Community 508]]
+- 2 edges to [[_COMMUNITY_Community 370]]
+- 2 edges to [[_COMMUNITY_Community 509]]
+- 2 edges to [[_COMMUNITY_Community 208]]
+- 2 edges to [[_COMMUNITY_Community 575]]
+- 2 edges to [[_COMMUNITY_Community 303]]
+- 2 edges to [[_COMMUNITY_Community 373]]
+- 2 edges to [[_COMMUNITY_Community 422]]
+- 2 edges to [[_COMMUNITY_Community 392]]
+- 2 edges to [[_COMMUNITY_Community 217]]
+- 2 edges to [[_COMMUNITY_Community 221]]
+- 2 edges to [[_COMMUNITY_Community 282]]
+- 2 edges to [[_COMMUNITY_Community 394]]
+- 2 edges to [[_COMMUNITY_Community 213]]
+- 2 edges to [[_COMMUNITY_Community 304]]
+- 2 edges to [[_COMMUNITY_Community 598]]
+- 2 edges to [[_COMMUNITY_Community 243]]
+- 2 edges to [[_COMMUNITY_Community 375]]
+- 2 edges to [[_COMMUNITY_Community 212]]
+- 2 edges to [[_COMMUNITY_Community 26]]
+- 2 edges to [[_COMMUNITY_Community 541]]
+- 2 edges to [[_COMMUNITY_Community 283]]
+- 2 edges to [[_COMMUNITY_Community 442]]
+- 2 edges to [[_COMMUNITY_Community 266]]
+- 2 edges to [[_COMMUNITY_Community 423]]
+- 2 edges to [[_COMMUNITY_Community 174]]
+- 2 edges to [[_COMMUNITY_Community 488]]
+- 2 edges to [[_COMMUNITY_Community 344]]
+- 2 edges to [[_COMMUNITY_Community 473]]
+- 2 edges to [[_COMMUNITY_Community 345]]
+- 2 edges to [[_COMMUNITY_Community 400]]
+- 2 edges to [[_COMMUNITY_Community 401]]
+- 2 edges to [[_COMMUNITY_Community 323]]
+- 2 edges to [[_COMMUNITY_Community 475]]
+- 2 edges to [[_COMMUNITY_Community 250]]
+- 2 edges to [[_COMMUNITY_Community 490]]
+- 2 edges to [[_COMMUNITY_Community 449]]
+- 2 edges to [[_COMMUNITY_Community 516]]
+- 2 edges to [[_COMMUNITY_Community 245]]
+- 2 edges to [[_COMMUNITY_Community 450]]
+- 2 edges to [[_COMMUNITY_Community 542]]
+- 2 edges to [[_COMMUNITY_Community 543]]
+- 2 edges to [[_COMMUNITY_Community 600]]
+- 2 edges to [[_COMMUNITY_Community 451]]
+- 2 edges to [[_COMMUNITY_Community 452]]
+- 2 edges to [[_COMMUNITY_Community 477]]
+- 2 edges to [[_COMMUNITY_Community 602]]
+- 2 edges to [[_COMMUNITY_Community 402]]
+- 2 edges to [[_COMMUNITY_Community 90]]
+- 2 edges to [[_COMMUNITY_Community 454]]
+- 2 edges to [[_COMMUNITY_Community 491]]
+- 2 edges to [[_COMMUNITY_Community 584]]
+- 2 edges to [[_COMMUNITY_Community 492]]
+- 2 edges to [[_COMMUNITY_Community 193]]
+- 2 edges to [[_COMMUNITY_Community 455]]
+- 2 edges to [[_COMMUNITY_Community 360]]
+- 2 edges to [[_COMMUNITY_Community 288]]
+- 2 edges to [[_COMMUNITY_Community 76]]
+- 2 edges to [[_COMMUNITY_Community 47]]
+- 2 edges to [[_COMMUNITY_Community 456]]
+- 2 edges to [[_COMMUNITY_Community 518]]
+- 2 edges to [[_COMMUNITY_Community 560]]
+- 2 edges to [[_COMMUNITY_Community 361]]
+- 2 edges to [[_COMMUNITY_Community 384]]
+- 2 edges to [[_COMMUNITY_Community 51]]
+- 2 edges to [[_COMMUNITY_Community 428]]
+- 2 edges to [[_COMMUNITY_Community 204]]
+- 2 edges to [[_COMMUNITY_Community 482]]
+- 2 edges to [[_COMMUNITY_Community 457]]
+- 2 edges to [[_COMMUNITY_Community 519]]
+- 2 edges to [[_COMMUNITY_Community 408]]
+- 2 edges to [[_COMMUNITY_Community 409]]
+- 2 edges to [[_COMMUNITY_Community 83]]
+- 2 edges to [[_COMMUNITY_Community 271]]
+- 2 edges to [[_COMMUNITY_Community 49]]
+- 2 edges to [[_COMMUNITY_Community 275]]
+- 2 edges to [[_COMMUNITY_Community 521]]
+- 2 edges to [[_COMMUNITY_Community 56]]
+- 2 edges to [[_COMMUNITY_Community 522]]
+- 2 edges to [[_COMMUNITY_Community 496]]
+- 2 edges to [[_COMMUNITY_Community 94]]
+- 2 edges to [[_COMMUNITY_Community 350]]
+- 2 edges to [[_COMMUNITY_Community 197]]
+- 2 edges to [[_COMMUNITY_Community 93]]
+- 1 edge to [[_COMMUNITY_Community 226]]
+- 1 edge to [[_COMMUNITY_Community 371]]
+- 1 edge to [[_COMMUNITY_Community 366]]
+- 1 edge to [[_COMMUNITY_Community 605]]
+- 1 edge to [[_COMMUNITY_Community 200]]
+- 1 edge to [[_COMMUNITY_Community 276]]
+- 1 edge to [[_COMMUNITY_Community 298]]
+- 1 edge to [[_COMMUNITY_Community 435]]
+- 1 edge to [[_COMMUNITY_Community 34]]
+- 1 edge to [[_COMMUNITY_Community 341]]
+- 1 edge to [[_COMMUNITY_Community 320]]
+- 1 edge to [[_COMMUNITY_Community 305]]
+- 1 edge to [[_COMMUNITY_Community 446]]
+- 1 edge to [[_COMMUNITY_Community 69]]
+- 1 edge to [[_COMMUNITY_Community 77]]
+- 1 edge to [[_COMMUNITY_Community 619]]
+- 1 edge to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 633]]
+- 1 edge to [[_COMMUNITY_Community 214]]
+- 1 edge to [[_COMMUNITY_Community 67]]
+- 1 edge to [[_COMMUNITY_Community 74]]
+- 1 edge to [[_COMMUNITY_Community 161]]
+- 1 edge to [[_COMMUNITY_Community 641]]
+- 1 edge to [[_COMMUNITY_Community 642]]
+- 1 edge to [[_COMMUNITY_Community 643]]
+- 1 edge to [[_COMMUNITY_Community 644]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 117]]
+- 1 edge to [[_COMMUNITY_Community 374]]
+
+## Top bridge nodes
+- [[extract()]] - degree 1118, connects to 219 communities
+- [[test_csharp_type_resolution.py]] - degree 71, connects to 3 communities
+- [[test_go_generic_receiver_methods.py]] - degree 9, connects to 2 communities
+- [[test_go_generic_type_params.py]] - degree 9, connects to 2 communities
+- [[test_python_self_type_ref.py]] - degree 9, connects to 2 communities

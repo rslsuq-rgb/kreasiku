@@ -1,0 +1,88 @@
+---
+source_file: "graphify/graphify/extractors/bash.py"
+type: "code"
+community: "Community 36"
+location: "L105"
+tags:
+  - graphify/code
+  - graphify/INFERRED
+  - community/Community_36
+---
+
+# extract_bash()
+
+## Connections
+- [[Extract functions, source imports, and cross-function calls from a .sh file.]] - `rationale_for` [EXTRACTED]
+- [[Path_142]] - `references` [EXTRACTED]
+- [[_bash_assignment_base()]] - `calls` [EXTRACTED]
+- [[_bash_call_in_command_allowed()]] - `contains` [EXTRACTED]
+- [[_bash_func_name()]] - `contains` [EXTRACTED]
+- [[_file_stem()]] - `calls` [EXTRACTED]
+- [[_make_id()]] - `calls` [EXTRACTED]
+- [[_prescan_functions()]] - `contains` [EXTRACTED]
+- [[_read_source_bytes()]] - `calls` [EXTRACTED]
+- [[_read_text()]] - `calls` [EXTRACTED]
+- [[add_edge()_21]] - `contains` [EXTRACTED]
+- [[add_node()_22]] - `contains` [EXTRACTED]
+- [[bash.py]] - `contains` [EXTRACTED]
+- [[e()]] - `indirect_call` [INFERRED]
+- [[extract.py]] - `indirect_call` [INFERRED]
+- [[extractors__init__.py]] - `indirect_call` [INFERRED]
+- [[is_inside_expansion()]] - `contains` [EXTRACTED]
+- [[literal()]] - `contains` [EXTRACTED]
+- [[sanitize_metadata()]] - `calls` [EXTRACTED]
+- [[test_extract_bash_attributes_script_invocation_to_function()]] - `calls` [INFERRED]
+- [[test_extract_bash_attributes_variable_built_invocation_to_function()]] - `calls` [INFERRED]
+- [[test_extract_bash_bare_source_missing_file_fabricates_nothing()]] - `calls` [INFERRED]
+- [[test_extract_bash_calls_have_extracted_confidence()]] - `calls` [INFERRED]
+- [[test_extract_bash_command_substitution_in_assignment_emits_call()]] - `calls` [INFERRED]
+- [[test_extract_bash_creates_entrypoint_node()]] - `calls` [INFERRED]
+- [[test_extract_bash_emits_calls_edges()]] - `calls` [INFERRED]
+- [[test_extract_bash_emits_defines_edges()]] - `calls` [INFERRED]
+- [[test_extract_bash_emits_invokes_for_a_bare_interpreter_variable()]] - `calls` [INFERRED]
+- [[test_extract_bash_emits_invokes_for_a_non_shell_interpreter()]] - `calls` [INFERRED]
+- [[test_extract_bash_emits_raw_calls_and_bash_sources_for_sourced_calls()]] - `calls` [INFERRED]
+- [[test_extract_bash_emits_script_invocation_calls()]] - `calls` [INFERRED]
+- [[test_extract_bash_emits_source_imports_from()]] - `calls` [INFERRED]
+- [[test_extract_bash_entrypoint_no_collision_with_function_named_script()]] - `calls` [INFERRED]
+- [[test_extract_bash_finds_functions()]] - `calls` [INFERRED]
+- [[test_extract_bash_invokes_targets_a_bash_entrypoint_when_the_target_is_sh()]] - `calls` [INFERRED]
+- [[test_extract_bash_missing_grammar_returns_error()]] - `calls` [INFERRED]
+- [[test_extract_bash_nested_function_calls_recorded()]] - `calls` [INFERRED]
+- [[test_extract_bash_no_dangling_edges()]] - `calls` [INFERRED]
+- [[test_extract_bash_no_self_loops()]] - `calls` [INFERRED]
+- [[test_extract_bash_node_metadata_is_sanitized()]] - `calls` [INFERRED]
+- [[test_extract_bash_process_substitution_not_recorded()]] - `calls` [INFERRED]
+- [[test_extract_bash_rejects_command_substitution_as_call()]] - `calls` [INFERRED]
+- [[test_extract_bash_script_invocation_via_variable_built_path()]] - `calls` [INFERRED]
+- [[test_extract_bash_shadowing_function_is_recorded()]] - `calls` [INFERRED]
+- [[test_extract_bash_skip_builtins_in_calls()]] - `calls` [INFERRED]
+- [[test_extract_bash_skips_dynamic_script_invocation()]] - `calls` [INFERRED]
+- [[test_extract_bash_skips_invokes_for_a_missing_script()]] - `calls` [INFERRED]
+- [[test_extract_bash_skips_invokes_for_a_non_interpreter_command()]] - `calls` [INFERRED]
+- [[test_extract_bash_skips_missing_and_shadowed_script_invocations()]] - `calls` [INFERRED]
+- [[test_extract_bash_source_dirname_cmdsubst_in_argument()]] - `calls` [INFERRED]
+- [[test_extract_bash_source_dirname_cmdsubst_rejects_traversal()]] - `calls` [INFERRED]
+- [[test_extract_bash_source_dirname_cmdsubst_untracked_var()]] - `calls` [INFERRED]
+- [[test_extract_bash_source_dotdot_suffix_script_dir_guess_still_rejected()]] - `calls` [INFERRED]
+- [[test_extract_bash_source_dotdot_suffix_with_tracked_var()]] - `calls` [INFERRED]
+- [[test_extract_bash_source_dotdot_tracked_var_cannot_escape_to_root()]] - `calls` [INFERRED]
+- [[test_extract_bash_source_forms_are_imports_not_invokes()]] - `calls` [INFERRED]
+- [[test_extract_bash_source_suffix_guard_mid_path_variable()]] - `calls` [INFERRED]
+- [[test_extract_bash_source_suffix_guard_rejects_traversal()]] - `calls` [INFERRED]
+- [[test_extract_bash_source_suffix_guard_whole_variable_path()]] - `calls` [INFERRED]
+- [[test_extract_bash_source_user_defined_emits_calls_not_imports_from()]] - `calls` [INFERRED]
+- [[test_extract_bash_source_via_variable_path_no_match_emits_no_dead_edge()]] - `calls` [INFERRED]
+- [[test_extract_bash_source_via_variable_path_resolves_to_real_file()]] - `calls` [INFERRED]
+- [[test_extract_bash_top_level_call_attributes_to_entrypoint()]] - `calls` [INFERRED]
+- [[test_extract_bash_var_source_script_dir_idiom_still_resolves()]] - `calls` [INFERRED]
+- [[test_extract_bash_var_source_untracked_var_keeps_script_dir_guess()]] - `calls` [INFERRED]
+- [[test_extract_bash_var_source_uses_tracked_assignment_base()]] - `calls` [INFERRED]
+- [[test_extract_bash_variable_built_invocation_no_on_disk_match_emits_no_edge()]] - `calls` [INFERRED]
+- [[test_extract_bash_variable_built_invocation_with_dynamic_stem_emits_no_edge()]] - `calls` [INFERRED]
+- [[test_extract_bash_variable_path_command_does_not_invoke_its_argument()]] - `calls` [INFERRED]
+- [[text()]] - `contains` [EXTRACTED]
+- [[walk()_22]] - `contains` [EXTRACTED]
+- [[walk_calls()_10]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/INFERRED #community/Community_36

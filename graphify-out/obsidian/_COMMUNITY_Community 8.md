@@ -1,0 +1,272 @@
+---
+type: community
+cohesion: 0.02
+members: 201
+---
+
+# Community 8
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 201 nodes
+
+## Members
+- [[2040 for C the nested type now gets a real `contains` edge from its…]] - rationale - graphify/tests/test_languages.py
+- [[2040 a nested classobjecttrait's `contains` edge sources from its ENCLOSING…]] - rationale - graphify/tests/test_languages.py
+- [[A Groovy `enum` must become a type node with a `case_of` edge per member.…]] - rationale - graphify/tests/test_languages.py
+- [[A Scala 3 `enum` is a class-like container that owns cases and methods.…]] - rationale - graphify/tests/test_languages.py
+- [[A `trait` is a class-like container and must get a node plus heritage edges.…]] - rationale - graphify/tests/test_languages.py
+- [[A generics type-set constraint (`A  B`) is NOT interface embedding. Go only…]] - rationale - graphify/tests/test_languages.py
+- [[A qualified base like `pkg.Base` is a `stable_type_identifier` node in the…]] - rationale - graphify/tests/test_languages.py
+- [[A qualified supertype like `com.example.Base` must resolve to the tail type…]] - rationale - graphify/tests/test_languages.py
+- [[An encoded scheme or protocol-relative prefix (a UNC path on Windows) is still…]] - rationale - graphify/tests/test_languages.py
+- [[End to end a cross-file `call` lands on the callee's real node, not a dangling…]] - rationale - graphify/tests/test_languages.py
+- [[Extract C type declarations, methods, namespaces, and usings from a .cs file.]] - rationale - graphify/graphify/extract.py
+- [[Extract classes, interfaces, methods, constructors, and imports from a .java…]] - rationale - graphify/graphify/extract.py
+- [[Extract classes, methods, constructors, and imports from a .groovy.gradle…]] - rationale - graphify/graphify/extract.py
+- [[Extract classes, objects, functions, and imports from a .kt.kts file.]] - rationale - graphify/graphify/extract.py
+- [[Extract modules, structs, functions, imports, and calls from a .jl file.]] - rationale - graphify/graphify/extractors/julia.py
+- [[If the injected field's type name is ambiguous (two classes named Database),…]] - rationale - graphify/tests/test_languages.py
+- [[Methods on the same receiver type must share one canonical type node.]] - rationale - graphify/tests/test_languages.py
+- [[Methods with a `where` clause (long and short form) must be extracted with…]] - rationale - graphify/tests/test_languages.py
+- [[Only class-literal args (Foo.class) are type references. String and enum-…]] - rationale - graphify/tests/test_languages.py
+- [[Parametric type definitions (`struct Box{T}`, `abstract type Shape{T}`, `struct…]] - rationale - graphify/tests/test_languages.py
+- [[Path_235]] - code
+- [[Qualified (`using Base.Threads`) and relative (`using ..Mod`) imports must emit…]] - rationale - graphify/tests/test_languages.py
+- [[Quoted `import X.h` edges must target the real (disambiguated) file node id,…]] - rationale - graphify/tests/test_languages.py
+- [[Regression test for the call-walker `simple_identifier`  `identifier` rename —…]] - rationale - graphify/tests/test_languages.py
+- [[Tests for language extractors Java, C, C++, Ruby, C, Kotlin, Scala, PHP,…]] - rationale - graphify/tests/test_languages.py
+- [[The decisive 1316 guardrail two classes each define `query`, but the injected…]] - rationale - graphify/tests/test_languages.py
+- [[Type node id should be scoped to directory, not file stem.]] - rationale - graphify/tests/test_languages.py
+- [[_edge_labels()_9]] - code - graphify/tests/test_languages.py
+- [[_edges_with_relation()_2]] - code - graphify/tests/test_languages.py
+- [[_julia_dispatch()]] - code - graphify/tests/test_languages.py
+- [[_node_by_label()]] - code - graphify/tests/test_languages.py
+- [[_normalize_symbol_label()_1]] - code - graphify/tests/test_languages.py
+- [[_references()]] - code - graphify/tests/test_languages.py
+- [[_ts_label_calls()]] - code - graphify/tests/test_languages.py
+- [[_type_head_names()]] - code - graphify/graphify/extractors/julia.py
+- [[_type_name_of()]] - code - graphify/graphify/extractors/julia.py
+- [[`@enum` defines a type and its members across the inline, beginend block,…]] - rationale - graphify/tests/test_languages.py
+- [[`Foo alloc init` must emit a `references` edge to the project class Foo…]] - rationale - graphify/tests/test_languages.py
+- [[`abstract type Dog  Animal end` must yield a node and an inherits edge. The…]] - rationale - graphify/tests/test_languages.py
+- [[`class Foo  Bar by baz` wraps the delegated interface in an…]] - rationale - graphify/tests/test_languages.py
+- [[`class Sub  Base` must emit an inherits edge. Ruby exposes the base class in…]] - rationale - graphify/tests/test_languages.py
+- [[`class X extends Base` must emit an inherits edge. tree-sitter-groovy exposes…]] - rationale - graphify/tests/test_languages.py
+- [[`class X implements Iface` must emit an implements edge.]] - rationale - graphify/tests/test_languages.py
+- [[`extension Foo` in a separate file from `class Foo` must resolve to a single…]] - rationale - graphify/tests/test_languages.py
+- [[`macro name(...) ... end` must be a definition, with the calls in its body…]] - rationale - graphify/tests/test_languages.py
+- [[`type DataProcessor struct { BaseProcessor }` embeds the base struct.]] - rationale - graphify/tests/test_languages.py
+- [[`type ReaderLogger interface { Logger; Reader }` embeds both interfaces.]] - rationale - graphify/tests/test_languages.py
+- [[extract_csharp()]] - code - graphify/graphify/extract.py
+- [[extract_groovy()]] - code - graphify/graphify/extract.py
+- [[extract_java()]] - code - graphify/graphify/extract.py
+- [[extract_julia()]] - code - graphify/graphify/extractors/julia.py
+- [[extract_kotlin()]] - code - graphify/graphify/extract.py
+- [[extract_scala()]] - code - graphify/graphify/extract.py
+- [[node_id_label()]] - code - graphify/tests/test_languages.py
+- [[test_cpp_import_edges_have_import_context()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_call_edges_have_call_context()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_field_type_references_have_field_context()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_finds_class()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_finds_interface()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_finds_methods()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_finds_usings()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_implements_iprocessor()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_import_edges_have_import_context()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_inherits_edge()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_interface_extends_is_inherits_not_implements()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_nested_type_gets_containment_edge()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_no_error()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_parameter_return_and_generic_contexts()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_property_type_references_have_field_context()]] - code - graphify/tests/test_languages.py
+- [[test_csharp_splits_inherits_and_implements_edges()]] - code - graphify/tests/test_languages.py
+- [[test_dmf_elem_under_window()]] - code - graphify/tests/test_languages.py
+- [[test_dmf_no_dangling_edges()]] - code - graphify/tests/test_languages.py
+- [[test_dmf_no_error()]] - code - graphify/tests/test_languages.py
+- [[test_dmi_no_error()]] - code - graphify/tests/test_languages.py
+- [[test_dmi_state_contained_by_file()]] - code - graphify/tests/test_languages.py
+- [[test_fortran_subroutine_call_resolves_across_files()]] - code - graphify/tests/test_languages.py
+- [[test_go_interface_embedding_emits_embeds()_1]] - code - graphify/tests/test_languages.py
+- [[test_go_interface_type_union_is_not_embedding()]] - code - graphify/tests/test_languages.py
+- [[test_go_receiver_methods_share_type_node()]] - code - graphify/tests/test_languages.py
+- [[test_go_receiver_uses_pkg_scope()]] - code - graphify/tests/test_languages.py
+- [[test_go_struct_embedding_emits_embeds()]] - code - graphify/tests/test_languages.py
+- [[test_groovy_enum_and_constants_are_extracted()]] - code - graphify/tests/test_languages.py
+- [[test_groovy_extends_edge()]] - code - graphify/tests/test_languages.py
+- [[test_groovy_finds_class()]] - code - graphify/tests/test_languages.py
+- [[test_groovy_finds_imports()]] - code - graphify/tests/test_languages.py
+- [[test_groovy_finds_methods()]] - code - graphify/tests/test_languages.py
+- [[test_groovy_implements_edge()]] - code - graphify/tests/test_languages.py
+- [[test_groovy_import_edges_have_import_context()]] - code - graphify/tests/test_languages.py
+- [[test_groovy_no_dangling_edges()]] - code - graphify/tests/test_languages.py
+- [[test_groovy_no_error()]] - code - graphify/tests/test_languages.py
+- [[test_groovy_spock_finds_class()]] - code - graphify/tests/test_languages.py
+- [[test_groovy_spock_finds_feature_methods()]] - code - graphify/tests/test_languages.py
+- [[test_groovy_spock_finds_method_with_apostrophe()]] - code - graphify/tests/test_languages.py
+- [[test_groovy_spock_no_dangling_edges()]] - code - graphify/tests/test_languages.py
+- [[test_groovy_spock_preserves_import_edges()]] - code - graphify/tests/test_languages.py
+- [[test_java_annotation_class_literal_arguments()]] - code - graphify/tests/test_languages.py
+- [[test_java_annotation_class_literal_keeps_qualified_type_identity()]] - code - graphify/tests/test_languages.py
+- [[test_java_annotation_member_keeps_qualified_type_identity()]] - code - graphify/tests/test_languages.py
+- [[test_java_annotation_references_are_not_duplicated()]] - code - graphify/tests/test_languages.py
+- [[test_java_annotation_string_and_enum_args_are_not_type_refs()]] - code - graphify/tests/test_languages.py
+- [[test_java_enum_and_annotation_declarations_are_type_nodes()]] - code - graphify/tests/test_languages.py
+- [[test_java_enum_constants_have_case_of_edge()]] - code - graphify/tests/test_languages.py
+- [[test_java_field_type_references_have_field_context()]] - code - graphify/tests/test_languages.py
+- [[test_java_finds_class()]] - code - graphify/tests/test_languages.py
+- [[test_java_finds_interface()]] - code - graphify/tests/test_languages.py
+- [[test_java_finds_methods()]] - code - graphify/tests/test_languages.py
+- [[test_java_generic_parents_include_type_argument_references()]] - code - graphify/tests/test_languages.py
+- [[test_java_import_edges_have_import_context()]] - code - graphify/tests/test_languages.py
+- [[test_java_no_dangling_edges()]] - code - graphify/tests/test_languages.py
+- [[test_java_no_error()]] - code - graphify/tests/test_languages.py
+- [[test_java_normalizes_inherits_and_implements()]] - code - graphify/tests/test_languages.py
+- [[test_java_parameter_return_generic_and_attribute_contexts()]] - code - graphify/tests/test_languages.py
+- [[test_java_record_component_type_references()]] - code - graphify/tests/test_languages.py
+- [[test_java_record_components_skip_type_parameters()]] - code - graphify/tests/test_languages.py
+- [[test_java_repeatable_annotation_references_container_and_element_type()]] - code - graphify/tests/test_languages.py
+- [[test_java_type_annotations_have_attribute_context()]] - code - graphify/tests/test_languages.py
+- [[test_java_type_parameters_do_not_emit_references()]] - code - graphify/tests/test_languages.py
+- [[test_julia_abstract_concrete_hierarchy_inherits()]] - code - graphify/tests/test_languages.py
+- [[test_julia_abstract_type_with_supertype_is_extracted()]] - code - graphify/tests/test_languages.py
+- [[test_julia_broadcast_and_pipe_calls()]] - code - graphify/tests/test_languages.py
+- [[test_julia_call_edges_have_call_context()]] - code - graphify/tests/test_languages.py
+- [[test_julia_enum_and_members_are_extracted()]] - code - graphify/tests/test_languages.py
+- [[test_julia_finds_abstract_type()]] - code - graphify/tests/test_languages.py
+- [[test_julia_finds_calls()]] - code - graphify/tests/test_languages.py
+- [[test_julia_finds_functions()]] - code - graphify/tests/test_languages.py
+- [[test_julia_finds_imports()]] - code - graphify/tests/test_languages.py
+- [[test_julia_finds_inherits()]] - code - graphify/tests/test_languages.py
+- [[test_julia_finds_module()]] - code - graphify/tests/test_languages.py
+- [[test_julia_finds_short_function()]] - code - graphify/tests/test_languages.py
+- [[test_julia_finds_structs()]] - code - graphify/tests/test_languages.py
+- [[test_julia_import_edges_have_import_context()]] - code - graphify/tests/test_languages.py
+- [[test_julia_macro_definition_is_extracted()]] - code - graphify/tests/test_languages.py
+- [[test_julia_no_dangling_edges()]] - code - graphify/tests/test_languages.py
+- [[test_julia_parametric_functor_uses_type_not_variable()]] - code - graphify/tests/test_languages.py
+- [[test_julia_parametric_struct_and_no_typeparam_nodes()]] - code - graphify/tests/test_languages.py
+- [[test_julia_parametric_types_are_extracted()]] - code - graphify/tests/test_languages.py
+- [[test_julia_qualified_and_relative_imports()]] - code - graphify/tests/test_languages.py
+- [[test_julia_qualified_functor_uses_type_not_variable()]] - code - graphify/tests/test_languages.py
+- [[test_julia_struct_field_type_context()]] - code - graphify/tests/test_languages.py
+- [[test_julia_where_clause_functions_are_extracted()]] - code - graphify/tests/test_languages.py
+- [[test_julia_where_rettype_qualified_operator_functor_defs()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_body_property_annotation_emits_attribute_edge()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_bracketed_annotations_emits_multiple_attribute_edges()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_builtin_types_not_emitted_as_references()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_class_annotation_emits_attribute_edge()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_emits_in_file_calls()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_enum_entries_have_case_of_edge()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_finds_class()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_finds_data_class()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_finds_function()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_finds_methods()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_function_annotation_emits_attribute_edge()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_interface_delegation_emits_implements()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_no_error()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_parameter_return_generic_and_field_contexts()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_parameterized_annotation_emits_attribute_edge()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_primary_constructor_annotations_emits_attribute_edge()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_primary_constructor_generic_field_emits_generic_arg()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_primary_constructor_plain_param_is_not_a_field()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_primary_constructor_val_emits_field_type_edge()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_qualified_supertype_uses_tail_name()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_splits_inherits_and_implements()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_use_site_target_annotation_emits_edge()]] - code - graphify/tests/test_languages.py
+- [[test_kotlin_user_types_still_emit_references()]] - code - graphify/tests/test_languages.py
+- [[test_languages.py]] - code - graphify/tests/test_languages.py
+- [[test_markdown_decoded_link_stays_external()]] - code - graphify/tests/test_languages.py
+- [[test_metal_is_code_extension()]] - code - graphify/tests/test_languages.py
+- [[test_nested_types_contained_by_enclosing_type()]] - code - graphify/tests/test_languages.py
+- [[test_objc_alloc_init_emits_type_reference()]] - code - graphify/tests/test_languages.py
+- [[test_objc_import_edges_have_import_context()]] - code - graphify/tests/test_languages.py
+- [[test_objc_quoted_import_edges_resolve_to_real_nodes()]] - code - graphify/tests/test_languages.py
+- [[test_php_call_edges_have_call_context()]] - code - graphify/tests/test_languages.py
+- [[test_php_import_edges_have_import_context()]] - code - graphify/tests/test_languages.py
+- [[test_powershell_unknown_member_stays_unresolved_in_cold_and_warm_corpus()]] - code - graphify/tests/test_languages.py
+- [[test_robot_extractor_degrades_gracefully_without_robotframework()]] - code - graphify/tests/test_languages.py
+- [[test_ruby_inherits_edge()]] - code - graphify/tests/test_languages.py
+- [[test_scala_call_edges_have_call_context()]] - code - graphify/tests/test_languages.py
+- [[test_scala_constructor_parameter_field_context()]] - code - graphify/tests/test_languages.py
+- [[test_scala_enum_definition_cases_and_methods()]] - code - graphify/tests/test_languages.py
+- [[test_scala_finds_class()]] - code - graphify/tests/test_languages.py
+- [[test_scala_finds_methods()]] - code - graphify/tests/test_languages.py
+- [[test_scala_finds_object()]] - code - graphify/tests/test_languages.py
+- [[test_scala_import_edges_have_import_context()]] - code - graphify/tests/test_languages.py
+- [[test_scala_method_return_type_context()]] - code - graphify/tests/test_languages.py
+- [[test_scala_no_error()]] - code - graphify/tests/test_languages.py
+- [[test_scala_qualified_extends_uses_tail_name()]] - code - graphify/tests/test_languages.py
+- [[test_scala_splits_inherits_and_mixes_in()]] - code - graphify/tests/test_languages.py
+- [[test_scala_trait_definition_heritage()]] - code - graphify/tests/test_languages.py
+- [[test_scala_val_definition_field_context()]] - code - graphify/tests/test_languages.py
+- [[test_scala_var_definition_field_context()]] - code - graphify/tests/test_languages.py
+- [[test_swift_call_edges_have_call_context()]] - code - graphify/tests/test_languages.py
+- [[test_swift_extension_across_files_merges_into_canonical_type()]] - code - graphify/tests/test_languages.py
+- [[test_swift_extension_conformance_emits_implements()]] - code - graphify/tests/test_languages.py
+- [[test_swift_import_edges_have_import_context()]] - code - graphify/tests/test_languages.py
+- [[test_swift_parameter_return_generic_and_field_contexts()]] - code - graphify/tests/test_languages.py
+- [[test_swift_protocol_conformance_emits_implements()]] - code - graphify/tests/test_languages.py
+- [[test_swift_splits_inherits_and_implements()]] - code - graphify/tests/test_languages.py
+- [[test_ts_constructor_injection_calls_edge()]] - code - graphify/tests/test_languages.py
+- [[test_ts_injected_field_ambiguous_type_emits_no_edge()]] - code - graphify/tests/test_languages.py
+- [[test_ts_injected_field_resolves_to_typed_class_not_same_named_collision()]] - code - graphify/tests/test_languages.py
+- [[this.repo.findById() in a class with constructor(private repo IUserRepository)…]] - rationale - graphify/tests/test_languages.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_8
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 97 edges to [[_COMMUNITY_Community 29]]
+- 44 edges to [[_COMMUNITY_Community 76]]
+- 40 edges to [[_COMMUNITY_Community 74]]
+- 31 edges to [[_COMMUNITY_Community 68]]
+- 26 edges to [[_COMMUNITY_Community 67]]
+- 24 edges to [[_COMMUNITY_Community 151]]
+- 22 edges to [[_COMMUNITY_Community 60]]
+- 21 edges to [[_COMMUNITY_Community 3]]
+- 19 edges to [[_COMMUNITY_Community 198]]
+- 19 edges to [[_COMMUNITY_Community 31]]
+- 18 edges to [[_COMMUNITY_Community 16]]
+- 18 edges to [[_COMMUNITY_Community 218]]
+- 15 edges to [[_COMMUNITY_Community 161]]
+- 15 edges to [[_COMMUNITY_Community 214]]
+- 14 edges to [[_COMMUNITY_Community 14]]
+- 14 edges to [[_COMMUNITY_Community 150]]
+- 12 edges to [[_COMMUNITY_Community 127]]
+- 12 edges to [[_COMMUNITY_Community 275]]
+- 11 edges to [[_COMMUNITY_Community 54]]
+- 9 edges to [[_COMMUNITY_Community 13]]
+- 9 edges to [[_COMMUNITY_Community 358]]
+- 8 edges to [[_COMMUNITY_Community 226]]
+- 8 edges to [[_COMMUNITY_Community 316]]
+- 7 edges to [[_COMMUNITY_Community 1]]
+- 6 edges to [[_COMMUNITY_Community 0]]
+- 6 edges to [[_COMMUNITY_Community 425]]
+- 4 edges to [[_COMMUNITY_Community 183]]
+- 3 edges to [[_COMMUNITY_Community 105]]
+- 3 edges to [[_COMMUNITY_Community 27]]
+- 2 edges to [[_COMMUNITY_Community 406]]
+- 2 edges to [[_COMMUNITY_Community 458]]
+- 2 edges to [[_COMMUNITY_Community 459]]
+- 2 edges to [[_COMMUNITY_Community 464]]
+- 2 edges to [[_COMMUNITY_Community 520]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 212]]
+- 1 edge to [[_COMMUNITY_Community 320]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 639]]
+- 1 edge to [[_COMMUNITY_Community 374]]
+- 1 edge to [[_COMMUNITY_Community 139]]
+- 1 edge to [[_COMMUNITY_Community 59]]
+
+## Top bridge nodes
+- [[test_languages.py]] - degree 544, connects to 31 communities
+- [[_edge_labels()_9]] - degree 103, connects to 8 communities
+- [[extract_scala()]] - degree 32, connects to 8 communities
+- [[extract_csharp()]] - degree 25, connects to 6 communities
+- [[extract_julia()]] - degree 45, connects to 5 communities

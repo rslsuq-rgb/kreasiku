@@ -1,0 +1,212 @@
+---
+type: community
+cohesion: 0.02
+members: 154
+---
+
+# Community 11
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 154 nodes
+
+## Members
+- [[IMPORTANT resolve endpoints using source_file only; never infer from…]] - rationale - graphify/graphify/analyze.py
+- [[3849 ten ambiguous edges must not hide all other question types.]] - rationale - graphify/tests/test_analyze.py
+- [[4199 regression — AMBIGUOUS questions tagged ``low_confidence`` and split out…]] - rationale - graphify/tests/test_suggest_questions_ambiguous.py
+- [[4205 TS type aliases  enum members  local consts whose only edge is the…]] - rationale - graphify/tests/test_report_gap_thresholds.py
+- [[A graph with ``num_ambiguous`` AMBIGUOUS edges and one real bridge-like…]] - rationale - graphify/tests/test_suggest_questions_ambiguous.py
+- [[A root-level file and a file under a subdirectory are in different top-level…]] - rationale - graphify/tests/test_analyze.py
+- [[AMBIGUOUS edge should score higher than an otherwise identical EXTRACTED edge.]] - rationale - graphify/tests/test_analyze.py
+- [[AST declarations (type aliases, enum members, local consts, JSON keys) whose…]] - rationale - graphify/graphify/analyze.py
+- [[Code→doc INFERRED calls edge should score lower than same-language EXTRACTED.]] - rationale - graphify/tests/test_analyze.py
+- [[Code→doc INFERRED uses edge should score lower than same-language EXTRACTED.]] - rationale - graphify/tests/test_analyze.py
+- [[Code↔paper INFERRED calls should still surface — it is a meaningful link.]] - rationale - graphify/tests/test_analyze.py
+- [[Code↔paper edge should score higher than code↔code edge.]] - rationale - graphify/tests/test_analyze.py
+- [[Compare two graph snapshots and return what changed. Returns { new_nodes…]] - rationale - graphify/graphify/analyze.py
+- [[Concept nodes (empty source_file) must not appear in surprises.]] - rationale - graphify/tests/test_analyze.py
+- [[Create a graph node resembling real graphify schema.]] - rationale - graphify/tests/test_analyze.py
+- [[Cross-file edges between real codedoc entities, ranked by a composite surprise…]] - rationale - graphify/graphify/analyze.py
+- [[Cross-language INFERRED calls edge should score lower than same-language…]] - rationale - graphify/tests/test_analyze.py
+- [[Cross-language INFERRED uses edge (the exact rsl-siege-manager false positive)…]] - rationale - graphify/tests/test_analyze.py
+- [[Detect circular import dependencies at the file level. Collapses symbol-level…]] - rationale - graphify/graphify/analyze.py
+- [[DiGraph]] - code
+- [[EXTRACTED code↔doc edges are real facts — must not be penalised.]] - rationale - graphify/tests/test_analyze.py
+- [[EXTRACTED cross-language edges are real structural facts — must not be…]] - rationale - graphify/tests/test_analyze.py
+- [[Every AMBIGUOUS-type question must be tagged so renderers can route it to the…]] - rationale - graphify/tests/test_suggest_questions_ambiguous.py
+- [[For single-source corpora find edges that bridge different communities. These…]] - rationale - graphify/graphify/analyze.py
+- [[Generate questions the graph is uniquely positioned to answer. Based on…]] - rationale - graphify/graphify/analyze.py
+- [[Graph_2]] - code
+- [[Graph_3]] - code
+- [[Graph analysis god nodes (most connected), surprising connections (cross-…]] - rationale - graphify/graphify/analyze.py
+- [[Helper Python node in backend, TypeScript node in frontend, different…]] - rationale - graphify/tests/test_analyze.py
+- [[Helper build a small nx.Graph from nodeedge specs.]] - rationale - graphify/tests/test_analyze.py
+- [[Helper undirected graph whose one edge stores its direction in _src_tgt.]] - rationale - graphify/tests/test_analyze.py
+- [[INFERRED calls within the same language family must not be affected.]] - rationale - graphify/tests/test_analyze.py
+- [[JSON-key filter must match regardless of label casing.]] - rationale - graphify/tests/test_analyze.py
+- [[Multi-file graph should find cross-file edges between real entities.]] - rationale - graphify/tests/test_analyze.py
+- [[Non-AMBIGUOUS types must not accidentally pick up low_confidence.]] - rationale - graphify/tests/test_suggest_questions_ambiguous.py
+- [[One mega-hub (degree 40), two mid symbols, a tail of leaves. The hub label must…]] - rationale - graphify/tests/test_god_nodes_exclude_hubs.py
+- [[Return True if this node is a manually-injected semantic concept node rather…]] - rationale - graphify/graphify/analyze.py
+- [[Return True if two source files belong to different language families.]] - rationale - graphify/graphify/analyze.py
+- [[Return the first path component - used to detect cross-repo edges. A path with…]] - rationale - graphify/graphify/analyze.py
+- [[Return the top_n most-connected real entities - the core abstractions. File-…]] - rationale - graphify/graphify/analyze.py
+- [[Score how surprising a cross-file edge is. Returns (score, reasons).]] - rationale - graphify/graphify/analyze.py
+- [[Tests for analyze.py.]] - rationale - graphify/tests/test_analyze.py
+- [[The ranking must exclude exactly what cluster()'s formula excludes degrees…]] - rationale - graphify/tests/test_god_nodes_exclude_hubs.py
+- [[Two files in the same (flat) scan root share a directory. _top_level_dir() used…]] - rationale - graphify/tests/test_analyze.py
+- [[_cross_community_surprises()]] - code - graphify/graphify/analyze.py
+- [[_cross_file_surprises()]] - code - graphify/graphify/analyze.py
+- [[_cross_language()]] - code - graphify/graphify/analyze.py
+- [[_cross_reasons()]] - code - graphify/tests/test_analyze.py
+- [[_endpoint_source_file()]] - code - graphify/graphify/analyze.py
+- [[_file_category falls back to 'doc' for unknown extensions, so INFERRED…]] - rationale - graphify/tests/test_analyze.py
+- [[_file_category()]] - code - graphify/graphify/analyze.py
+- [[_graph()_6]] - code - graphify/tests/test_god_nodes_exclude_hubs.py
+- [[_graph_with_noise()]] - code - graphify/tests/test_suggest_questions_ambiguous.py
+- [[_is_concept_node()]] - code - graphify/graphify/analyze.py
+- [[_is_contains_only_ast_node()]] - code - graphify/graphify/analyze.py
+- [[_is_json_key_node()]] - code - graphify/graphify/analyze.py
+- [[_make_code_doc_graph()]] - code - graphify/tests/test_analyze.py
+- [[_make_cross_lang_graph()]] - code - graphify/tests/test_analyze.py
+- [[_make_cycle_graph_directed()]] - code - graphify/tests/test_analyze.py
+- [[_make_file_node()]] - code - graphify/tests/test_analyze.py
+- [[_make_marked_graph()]] - code - graphify/tests/test_analyze.py
+- [[_make_simple_graph()]] - code - graphify/tests/test_analyze.py
+- [[_norm_source_file leaves a path outside the scan root absolute; its first…]] - rationale - graphify/tests/test_analyze.py
+- [[_question_diversity_graph()]] - code - graphify/tests/test_analyze.py
+- [[_surprise_score()]] - code - graphify/graphify/analyze.py
+- [[_top_level_dir()]] - code - graphify/graphify/analyze.py
+- [[`low_confidence=True` must appear on every ambiguous_edge entry even when top_n…]] - rationale - graphify/tests/test_suggest_questions_ambiguous.py
+- [[`semantically_similar_to` across code↔doc is explicit LLM insight — must not be…]] - rationale - graphify/tests/test_analyze.py
+- [[`semantically_similar_to` across languages is a genuine insight — must not be…]] - rationale - graphify/tests/test_analyze.py
+- [[edge_dir()]] - code - graphify/graphify/analyze.py
+- [[edge_key()]] - code - graphify/graphify/analyze.py
+- [[find_import_cycles()]] - code - graphify/graphify/analyze.py
+- [[god_nodes must not return generic JSON key nodes like 'name' or 'id'.]] - rationale - graphify/tests/test_analyze.py
+- [[god_nodes()]] - code - graphify/graphify/analyze.py
+- [[god_nodes() honours exclude_hubs_percentile (3205). The percentile only ever…]] - rationale - graphify/tests/test_god_nodes_exclude_hubs.py
+- [[graph_diff()]] - code - graphify/graphify/analyze.py
+- [[graphifyanalyze.py]] - code - graphify/graphify/analyze.py
+- [[make_graph()]] - code - graphify/tests/test_analyze.py
+- [[merge-graphs  global add keep source_file repo-relative and tag each node with…]] - rationale - graphify/tests/test_analyze.py
+- [[npm package.json dep-block keys must be filtered from god_nodes output.…]] - rationale - graphify/tests/test_analyze.py
+- [[parametrize_3]] - code
+- [[run()]] - code - graphify/tests/test_god_nodes_exclude_hubs.py
+- [[suggest_questions()]] - code - graphify/graphify/analyze.py
+- [[test_a_bad_flag_value_is_a_usage_error()]] - code - graphify/tests/test_god_nodes_exclude_hubs.py
+- [[test_ambiguous_questions_carry_low_confidence_flag()]] - code - graphify/tests/test_suggest_questions_ambiguous.py
+- [[test_ambiguous_tagged_regardless_of_rank()]] - code - graphify/tests/test_suggest_questions_ambiguous.py
+- [[test_analyze.py]] - code - graphify/tests/test_analyze.py
+- [[test_code_doc_extracted_calls_not_suppressed()]] - code - graphify/tests/test_analyze.py
+- [[test_code_doc_inferred_calls_suppressed()]] - code - graphify/tests/test_analyze.py
+- [[test_code_doc_inferred_semantically_similar_not_suppressed()]] - code - graphify/tests/test_analyze.py
+- [[test_code_doc_inferred_uses_suppressed()]] - code - graphify/tests/test_analyze.py
+- [[test_code_paper_inferred_calls_not_suppressed()]] - code - graphify/tests/test_analyze.py
+- [[test_code_unknown_extension_inferred_calls_suppressed()]] - code - graphify/tests/test_analyze.py
+- [[test_contains_only_ast_declarations_are_not_knowledge_gaps()]] - code - graphify/tests/test_report_gap_thresholds.py
+- [[test_cross_language_extracted_calls_not_suppressed()]] - code - graphify/tests/test_analyze.py
+- [[test_cross_language_inferred_calls_suppressed()]] - code - graphify/tests/test_analyze.py
+- [[test_cross_language_inferred_uses_suppressed()]] - code - graphify/tests/test_analyze.py
+- [[test_cross_language_semantically_similar_not_suppressed()]] - code - graphify/tests/test_analyze.py
+- [[test_file_category()]] - code - graphify/tests/test_analyze.py
+- [[test_find_import_cycles_detects_2_and_3_cycles()]] - code - graphify/tests/test_analyze.py
+- [[test_find_import_cycles_empty_graph()]] - code - graphify/tests/test_analyze.py
+- [[test_find_import_cycles_handles_undirected_graph_input()]] - code - graphify/tests/test_analyze.py
+- [[test_find_import_cycles_ignores_non_import_relations()]] - code - graphify/tests/test_analyze.py
+- [[test_find_import_cycles_includes_self_loop_cycle()]] - code - graphify/tests/test_analyze.py
+- [[test_find_import_cycles_no_cycles()]] - code - graphify/tests/test_analyze.py
+- [[test_find_import_cycles_respects_max_cycle_length()]] - code - graphify/tests/test_analyze.py
+- [[test_find_import_cycles_returns_structured_records()]] - code - graphify/tests/test_analyze.py
+- [[test_find_import_cycles_skips_nodes_without_source_file()]] - code - graphify/tests/test_analyze.py
+- [[test_god_nodes_exclude_hubs.py]] - code - graphify/tests/test_god_nodes_exclude_hubs.py
+- [[test_god_nodes_excludes_json_noise()]] - code - graphify/tests/test_analyze.py
+- [[test_god_nodes_excludes_npm_dep_block_keys()]] - code - graphify/tests/test_analyze.py
+- [[test_god_nodes_filter_is_case_insensitive()]] - code - graphify/tests/test_analyze.py
+- [[test_god_nodes_have_required_keys()]] - code - graphify/tests/test_analyze.py
+- [[test_god_nodes_returns_list()]] - code - graphify/tests/test_analyze.py
+- [[test_god_nodes_sorted_by_degree()]] - code - graphify/tests/test_analyze.py
+- [[test_graph_diff_empty_diff()]] - code - graphify/tests/test_analyze.py
+- [[test_graph_diff_new_edges()]] - code - graphify/tests/test_analyze.py
+- [[test_graph_diff_new_nodes()]] - code - graphify/tests/test_analyze.py
+- [[test_graph_diff_removed_nodes()]] - code - graphify/tests/test_analyze.py
+- [[test_graph_diff_reversed_edge_reported()]] - code - graphify/tests/test_analyze.py
+- [[test_graph_diff_reversed_edge_without_markers_unchanged()]] - code - graphify/tests/test_analyze.py
+- [[test_graph_diff_unchanged_direction_no_changes()]] - code - graphify/tests/test_analyze.py
+- [[test_high_confidence_questions_never_tagged()]] - code - graphify/tests/test_suggest_questions_ambiguous.py
+- [[test_is_concept_node_empty_source()]] - code - graphify/tests/test_analyze.py
+- [[test_is_concept_node_real_file()]] - code - graphify/tests/test_analyze.py
+- [[test_is_json_key_node_noise_label()]] - code - graphify/tests/test_analyze.py
+- [[test_is_json_key_node_non_json_file()]] - code - graphify/tests/test_analyze.py
+- [[test_is_json_key_node_real_label()]] - code - graphify/tests/test_analyze.py
+- [[test_percentile_100_excludes_nothing()]] - code - graphify/tests/test_god_nodes_exclude_hubs.py
+- [[test_same_language_inferred_calls_not_suppressed()]] - code - graphify/tests/test_analyze.py
+- [[test_suggest_questions_ambiguous.py]] - code - graphify/tests/test_suggest_questions_ambiguous.py
+- [[test_suggest_questions_diversity_preserves_limit_and_candidates()]] - code - graphify/tests/test_analyze.py
+- [[test_suggest_questions_does_not_starve_later_categories()]] - code - graphify/tests/test_analyze.py
+- [[test_suggest_questions_empty_graph_keeps_no_signal()]] - code - graphify/tests/test_analyze.py
+- [[test_suggest_questions_excludes_rationale_nodes_from_isolated_count()]] - code - graphify/tests/test_analyze.py
+- [[test_suggest_questions_single_category_uses_available_slots()]] - code - graphify/tests/test_analyze.py
+- [[test_surprise_score_accepts_precomputed_degrees()]] - code - graphify/tests/test_analyze.py
+- [[test_surprise_score_flat_directory_is_not_cross_directory()]] - code - graphify/tests/test_analyze.py
+- [[test_surprise_score_ignores_leading_dot_slash()]] - code - graphify/tests/test_analyze.py
+- [[test_surprise_score_merged_graph_counts_different_repos_as_crossing()]] - code - graphify/tests/test_analyze.py
+- [[test_surprise_score_normalizes_backslash_paths()]] - code - graphify/tests/test_analyze.py
+- [[test_surprise_score_root_file_vs_out_of_root_absolute_path_still_crosses()]] - code - graphify/tests/test_analyze.py
+- [[test_surprise_score_root_file_vs_subdirectory_still_crosses()]] - code - graphify/tests/test_analyze.py
+- [[test_surprising_connections_ambiguous_scores_higher_than_extracted()]] - code - graphify/tests/test_analyze.py
+- [[test_surprising_connections_cross_source_multi_file()]] - code - graphify/tests/test_analyze.py
+- [[test_surprising_connections_cross_type_scores_higher()]] - code - graphify/tests/test_analyze.py
+- [[test_surprising_connections_excludes_concept_nodes()]] - code - graphify/tests/test_analyze.py
+- [[test_surprising_connections_have_required_keys()]] - code - graphify/tests/test_analyze.py
+- [[test_surprising_connections_have_why_field()]] - code - graphify/tests/test_analyze.py
+- [[test_the_analyzer_signature_stays_backward_compatible()]] - code - graphify/tests/test_god_nodes_exclude_hubs.py
+- [[test_the_cli_command_takes_the_flag()]] - code - graphify/tests/test_god_nodes_exclude_hubs.py
+- [[test_the_percentile_suppresses_the_hub()]] - code - graphify/tests/test_god_nodes_exclude_hubs.py
+- [[test_the_threshold_matches_clusters_computation()]] - code - graphify/tests/test_god_nodes_exclude_hubs.py
+- [[test_without_the_parameter_the_hub_still_ranks_first()]] - code - graphify/tests/test_god_nodes_exclude_hubs.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_11
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 40 edges to [[_COMMUNITY_Community 23]]
+- 37 edges to [[_COMMUNITY_Community 47]]
+- 12 edges to [[_COMMUNITY_Community 7]]
+- 5 edges to [[_COMMUNITY_Community 101]]
+- 4 edges to [[_COMMUNITY_Community 9]]
+- 4 edges to [[_COMMUNITY_Community 124]]
+- 4 edges to [[_COMMUNITY_Community 17]]
+- 4 edges to [[_COMMUNITY_Community 349]]
+- 3 edges to [[_COMMUNITY_Community 141]]
+- 3 edges to [[_COMMUNITY_Community 211]]
+- 3 edges to [[_COMMUNITY_Community 546]]
+- 3 edges to [[_COMMUNITY_Community 62]]
+- 3 edges to [[_COMMUNITY_Community 115]]
+- 3 edges to [[_COMMUNITY_Community 53]]
+- 2 edges to [[_COMMUNITY_Community 107]]
+- 2 edges to [[_COMMUNITY_Community 281]]
+- 2 edges to [[_COMMUNITY_Community 30]]
+- 2 edges to [[_COMMUNITY_Community 34]]
+- 2 edges to [[_COMMUNITY_Community 57]]
+- 2 edges to [[_COMMUNITY_Community 18]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 59]]
+- 1 edge to [[_COMMUNITY_Community 138]]
+- 1 edge to [[_COMMUNITY_Community 302]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 46]]
+- 1 edge to [[_COMMUNITY_Community 220]]
+
+## Top bridge nodes
+- [[graphifyanalyze.py]] - degree 38, connects to 14 communities
+- [[god_nodes()]] - degree 41, connects to 12 communities
+- [[test_analyze.py]] - degree 87, connects to 10 communities
+- [[suggest_questions()]] - degree 30, connects to 9 communities
+- [[find_import_cycles()]] - degree 27, connects to 6 communities

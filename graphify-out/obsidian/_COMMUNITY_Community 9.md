@@ -1,0 +1,268 @@
+---
+type: community
+cohesion: 0.02
+members: 167
+---
+
+# Community 9
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 167 nodes
+
+## Members
+- [[1061 same relation, opposite directions — first-seen direction wins.]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[1145 ghost-merge a semantic ghost collapses into the single AST node sharing…]] - rationale - graphify/tests/test_build.py
+- [[1279 a semanticLLM edge lacking source_file must inherit it from its source…]] - rationale - graphify/tests/test_build.py
+- [[1749 an `imports``references` edge must not bind across a language family. A…]] - rationale - graphify/tests/test_build.py
+- [[1753 two NON-AST (semantic) nodes sharing (basename, label) but from…]] - rationale - graphify/tests/test_build.py
+- [[1799 guard a code symbol `foo` and an unrelated `foo_doc` (not…]] - rationale - graphify/tests/test_build.py
+- [[1799 the markdown quick-scan's bare `slug` doc node and the semantic…]] - rationale - graphify/tests/test_build.py
+- [[1916 build_from_json used to copy hyperedges into G.graphhyperedges…]] - rationale - graphify/tests/test_build.py
+- [[1960 an explicit ``weight null`` (JSON null - None) used to survive…]] - rationale - graphify/tests/test_build.py
+- [[2068 the ghost-merge key is the full source_file, not the bare basename. A…]] - rationale - graphify/tests/test_build.py
+- [[2068 two unrelated non-AST nodes with the same basename+label in DIFFERENT…]] - rationale - graphify/tests/test_build.py
+- [[2194 a mixed batch of schema errors must report per-cause counts, not just…]] - rationale - graphify/tests/test_build.py
+- [[2194 a recovered alias node must serialize with a non-empty norm_label so…]] - rationale - graphify/tests/test_build.py
+- [[2194 an alias-only semantic node (namepath) must participate in the ASTLLM…]] - rationale - graphify/tests/test_build.py
+- [[2194 edges carrying `type``confidence_score` instead of…]] - rationale - graphify/tests/test_build.py
+- [[2194 when both the canonical field and its alias are present, the canonical…]] - rationale - graphify/tests/test_build.py
+- [[2197 (separator variant) the same absolute-derived-id fragment with backslash…]] - rationale - graphify/tests/test_build.py
+- [[2197 a semantic fragment whose ids were derived from an ABSOLUTE source_file…]] - rationale - graphify/tests/test_build.py
+- [[2334 _origin wins when present; unstamped legacy items fall back to the…]] - rationale - graphify/tests/test_build.py
+- [[3344 a semantic node that only MENTIONS a file (a saved graphify-…]] - rationale - graphify/tests/test_build.py
+- [[3344 the label-alone fallback must stay conservative — a phantom mentioning a…]] - rationale - graphify/tests/test_build.py
+- [[4809 after aliases are folded, an edge with no relation must not enter the…]] - rationale - graphify/tests/test_build.py
+- [[A Linux-built graph's absolute source_file must relativize against the matching…]] - rationale - graphify/tests/test_build.py
+- [[A collapsed edge must keep the specific relation, not the alphabetical one.…]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[A genuine duplicate — two non-AST nodes with the SAME source_file and label —…]] - rationale - graphify/tests/test_build.py
+- [[A merged CC++ObjC decldef node records where the symbol is implemented in…]] - rationale - graphify/tests/test_build.py
+- [[A node_link JSON with multigraph true must load as MultiGraph and the helpers…]] - rationale - graphify/tests/test_build.py
+- [[A numeric `confidence` next to an explicit `confidence_score` must not…]] - rationale - graphify/tests/test_build.py
+- [[A relation not on the generic denylist counts as specific a generic edge must…]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[A same-directory .h.cpp pair collides on their shared pre-extension id and…]] - rationale - graphify/tests/test_build.py
+- [[Already-relative source_file paths must not be modified.]] - rationale - graphify/tests/test_build.py
+- [[An EXTRACTED AST edge must not be downgraded by a later INFERRED edge.]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[Build a NetworkX graph from an extraction dict. directed=True produces a…]] - rationale - graphify/graphify/build.py
+- [[Companion to the ambiguous case above when exactly one real file claims an…]] - rationale - graphify/tests/test_build.py
+- [[Generic relations are only ever demoted against a specific one on the SAME pair…]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[Graph_24]] - code
+- [[Healing must survive a round-trip after the first load rewrites the tag to…]] - rationale - graphify/tests/test_build.py
+- [[Known invalid file_type values map to their canonical equivalents.]] - rationale - graphify/tests/test_build.py
+- [[Legacy 'from''to' keys on edges are accepted alongside 'source''target'.]] - rationale - graphify/tests/test_build.py
+- [[Legacy 'source' key on nodes is renamed to 'source_file' before graph build.]] - rationale - graphify/tests/test_build.py
+- [[Legacy nodes with file_type=None (e.g. preserved from older graph.json by…]] - rationale - graphify/tests/test_build.py
+- [[Nodes missing file_type entirely should also be canonicalized to 'concept'.]] - rationale - graphify/tests/test_build.py
+- [[Non-numeric  NaN  inf  negative weights fall back to 1.0 (the backends…]] - rationale - graphify/tests/test_build.py
+- [[Opposite directions are different arcs once the graph is directed, so both…]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[Pre-enum graphs stored the LLM pass's float directly in `confidence`…]] - rationale - graphify/tests/test_build.py
+- [[Regression for 1061. When an extraction emits two `calls` edges between the…]] - rationale - graphify/tests/test_build.py
+- [[Return every edge attribute dict for (u, v); always a list.]] - rationale - graphify/graphify/build.py
+- [[Return one edge attribute dict for (u, v), tolerating MultiGraph. For…]] - rationale - graphify/graphify/build.py
+- [[Same direction is deliberately NOT ranked — `contains` vs `calls` along one…]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[Semantic subagents emit absolute source_file paths; build_from_json must…]] - rationale - graphify/tests/test_build.py
+- [[The 1504 old-stem alias (e.g. ping.h - bare ping) is meant to let a…]] - rationale - graphify/tests/test_build.py
+- [[The 1749 guard only drops when BOTH endpoints are known code languages, so a…]] - rationale - graphify/tests/test_build.py
+- [[The consequence that made this worth fixing callflow filters on relation and…]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[The exact shape seen 144 times on graphify's own graph.]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[The failure the reporter measured re-extract one code file, and the line-…]] - rationale - graphify/tests/test_semantic_origin_stamp.py
+- [[The fix chooses WHICH edge survives; it must not add or drop any.]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[The fix is one-directional a specific relation arriving later still wins, so…]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[The membership-vs-call rule applies only when the edges run in opposite…]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[The on-disk shape of the defect a NetworkX-serialized graph.json (`links`…]] - rationale - graphify/tests/test_build.py
+- [[The surviving edge must still carry the specific edge's own direction, not the…]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[True when any two link dicts share the same endpoints. Used to keep the…]] - rationale - graphify/graphify/build.py
+- [[Two AST methods with the same name in the SAME file (different classes) are a…]] - rationale - graphify/tests/test_build.py
+- [[Type -methodcontains- member and member -calls- type share one undirected…]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[Unknown file_type values are coerced through the synonym mapper, falling back…]] - rationale - graphify/tests/test_build.py
+- [[When the generic edge is skipped, the surviving specific edge keeps its OWN…]] - rationale - graphify/tests/test_relation_collapse_precedence.py
+- [[Windows backslash paths and POSIX paths for the same file must produce one node.]] - rationale - graphify/tests/test_build.py
+- [[_edge()_5]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[_extraction()_2]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[_relation()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[build_from_json()_1]] - code - graphify/graphify/build.py
+- [[edge_data()]] - code - graphify/graphify/build.py
+- [[edge_datas()]] - code - graphify/graphify/build.py
+- [[graph_with()]] - code - graphify/tests/test_semantic_origin_stamp.py
+- [[has_parallel_links()]] - code - graphify/graphify/build.py
+- [[load_extraction()]] - code - graphify/tests/test_build.py
+- [[mk()]] - code - graphify/tests/test_external_stub_endpoints.py
+- [[parametrize_115]] - code
+- [[test_a_lone_generic_edge_is_kept()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_a_stamped_document_survives_the_code_files_re_extraction()]] - code - graphify/tests/test_semantic_origin_stamp.py
+- [[test_absolute_derived_semantic_ids_rekeyed()]] - code - graphify/tests/test_build.py
+- [[test_absolute_derived_semantic_ids_rekeyed_backslash()]] - code - graphify/tests/test_build.py
+- [[test_alias_node_gets_nonempty_norm_label()]] - code - graphify/tests/test_build.py
+- [[test_alias_node_ghost_merges_into_ast_twin()]] - code - graphify/tests/test_build.py
+- [[test_ambiguous_edge_preserved()]] - code - graphify/tests/test_build.py
+- [[test_an_out_of_root_definition_file_is_left_alone()]] - code - graphify/tests/test_definition_file_portability.py
+- [[test_build.py]] - code - graphify/tests/test_build.py
+- [[test_build_annotations_all_resolve()]] - code - graphify/tests/test_build.py
+- [[test_build_drops_edge_still_missing_relation()]] - code - graphify/tests/test_build.py
+- [[test_build_from_json_ambiguous_alias_detected_despite_header_impl_salting()]] - code - graphify/tests/test_build.py
+- [[test_build_from_json_ambiguous_old_stem_alias_stays_dangling()]] - code - graphify/tests/test_build.py
+- [[test_build_from_json_edge_count()]] - code - graphify/tests/test_build.py
+- [[test_build_from_json_node_count()]] - code - graphify/tests/test_build.py
+- [[test_build_from_json_preserves_first_direction_on_bidirectional_pair()]] - code - graphify/tests/test_build.py
+- [[test_build_from_json_prunes_dangling_hyperedge_members()]] - code - graphify/tests/test_build.py
+- [[test_build_from_json_relative_source_file_unchanged()]] - code - graphify/tests/test_build.py
+- [[test_build_from_json_relativizes_absolute_source_file()]] - code - graphify/tests/test_build.py
+- [[test_build_from_json_relativizes_definition_file()]] - code - graphify/tests/test_build.py
+- [[test_build_from_json_skips_edge_with_non_hashable_endpoint()]] - code - graphify/tests/test_build.py
+- [[test_build_from_json_skips_non_hashable_node_id()]] - code - graphify/tests/test_build.py
+- [[test_build_from_json_unambiguous_old_stem_alias_still_resolves()]] - code - graphify/tests/test_build.py
+- [[test_build_merges_multiple_extractions()]] - code - graphify/tests/test_build.py
+- [[test_build_normalizes_a_prebuilt_absolute_definition_file()]] - code - graphify/tests/test_definition_file_portability.py
+- [[test_calls_survives_for_callflow()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_collapse_still_yields_exactly_one_edge()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_cross_family_reference_to_unknown_ext_is_kept()]] - code - graphify/tests/test_build.py
+- [[test_cross_language_imports_references_are_dropped()]] - code - graphify/tests/test_build.py
+- [[test_dedupe_edges_collapses_exact_parallels()]] - code - graphify/tests/test_build.py
+- [[test_dedupe_edges_is_idempotent()]] - code - graphify/tests/test_build.py
+- [[test_dedupe_nodes_collapses_by_id_last_wins()]] - code - graphify/tests/test_build.py
+- [[test_directed_graph_keeps_method_and_the_reverse_call()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_directed_graphs_get_the_same_protection()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_direction_metadata_survives_the_demotion()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_doc_twin_merge_does_not_touch_code_symbols()]] - code - graphify/tests/test_build.py
+- [[test_edge_count_is_unchanged_by_the_fix()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_edge_data_multidigraph()]] - code - graphify/tests/test_build.py
+- [[test_edge_data_multigraph_with_parallel_edges()]] - code - graphify/tests/test_build.py
+- [[test_edge_data_node_link_multigraph_roundtrip()]] - code - graphify/tests/test_build.py
+- [[test_edge_data_simple_graph()]] - code - graphify/tests/test_build.py
+- [[test_edge_datas_multigraph_returns_all_parallel_edges()]] - code - graphify/tests/test_build.py
+- [[test_edge_datas_simple_graph_returns_singleton_list()]] - code - graphify/tests/test_build.py
+- [[test_edge_missing_source_file_backfilled_from_node()]] - code - graphify/tests/test_build.py
+- [[test_edges_have_confidence()]] - code - graphify/tests/test_build.py
+- [[test_external_stub_unifies_across_repos_in_merge()]] - code - graphify/tests/test_external_stub_endpoints.py
+- [[test_extraction_warning_breakdown_by_cause()]] - code - graphify/tests/test_build.py
+- [[test_file_type_synonym_mapping()]] - code - graphify/tests/test_build.py
+- [[test_generic_never_overwrites_specific()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_ghost_merge_non_ast_different_files_both_survive()]] - code - graphify/tests/test_build.py
+- [[test_ghost_merge_non_ast_same_file_still_merges()]] - code - graphify/tests/test_build.py
+- [[test_ghost_merge_not_across_directories_same_basename()]] - code - graphify/tests/test_build.py
+- [[test_ghost_merge_unique_located_node_still_merges()]] - code - graphify/tests/test_build.py
+- [[test_ghost_merge_uses_source_file_not_basename()]] - code - graphify/tests/test_build.py
+- [[test_ghost_merge_wrong_source_file_ambiguous_basename_left_alone()]] - code - graphify/tests/test_build.py
+- [[test_ghost_merge_wrong_source_file_resolved_by_label()]] - code - graphify/tests/test_build.py
+- [[test_has_parallel_links_antiparallel_is_not_parallel_when_directed()]] - code - graphify/tests/test_build.py
+- [[test_has_parallel_links_detects_repeated_pairs()]] - code - graphify/tests/test_build.py
+- [[test_has_parallel_links_false_without_repeats()]] - code - graphify/tests/test_build.py
+- [[test_is_ast_tier_legacy_fallback()]] - code - graphify/tests/test_build.py
+- [[test_legacy_edge_from_to_canonicalized()]] - code - graphify/tests/test_build.py
+- [[test_legacy_edge_type_confidence_score_aliases_folded()]] - code - graphify/tests/test_build.py
+- [[test_legacy_node_source_canonicalized()]] - code - graphify/tests/test_build.py
+- [[test_legacy_numeric_confidence_existing_score_wins()]] - code - graphify/tests/test_build.py
+- [[test_legacy_numeric_confidence_links_spelling_reload()]] - code - graphify/tests/test_build.py
+- [[test_legacy_numeric_confidence_normalization_is_idempotent()]] - code - graphify/tests/test_build.py
+- [[test_legacy_numeric_confidence_normalized_to_inferred()]] - code - graphify/tests/test_build.py
+- [[test_malformed_weights_normalize()]] - code - graphify/tests/test_build.py
+- [[test_markdown_doc_twin_merges_into_semantic_doc_node()]] - code - graphify/tests/test_build.py
+- [[test_method_ghost_ambiguous_same_name_in_one_file_is_not_merged_3705()]] - code - graphify/tests/test_build.py
+- [[test_method_ghost_dedupe_and_alias_resolution_3705()]] - code - graphify/tests/test_build.py
+- [[test_missing_file_type_defaults_to_concept()]] - code - graphify/tests/test_build.py
+- [[test_node_alias_canonical_field_wins()]] - code - graphify/tests/test_build.py
+- [[test_nodes_have_label()]] - code - graphify/tests/test_build.py
+- [[test_none_file_type_defaults_to_concept()]] - code - graphify/tests/test_build.py
+- [[test_norm_source_file_relativizes_a_posix_absolute_path()]] - code - graphify/tests/test_build.py
+- [[test_null_weight_edge_builds_and_clusters()]] - code - graphify/tests/test_build.py
+- [[test_real_invalid_file_type_coerced_to_concept()]] - code - graphify/tests/test_build.py
+- [[test_relation_collapse_precedence.py]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_reverse_direction_guard_still_holds()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_same_direction_method_and_calls_stay_unranked()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_same_relation_collision_preserves_extracted_over_inferred()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_source_file_backslash_normalized()]] - code - graphify/tests/test_build.py
+- [[test_specific_edge_numeric_metadata_survives_the_demotion()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_specific_still_overwrites_generic()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_structural_membership_beats_an_opposite_call()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_the_reported_case_keeps_calls()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_two_generic_relations_keep_previous_behaviour()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_two_specific_relations_keep_previous_behaviour()]] - code - graphify/tests/test_relation_collapse_precedence.py
+- [[test_unknown_relation_is_treated_as_specific()]] - code - graphify/tests/test_relation_collapse_precedence.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_9
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 31 edges to [[_COMMUNITY_Community 53]]
+- 31 edges to [[_COMMUNITY_Community 7]]
+- 23 edges to [[_COMMUNITY_Community 48]]
+- 15 edges to [[_COMMUNITY_Community 148]]
+- 11 edges to [[_COMMUNITY_Community 17]]
+- 9 edges to [[_COMMUNITY_Community 41]]
+- 9 edges to [[_COMMUNITY_Community 107]]
+- 8 edges to [[_COMMUNITY_Community 155]]
+- 7 edges to [[_COMMUNITY_Community 146]]
+- 7 edges to [[_COMMUNITY_Community 315]]
+- 7 edges to [[_COMMUNITY_Community 49]]
+- 6 edges to [[_COMMUNITY_Community 73]]
+- 6 edges to [[_COMMUNITY_Community 45]]
+- 6 edges to [[_COMMUNITY_Community 514]]
+- 6 edges to [[_COMMUNITY_Community 47]]
+- 6 edges to [[_COMMUNITY_Community 235]]
+- 5 edges to [[_COMMUNITY_Community 352]]
+- 5 edges to [[_COMMUNITY_Community 23]]
+- 5 edges to [[_COMMUNITY_Community 253]]
+- 4 edges to [[_COMMUNITY_Community 11]]
+- 4 edges to [[_COMMUNITY_Community 506]]
+- 4 edges to [[_COMMUNITY_Community 213]]
+- 4 edges to [[_COMMUNITY_Community 26]]
+- 4 edges to [[_COMMUNITY_Community 123]]
+- 4 edges to [[_COMMUNITY_Community 227]]
+- 4 edges to [[_COMMUNITY_Community 427]]
+- 4 edges to [[_COMMUNITY_Community 536]]
+- 3 edges to [[_COMMUNITY_Community 132]]
+- 3 edges to [[_COMMUNITY_Community 231]]
+- 3 edges to [[_COMMUNITY_Community 511]]
+- 3 edges to [[_COMMUNITY_Community 515]]
+- 3 edges to [[_COMMUNITY_Community 285]]
+- 3 edges to [[_COMMUNITY_Community 141]]
+- 3 edges to [[_COMMUNITY_Community 561]]
+- 3 edges to [[_COMMUNITY_Community 51]]
+- 3 edges to [[_COMMUNITY_Community 495]]
+- 3 edges to [[_COMMUNITY_Community 124]]
+- 3 edges to [[_COMMUNITY_Community 46]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 207]]
+- 2 edges to [[_COMMUNITY_Community 62]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 97]]
+- 2 edges to [[_COMMUNITY_Community 30]]
+- 2 edges to [[_COMMUNITY_Community 287]]
+- 2 edges to [[_COMMUNITY_Community 215]]
+- 2 edges to [[_COMMUNITY_Community 168]]
+- 2 edges to [[_COMMUNITY_Community 279]]
+- 2 edges to [[_COMMUNITY_Community 349]]
+- 2 edges to [[_COMMUNITY_Community 184]]
+- 2 edges to [[_COMMUNITY_Community 430]]
+- 2 edges to [[_COMMUNITY_Community 103]]
+- 2 edges to [[_COMMUNITY_Community 57]]
+- 2 edges to [[_COMMUNITY_Community 59]]
+- 1 edge to [[_COMMUNITY_Community 65]]
+- 1 edge to [[_COMMUNITY_Community 524]]
+- 1 edge to [[_COMMUNITY_Community 34]]
+- 1 edge to [[_COMMUNITY_Community 138]]
+- 1 edge to [[_COMMUNITY_Community 305]]
+- 1 edge to [[_COMMUNITY_Community 77]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 137]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 302]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 142]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 128]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 115]]
+
+## Top bridge nodes
+- [[build_from_json()_1]] - degree 297, connects to 61 communities
+- [[test_build.py]] - degree 122, connects to 17 communities
+- [[edge_datas()]] - degree 16, connects to 7 communities
+- [[edge_data()]] - degree 33, connects to 5 communities
+- [[has_parallel_links()]] - degree 10, connects to 5 communities

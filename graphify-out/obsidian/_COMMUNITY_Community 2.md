@@ -1,0 +1,313 @@
+---
+type: community
+cohesion: 0.01
+members: 235
+---
+
+# Community 2
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 235 nodes
+
+## Members
+- [[1402 (Go) the sourceless-stub fix landed in six extractors but the Go copy of…]] - rationale - graphify/tests/test_extract.py
+- [[1402 a class defined once but referenced via type annotations in N other…]] - rationale - graphify/tests/test_extract.py
+- [[1462 imported stdlibtype stubs with the same label are distinct uses when…]] - rationale - graphify/tests/test_extract.py
+- [[1522 two distinct paths whose only difference is a separator-vs-punctuation…]] - rationale - graphify/tests/test_extract.py
+- [[1781 safety a Python reference stub must not bind to a unique Go function of…]] - rationale - graphify/tests/test_extract.py
+- [[1781 safety a stub used as a base type must never resolve to a same-named,…]] - rationale - graphify/tests/test_extract.py
+- [[1781 safety two same-named functions leave the reference on the stub.]] - rationale - graphify/tests/test_extract.py
+- [[1781 a cross-module reference to a function must land on the real definition,…]] - rationale - graphify/tests/test_extract.py
+- [[1899 variant B a symbol whose name normalizes to nothing (a minified `$`…]] - rationale - graphify/tests/test_extract.py
+- [[1941 `--out far-away-dir` must not basename every in-root node. The CLI…]] - rationale - graphify/tests/test_extract.py
+- [[2082 the aliased `calls` edge must survive a warm (cache-hit) re-extract. The…]] - rationale - graphify/tests/test_extract.py
+- [[2141 repro a call to a function defined in a sourced file must produce a real…]] - rationale - graphify/tests/test_extract.py
+- [[2171 `source lib.sh` with no . prefix must bind to the sibling file. Only…]] - rationale - graphify/tests/test_extract.py
+- [[2171 a sourced lib with a bash shebang but no extension must resolve.…]] - rationale - graphify/tests/test_extract.py
+- [[2207 `CommandSUCCESS` must not land on a TS class.]] - rationale - graphify/tests/test_extract.py
+- [[2207 `class User(Base)` must not inherit a TS const named Base.]] - rationale - graphify/tests/test_extract.py
+- [[2207 a real TS class is still the wrong language for `User(Base)`.]] - rationale - graphify/tests/test_extract.py
+- [[2243 (residual of 1899, in edges not nodes) a `include ..libfoo.h`…]] - rationale - graphify/tests/test_extract.py
+- [[2243 is not C-specific it is a gap in the shared target_file remap path every…]] - rationale - graphify/tests/test_extract.py
+- [[2339 as reported collect_files returned  for a real coverage package, both…]] - rationale - graphify/tests/test_detect.py
+- [[2417 cross-file guard `client.fetch('x')` must not bind to `util.fetch` just…]] - rationale - graphify/tests/test_extract.py
+- [[2543 successful extracts do not appear in failed_sources.]] - rationale - graphify/tests/test_extract.py
+- [[2653 (the motivating React idiom) a named function declared inside an ARROW-…]] - rationale - graphify/tests/test_extract.py
+- [[2653 a named function declared inside an arrow CALLBACK nested in a function…]] - rationale - graphify/tests/test_extract.py
+- [[2653 arbitrary depth nested named function declarations establish…]] - rationale - graphify/tests/test_extract.py
+- [[2653 function declarations nested inside another function emit nodes, source…]] - rationale - graphify/tests/test_extract.py
+- [[2812 control the guard is per language family, not a name blocklist — a PHP…]] - rationale - graphify/tests/test_extract.py
+- [[2812 PHP resolves class names case-insensitively, so `extends exception`…]] - rationale - graphify/tests/test_extract.py
+- [[2812 a bare `extends Exception` in PHP is the language's own built-in. It…]] - rationale - graphify/tests/test_extract.py
+- [[2812 one sourceless `Exception` stub collects referrers from every language…]] - rationale - graphify/tests/test_extract.py
+- [[2879 guard only an explicit `skipped` marker is exempt.]] - rationale - graphify/tests/test_extract.py
+- [[2879 data JSON is declined by design (1224), not failed. A `.json` extractor…]] - rationale - graphify/tests/test_extract.py
+- [[2945 importing a module for a different symbol must not certify a same-named…]] - rationale - graphify/tests/test_extract.py
+- [[3252 Aliased import (`from state import StateFrame as SF`) repoints…]] - rationale - graphify/tests/test_extract.py
+- [[3252 Aliased import in inheritance (`class Child(SF)`) repoints inherits…]] - rationale - graphify/tests/test_extract.py
+- [[3252 Class inheritance (`class Child(StateFrame)`) repoints the inherits…]] - rationale - graphify/tests/test_extract.py
+- [[3252 Python import resolution resolves only to Python definitions, not same-…]] - rationale - graphify/tests/test_extract.py
+- [[3252 Relative imports (`from .types import StateFrame`) repoint accurately.]] - rationale - graphify/tests/test_extract.py
+- [[3252 Repointing mutates only edge'target' while preserving relation,…]] - rationale - graphify/tests/test_extract.py
+- [[3252 When multiple definitions exist but consumer has no import, Graphify…]] - rationale - graphify/tests/test_extract.py
+- [[3252 When two packages define same-named types, exact import resolution…]] - rationale - graphify/tests/test_extract.py
+- [[3381 follow-up the god-node guard the builtin filter exists for must still…]] - rationale - graphify/tests/test_extract.py
+- [[3381 _LANGUAGE_BUILTIN_GLOBALS is one union across every language, right for…]] - rationale - graphify/tests/test_extract.py
+- [[3778 ESM exported object declarations (export const app = {}) capture member…]] - rationale - graphify/tests/test_extract.py
+- [[3778 Member functions assigned to exported objects (like Express res.format =…]] - rationale - graphify/tests/test_extract.py
+- [[4041 a 0-byte file has no line 1, so its file node must not claim L1. The…]] - rationale - graphify/tests/test_extract.py
+- [[A C base stub has no origin file. It still must not bind to a TS class.]] - rationale - graphify/tests/test_extract.py
+- [[A JSTS call with no local definition and no import must NOT bind to a same-…]] - rationale - graphify/tests/test_extract.py
+- [[A Kotlin subclass must keep its Java base despite the extension difference.]] - rationale - graphify/tests/test_extract.py
+- [[A PEP 420 namespace package -- a directory with no __init__.py, which `python…]] - rationale - graphify/tests/test_extract.py
+- [[A `module.func()` call must resolve only against a module the caller's own file…]] - rationale - graphify/tests/test_extract.py
+- [[A call to a command that is not a function in any sourced file (an external…]] - rationale - graphify/tests/test_extract.py
+- [[A cross-file `calls` edge must be EXTRACTED when the caller's file has an…]] - rationale - graphify/tests/test_extract.py
+- [[A lazy `require(someVar)` has no static string target, so the body pass must…]] - rationale - graphify/tests/test_extract.py
+- [[A lowercase-receiver member call (`obj.run()`, `self.run()`) must NOT be…]] - rationale - graphify/tests/test_extract.py
+- [[A namespace-package import whose name is not a module file on disk -- a data…]] - rationale - graphify/tests/test_extract.py
+- [[A real cross-file call must NOT be erased by a same-named test mock.…]] - rationale - graphify/tests/test_extract.py
+- [[A same-language referrer of the stub still binds. The other language stays put.…]] - rationale - graphify/tests/test_extract.py
+- [[A shebang-only bash CLI must contribute nodes with the same ID scheme as a .sh…]] - rationale - graphify/tests/test_extract.py
+- [[After merging multiple files, no internal edges should be dangling.]] - rationale - graphify/tests/test_extract.py
+- [[C `SqliteBookStore  BookStore` must not inherit the Python class. This…]] - rationale - graphify/tests/test_extract.py
+- [[End-to-end integration of 2079 + 2141 (21572139) a library sourced via…]] - rationale - graphify/tests/test_extract.py
+- [[External calls may target the imported module, never an invented member.]] - rationale - graphify/tests/test_extract.py
+- [[Go external types use their import path as canonical identity. 1462 kept…]] - rationale - graphify/tests/test_extract.py
+- [[In a member, `log()` is the class's own log() even when a free log() comes…]] - rationale - graphify/tests/test_extract.py
+- [[Lazy CommonJS requires belong to their enclosing function, not nowhere.]] - rationale - graphify/tests/test_extract.py
+- [[Negative companion to the two tests above when the included header IS inside…]] - rationale - graphify/tests/test_extract.py
+- [[No-double-count regression the module-level and body require passes must never…]] - rationale - graphify/tests/test_extract.py
+- [[One src def + many same-named test stubs + caller = exactly one src edge.]] - rationale - graphify/tests/test_extract.py
+- [[Preserve selfclssuper calls while deferring other call receivers.]] - rationale - graphify/tests/test_extract.py
+- [[Same input always produces same output.]] - rationale - graphify/tests/test_extract.py
+- [[The case-folded candidate list is a second way into the same bind (2207).]] - rationale - graphify/tests/test_extract.py
+- [[The issue's own motivating shape (2082) `from pkg import mod as alias`…]] - rationale - graphify/tests/test_extract.py
+- [[The pre-1261 rglob-per-extension implementation, kept as a parity oracle.]] - rationale - graphify/tests/test_extract.py
+- [[The real 1446 shape a viewset action `approve()` delegates to a SERVICE…]] - rationale - graphify/tests/test_extract.py
+- [[The same gap in its other spellings `from pkg import brain` (absolute, with…]] - rationale - graphify/tests/test_extract.py
+- [[Two different files' same-named, otherwise-undefined base class must not…]] - rationale - graphify/tests/test_extract.py
+- [[Two genuine NON-test defs of the same name + one caller = ZERO edges. Proves…]] - rationale - graphify/tests/test_extract.py
+- [[Unqualified cross-file calls must not guess between duplicate helper names.]] - rationale - graphify/tests/test_extract.py
+- [[When a file imports both a module and a function from that module, and the…]] - rationale - graphify/tests/test_extract.py
+- [[When the class name is defined in 2+ files, the qualified call must not resolve…]] - rationale - graphify/tests/test_extract.py
+- [[Wiring check the .tsx config must use tree-sitter's `language_tsx`.]] - rationale - graphify/tests/test_extract.py
+- [[Wiring the source-backed call resolver must not re-emit the ``imports_from``…]] - rationale - graphify/tests/test_extract.py
+- [[_alias_edges()]] - code - graphify/tests/test_extract.py
+- [[_extract_parallel must fall back, not raise, when the pool cannot be created.…]] - rationale - graphify/tests/test_extract.py
+- [[_ignored()]] - code - graphify/graphify/extract.py
+- [[_legacy_collect_files()]] - code - graphify/tests/test_extract.py
+- [[`ClassName.method()` across files resolves to the class-qualified method node…]] - rationale - graphify/tests/test_extract.py
+- [[`from . import mod as alias` -- a relative sibling-module import with an alias…]] - rationale - graphify/tests/test_extract.py
+- [[`from pkg import mod as alias` must resolve `alias.func()` the same way the…]] - rationale - graphify/tests/test_extract.py
+- [[`import mod as alias` must resolve `alias.func()` the same way `import mod` …]] - rationale - graphify/tests/test_extract.py
+- [[`import pkg.mod as alias` -- the dotted absolute-import form the issue flagged…]] - rationale - graphify/tests/test_extract.py
+- [[`mod.func()` inside a class method or a nested function resolves against the…]] - rationale - graphify/tests/test_extract.py
+- [[`module.func()` where `module` is imported resolves to the callable that module…]] - rationale - graphify/tests/test_extract.py
+- [[`this.X = () = {}`  `this.X = function(){}` in a constructor-style function…]] - rationale - graphify/tests/test_extract.py
+- [[by_label_by_id()]] - code - graphify/tests/test_extract.py
+- [[call_edges_from()]] - code - graphify/tests/test_extract.py
+- [[calls()_1]] - code - graphify/tests/test_extract.py
+- [[calls()_2]] - code - graphify/tests/test_extract.py
+- [[collect_files must scan every directory at most once and never descend into…]] - rationale - graphify/tests/test_extract.py
+- [[collect_files()]] - code - graphify/graphify/extract.py
+- [[counting_scandir()]] - code - graphify/tests/test_extract.py
+- [[no_semaphores()]] - code - graphify/tests/test_extract.py
+- [[origin_file is an internal disambiguation hint (1462) consumed only by the…]] - rationale - graphify/tests/test_extract.py
+- [[rsource_file must be canonical POSIX on every node AND edge, whatever…]] - rationale - graphify/tests/test_extract.py
+- [[test_3252_alias_and_inheritance()]] - code - graphify/tests/test_extract.py
+- [[test_3252_aliased_import_repoints_references()]] - code - graphify/tests/test_extract.py
+- [[test_3252_cross_language_same_name_definition()]] - code - graphify/tests/test_extract.py
+- [[test_3252_exact_import_beats_global_ambiguity()]] - code - graphify/tests/test_extract.py
+- [[test_3252_inheritance_repoints_inherits_edge()]] - code - graphify/tests/test_extract.py
+- [[test_3252_metadata_preservation()]] - code - graphify/tests/test_extract.py
+- [[test_3252_relative_imports()]] - code - graphify/tests/test_extract.py
+- [[test_3252_unimported_ambiguous_type_remains_unresolved()]] - code - graphify/tests/test_extract.py
+- [[test_a_cache_entry_from_before_the_dependency_link_is_not_served()]] - code - graphify/tests/test_extract.py
+- [[test_bash_var_sourced_function_call_resolves()]] - code - graphify/tests/test_extract.py
+- [[test_builtin_named_member_call_does_not_bind_to_unrelated_bare_function()]] - code - graphify/tests/test_extract.py
+- [[test_builtin_named_member_call_still_resolves_cross_file()]] - code - graphify/tests/test_extract.py
+- [[test_c_include_in_root_same_batch_still_resolves_to_real_node()]] - code - graphify/tests/test_extract.py
+- [[test_c_include_out_of_root_target_id_is_portable()]] - code - graphify/tests/test_extract.py
+- [[test_case_insensitive_suffix_filtering()]] - code - graphify/tests/test_extract.py
+- [[test_collect_files_follows_symlinked_directory()]] - code - graphify/tests/test_extract.py
+- [[test_collect_files_from_dir()]] - code - graphify/tests/test_extract.py
+- [[test_collect_files_handles_circular_symlinks()]] - code - graphify/tests/test_extract.py
+- [[test_collect_files_keeps_coverage_code_namespace()]] - code - graphify/tests/test_detect.py
+- [[test_collect_files_parity_with_legacy_on_fixtures()]] - code - graphify/tests/test_extract.py
+- [[test_collect_files_parity_with_legacy_synthetic()]] - code - graphify/tests/test_extract.py
+- [[test_collect_files_skips_hidden()]] - code - graphify/tests/test_extract.py
+- [[test_collect_files_skips_out_of_root_symlinked_directory()]] - code - graphify/tests/test_extract.py
+- [[test_collect_files_skips_out_of_root_symlinked_file_by_default()]] - code - graphify/tests/test_extract.py
+- [[test_collect_files_walks_each_directory_once()]] - code - graphify/tests/test_extract.py
+- [[test_cpp_member_hides_a_free_function_and_a_free_function_still_binds()]] - code - graphify/tests/test_extract.py
+- [[test_cpp_unresolved_base_class_stubs_stay_disambiguated_by_file()]] - code - graphify/tests/test_extract.py
+- [[test_cross_file_call_god_node_guard_two_real_defs()]] - code - graphify/tests/test_extract.py
+- [[test_cross_file_call_promoted_to_extracted_with_import_evidence()]] - code - graphify/tests/test_extract.py
+- [[test_cross_file_call_survives_many_test_mocks()]] - code - graphify/tests/test_extract.py
+- [[test_cross_file_call_survives_same_named_test_mock()]] - code - graphify/tests/test_extract.py
+- [[test_cross_file_calls_skip_ambiguous_duplicate_labels()]] - code - graphify/tests/test_extract.py
+- [[test_cross_file_inheritance_resolves_across_jvm_languages()]] - code - graphify/tests/test_extract.py
+- [[test_cross_file_type_annotation_refs_resolve_to_single_node()]] - code - graphify/tests/test_extract.py
+- [[test_degenerate_symbol_name_does_not_leak_absolute_id()]] - code - graphify/tests/test_extract.py
+- [[test_dispatch_includes_sh_and_json()]] - code - graphify/tests/test_extract.py
+- [[test_export_default_long_string_with_base_url_does_not_crash()]] - code - graphify/tests/test_extract.py
+- [[test_export_default_string_not_treated_as_import()]] - code - graphify/tests/test_extract.py
+- [[test_extract.py]] - code - graphify/tests/test_extract.py
+- [[test_extract_bash_bare_source_name_resolves_to_sibling()]] - code - graphify/tests/test_extract.py
+- [[test_extract_bash_call_into_extensionless_sourced_lib_resolves()]] - code - graphify/tests/test_extract.py
+- [[test_extract_bash_call_to_external_command_stays_unlinked()]] - code - graphify/tests/test_extract.py
+- [[test_extract_bash_call_to_sourced_function_resolves()]] - code - graphify/tests/test_extract.py
+- [[test_extract_bash_relative_script_invocation_targets_existing_entrypoint()]] - code - graphify/tests/test_extract.py
+- [[test_extract_bash_sourced_call_does_not_duplicate_source_edge()]] - code - graphify/tests/test_extract.py
+- [[test_extract_bash_variable_built_invocation_targets_existing_entrypoint()]] - code - graphify/tests/test_extract.py
+- [[test_extract_declined_data_json_is_not_failed()]] - code - graphify/tests/test_extract.py
+- [[test_extract_disambiguates_duplicate_symbol_ids_by_source_path()]] - code - graphify/tests/test_extract.py
+- [[test_extract_does_not_rewire_constructor_method_to_same_named_class()]] - code - graphify/tests/test_extract.py
+- [[test_extract_does_not_rewire_csharp_base_to_other_language_class()]] - code - graphify/tests/test_extract.py
+- [[test_extract_does_not_rewire_inheritance_stub_to_same_named_function()]] - code - graphify/tests/test_extract.py
+- [[test_extract_does_not_rewire_unresolved_base_to_other_language_class()]] - code - graphify/tests/test_extract.py
+- [[test_extract_does_not_rewire_unresolved_base_to_other_language_const()]] - code - graphify/tests/test_extract.py
+- [[test_extract_emits_posix_source_file_for_relative_inputs()]] - code - graphify/tests/test_extract.py
+- [[test_extract_extensionless_bash_cli_end_to_end()]] - code - graphify/tests/test_extract.py
+- [[test_extract_failed_sources_empty_when_sql_installed()]] - code - graphify/tests/test_extract.py
+- [[test_extract_genuinely_empty_json_still_failed()]] - code - graphify/tests/test_extract.py
+- [[test_extract_js_deeply_nested_function_declarations()]] - code - graphify/tests/test_extract.py
+- [[test_extract_js_dynamic_require_variable_is_not_fabricated()]] - code - graphify/tests/test_extract.py
+- [[test_extract_js_esm_exported_object_member_assignment()]] - code - graphify/tests/test_extract.py
+- [[test_extract_js_exported_object_member_assignment_and_calls()]] - code - graphify/tests/test_extract.py
+- [[test_extract_js_function_nested_in_arrow_callback()]] - code - graphify/tests/test_extract.py
+- [[test_extract_js_function_nested_in_arrow_component()]] - code - graphify/tests/test_extract.py
+- [[test_extract_js_function_scoped_require_emits_import_edge()]] - code - graphify/tests/test_extract.py
+- [[test_extract_js_module_scope_require_still_single_edge()]] - code - graphify/tests/test_extract.py
+- [[test_extract_js_nested_function_declarations()]] - code - graphify/tests/test_extract.py
+- [[test_extract_js_this_assigned_methods()]] - code - graphify/tests/test_extract.py
+- [[test_extract_keeps_inheritance_stub_when_the_only_class_is_another_language()]] - code - graphify/tests/test_extract.py
+- [[test_extract_keeps_stub_when_multiple_real_definitions_match()]] - code - graphify/tests/test_extract.py
+- [[test_extract_merges_multiple_files()]] - code - graphify/tests/test_extract.py
+- [[test_extract_no_missing_dep_warning_when_sql_installed()]] - code - graphify/tests/test_extract.py
+- [[test_extract_no_warning_when_all_code_has_extractors()]] - code - graphify/tests/test_extract.py
+- [[test_extract_parallel_returns_false_when_pool_cannot_start()]] - code - graphify/tests/test_extract.py
+- [[test_extract_progress_final_line_uses_consistent_denominator()]] - code - graphify/tests/test_extract.py
+- [[test_extract_reports_ast_cache_hit_rate_over_file_total()]] - code - graphify/tests/test_extract.py
+- [[test_extract_still_rewires_unique_base_in_the_same_language()]] - code - graphify/tests/test_extract.py
+- [[test_extract_tsx_uses_tsx_grammar()]] - code - graphify/tests/test_extract.py
+- [[test_extract_updates_raw_call_callers_after_duplicate_id_disambiguation()]] - code - graphify/tests/test_extract.py
+- [[test_extract_warns_on_code_files_with_no_ast_extractor()]] - code - graphify/tests/test_extract.py
+- [[test_extract_warns_when_sql_extra_missing()]] - code - graphify/tests/test_extract.py
+- [[test_go_cross_file_type_refs_resolve_to_single_node()]] - code - graphify/tests/test_extract.py
+- [[test_go_imported_type_stubs_do_not_collide_across_source_files()]] - code - graphify/tests/test_extract.py
+- [[test_imported_type_stubs_do_not_collide_across_source_files()]] - code - graphify/tests/test_extract.py
+- [[test_js_cross_file_call_without_import_emits_no_edge()]] - code - graphify/tests/test_extract.py
+- [[test_make_id_consistent()]] - code - graphify/tests/test_extract.py
+- [[test_make_id_no_leading_trailing_underscores()]] - code - graphify/tests/test_extract.py
+- [[test_make_id_strips_dots_and_underscores()]] - code - graphify/tests/test_extract.py
+- [[test_markdown_dispatch_matches_resolution_suffixes()]] - code - graphify/tests/test_extract.py
+- [[test_matlab_m_not_extracted_as_garbage()]] - code - graphify/tests/test_extract.py
+- [[test_module_import_does_not_promote_unimported_same_named_call()]] - code - graphify/tests/test_extract.py
+- [[test_no_dangling_edges_on_extract()]] - code - graphify/tests/test_extract.py
+- [[test_origin_file_is_not_serialized_into_extract_output()]] - code - graphify/tests/test_extract.py
+- [[test_out_of_tree_cache_root_keeps_source_file_relative_to_scan_root()]] - code - graphify/tests/test_extract.py
+- [[test_overlong_import_specifier_with_base_url_does_not_crash()]] - code - graphify/tests/test_extract.py
+- [[test_python_aliased_call_survives_warm_cache()]] - code - graphify/tests/test_extract.py
+- [[test_python_dotted_import_alias_module_call_resolves()]] - code - graphify/tests/test_extract.py
+- [[test_python_external_aliased_import_fabricates_no_member_node()]] - code - graphify/tests/test_extract.py
+- [[test_python_external_module_call_survives_cache()]] - code - graphify/tests/test_extract.py
+- [[test_python_from_import_alias_module_call_resolves()]] - code - graphify/tests/test_extract.py
+- [[test_python_import_as_alias_module_call_resolves()]] - code - graphify/tests/test_extract.py
+- [[test_python_instance_member_call_not_overconnected()]] - code - graphify/tests/test_extract.py
+- [[test_python_known_member_receivers_keep_local_call_edges()]] - code - graphify/tests/test_extract.py
+- [[test_python_module_call_resolves_when_same_file_imports_function_with_nested_def()]] - code - graphify/tests/test_extract.py
+- [[test_python_module_qualified_call_requires_the_import()]] - code - graphify/tests/test_extract.py
+- [[test_python_module_qualified_call_resolves_extracted()]] - code - graphify/tests/test_extract.py
+- [[test_python_module_qualified_call_resolves_from_enclosing_scopes()]] - code - graphify/tests/test_extract.py
+- [[test_python_namespace_package_absolute_and_parent_relative_forms()]] - code - graphify/tests/test_extract.py
+- [[test_python_namespace_package_import_of_non_module_fabricates_nothing()]] - code - graphify/tests/test_extract.py
+- [[test_python_namespace_package_submodule_imports_resolve_member_calls()]] - code - graphify/tests/test_extract.py
+- [[test_python_qualified_call_ambiguous_class_bails()]] - code - graphify/tests/test_extract.py
+- [[test_python_qualified_call_resolves_when_method_name_collides_with_caller()]] - code - graphify/tests/test_extract.py
+- [[test_python_qualified_class_method_call_resolves_extracted()]] - code - graphify/tests/test_extract.py
+- [[test_python_relative_from_import_alias_module_call_resolves()]] - code - graphify/tests/test_extract.py
+- [[test_python_relative_import_out_of_root_target_id_is_portable()]] - code - graphify/tests/test_extract.py
+- [[test_python_try_except_from_import_alias_module_call_resolves()]] - code - graphify/tests/test_extract.py
+- [[test_python_unresolved_receiver_never_crosses_modules()]] - code - graphify/tests/test_extract.py
+- [[test_rewire_binds_builtin_named_supertype_stub_within_same_language()]] - code - graphify/tests/test_extract.py
+- [[test_rewire_binds_cross_module_function_reference_to_definition()]] - code - graphify/tests/test_extract.py
+- [[test_rewire_builtin_supertype_guard_folds_case_insensitive_languages()]] - code - graphify/tests/test_extract.py
+- [[test_rewire_builtin_supertype_guard_is_per_edge_not_per_stub()]] - code - graphify/tests/test_extract.py
+- [[test_rewire_cross_language_block_is_per_edge()]] - code - graphify/tests/test_extract.py
+- [[test_rewire_does_not_bind_ambiguous_function_reference()]] - code - graphify/tests/test_extract.py
+- [[test_rewire_does_not_bind_casefolded_type_across_language()]] - code - graphify/tests/test_extract.py
+- [[test_rewire_does_not_bind_constant_reference_across_language()]] - code - graphify/tests/test_extract.py
+- [[test_rewire_does_not_bind_function_reference_across_language()]] - code - graphify/tests/test_extract.py
+- [[test_rewire_does_not_bind_supertype_stub_across_language()]] - code - graphify/tests/test_extract.py
+- [[test_rewire_does_not_bind_supertype_stub_to_function()]] - code - graphify/tests/test_extract.py
+- [[test_semantic_reference_edges_carry_context_and_source()]] - code - graphify/tests/test_extract.py
+- [[test_separator_collision_paths_get_distinct_ids()]] - code - graphify/tests/test_extract.py
+- [[test_zero_byte_file_keeps_node_without_source_location()]] - code - graphify/tests/test_extract.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_2
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 99 edges to [[_COMMUNITY_Community 14]]
+- 46 edges to [[_COMMUNITY_Community 36]]
+- 35 edges to [[_COMMUNITY_Community 69]]
+- 28 edges to [[_COMMUNITY_Community 13]]
+- 17 edges to [[_COMMUNITY_Community 77]]
+- 15 edges to [[_COMMUNITY_Community 305]]
+- 13 edges to [[_COMMUNITY_Community 51]]
+- 12 edges to [[_COMMUNITY_Community 66]]
+- 7 edges to [[_COMMUNITY_Community 104]]
+- 7 edges to [[_COMMUNITY_Community 108]]
+- 6 edges to [[_COMMUNITY_Community 226]]
+- 6 edges to [[_COMMUNITY_Community 445]]
+- 6 edges to [[_COMMUNITY_Community 446]]
+- 5 edges to [[_COMMUNITY_Community 47]]
+- 5 edges to [[_COMMUNITY_Community 435]]
+- 5 edges to [[_COMMUNITY_Community 487]]
+- 4 edges to [[_COMMUNITY_Community 5]]
+- 4 edges to [[_COMMUNITY_Community 415]]
+- 3 edges to [[_COMMUNITY_Community 388]]
+- 3 edges to [[_COMMUNITY_Community 19]]
+- 3 edges to [[_COMMUNITY_Community 577]]
+- 2 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 0]]
+- 2 edges to [[_COMMUNITY_Community 112]]
+- 2 edges to [[_COMMUNITY_Community 33]]
+- 2 edges to [[_COMMUNITY_Community 414]]
+- 2 edges to [[_COMMUNITY_Community 54]]
+- 2 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 45]]
+- 2 edges to [[_COMMUNITY_Community 619]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 118]]
+- 1 edge to [[_COMMUNITY_Community 145]]
+- 1 edge to [[_COMMUNITY_Community 4]]
+- 1 edge to [[_COMMUNITY_Community 74]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 222]]
+- 1 edge to [[_COMMUNITY_Community 57]]
+- 1 edge to [[_COMMUNITY_Community 580]]
+- 1 edge to [[_COMMUNITY_Community 581]]
+- 1 edge to [[_COMMUNITY_Community 633]]
+- 1 edge to [[_COMMUNITY_Community 634]]
+- 1 edge to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 83]]
+- 1 edge to [[_COMMUNITY_Community 115]]
+- 1 edge to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 59]]
+- 1 edge to [[_COMMUNITY_Community 312]]
+- 1 edge to [[_COMMUNITY_Community 53]]
+
+## Top bridge nodes
+- [[test_extract.py]] - degree 361, connects to 43 communities
+- [[collect_files()]] - degree 30, connects to 12 communities
+- [[_legacy_collect_files()]] - degree 7, connects to 2 communities
+- [[test_python_external_module_call_survives_cache()]] - degree 4, connects to 2 communities
+- [[test_a_cache_entry_from_before_the_dependency_link_is_not_served()]] - degree 3, connects to 2 communities

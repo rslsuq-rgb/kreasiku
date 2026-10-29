@@ -1,0 +1,22 @@
+{
+  "name": "Belajar Yuk! — Mewarnai, Berhitung, Menulis",
+  "short_name": "Belajar Yuk!",
+  "description": "Kegiatan belajar untuk anak: mewarnai gambar, berhitung, dan menulis. Gratis, tanpa login, tanpa iklan.",
+  "lang": "id",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fff8ef",
+  "theme_color": "#fff8ef",
+  "categories": ["education", "kids"],
+  "icons": [
+    {
+      "src": "assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

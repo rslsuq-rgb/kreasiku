@@ -1,0 +1,21 @@
+---
+source_file: "graphify/tests/test_languages.py"
+type: "code"
+community: "Community 29"
+location: "L5277"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_29
+---
+
+# test_cl_defs_inside_reader_conditional()
+
+## Connections
+- [[+feature  -feature reader conditionals wrap their guarded form in an…]] - `rationale_for` [EXTRACTED]
+- [[_labels()_7]] - `calls` [EXTRACTED]
+- [[_needs_commonlisp]] - `references` [EXTRACTED]
+- [[extract_commonlisp()]] - `calls` [INFERRED]
+- [[test_languages.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_29

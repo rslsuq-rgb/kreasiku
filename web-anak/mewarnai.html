@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mewarnai Gambar — Belajar Yuk!</title>
+<meta name="description" content="Mewarnai gambar ikan, rumah, bunga, kucing, mobil, kupu-kupu, roket, apel, dan pemandangan langsung di browser. Gratis dan tanpa login.">
+<meta name="theme-color" content="#fff8ef">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#utama">Langsung ke isi</a>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 3l2.6 5.6 6.1.8-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.4l6.1-.8z" fill="#fff"/></svg>
+      </span>
+      <span>Belajar Yuk!<small>Main sambil belajar</small></span>
+    </a>
+
+    <nav class="nav" aria-label="Menu utama">
+      <a href="index.html"><span class="ico" aria-hidden="true">🏠</span>Beranda</a>
+      <a href="mewarnai.html"><span class="ico" aria-hidden="true">🎨</span>Mewarnai</a>
+      <a href="berhitung.html"><span class="ico" aria-hidden="true">🔢</span>Berhitung</a>
+      <a href="menulis.html"><span class="ico" aria-hidden="true">✏️</span>Menulis</a>
+      <a href="untuk-orang-tua.html"><span class="ico" aria-hidden="true">👨‍👩‍👧</span>Orang Tua</a>
+    </nav>
+
+    <span class="star-badge" title="Bintang yang sudah dikumpulkan">
+      <span aria-hidden="true">⭐</span><span data-stars>0</span>
+      <span class="sr-only">bintang</span>
+    </span>
+    <button class="icon-btn" type="button" data-sound-toggle aria-pressed="true" title="Nyalakan/matikan suara">🔊</button>
+  </div>
+</header>
+
+<main id="utama">
+  <div class="wrap">
+
+    <!-- ================= GALERI ================= -->
+    <section id="galeri-view">
+      <div class="page-head">
+        <a class="back-link" href="index.html">← Beranda</a>
+        <h1>🎨 Mewarnai</h1>
+        <p>Pilih salah satu gambar. Di studio, klik bidang gambar untuk mengisi warna, atau pakai kuas untuk coretan bebas.</p>
+      </div>
+
+      <div class="gallery" id="gallery" aria-live="polite">
+        <noscript><p>Halaman ini membutuhkan JavaScript untuk menampilkan gambar.</p></noscript>
+      </div>
+
+      <p class="muted" style="margin-top:18px">Semua gambar dibuat khusus untuk proyek ini, jadi aman dipakai dan disimpan. Tidak ada gambar yang diambil dari internet.</p>
+    </section>
+
+    <!-- ================= STUDIO ================= -->
+    <section id="studio-view" hidden>
+      <div class="page-head" style="padding-bottom:0">
+        <button class="back-link" type="button" id="btn-back">← Pilih gambar lain</button>
+        <h1 id="studio-title">Mewarnai</h1>
+        <p class="muted" id="studio-sub">Klik bidang untuk mewarnai.</p>
+      </div>
+
+      <div class="studio">
+        <div class="stage-card">
+          <div class="stage" id="stage" data-mode="isi">
+            <div id="art-holder" style="position:absolute;inset:0"></div>
+            <canvas id="brush" width="800" height="800" aria-label="Area coretan kuas"></canvas>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 6px 2px;flex-wrap:wrap">
+            <span class="muted" id="mode-hint">Mode isi warna: klik bagian gambar.</span>
+            <span class="muted" id="fill-count">0 bidang diwarnai</span>
+          </div>
+        </div>
+
+        <div class="tools">
+          <div class="tool-group">
+            <h3>Warna</h3>
+            <div class="palette" id="palette" role="group" aria-label="Pilihan warna"></div>
+            <label class="custom-color">
+              Warna lain
+              <input type="color" id="custom-color" value="#7ec8ff" aria-label="Pilih warna khusus">
+            </label>
+          </div>
+
+          <div class="tool-group">
+            <h3>Alat</h3>
+            <div class="seg" role="group" aria-label="Pilih alat">
+              <button type="button" data-mode-btn="isi" aria-pressed="true">🪣 Isi</button>
+              <button type="button" data-mode-btn="kuas" aria-pressed="false">🖌️ Kuas</button>
+              <button type="button" data-mode-btn="hapus" aria-pressed="false">🧽 Hapus</button>
+            </div>
+            <div class="range-row">
+              <label for="brush-size">Besar kuas</label>
+              <input type="range" id="brush-size" min="6" max="60" value="22" step="2">
+              <output id="brush-size-out">22</output>
+            </div>
+          </div>
+
+          <div class="tool-group">
+            <h3>Hasil</h3>
+            <div class="tool-actions">
+              <button class="btn btn-ghost btn-sm" type="button" id="btn-undo">↩️ Undo</button>
+              <button class="btn btn-ghost btn-sm" type="button" id="btn-reset">🔄 Ulangi</button>
+              <button class="btn btn-green btn-sm span2" type="button" id="btn-download">⬇️ Simpan gambar (PNG)</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div><strong>Belajar Yuk!</strong> · Gambar buatan sendiri, bebas dipakai.</div>
+    <nav aria-label="Menu footer">
+      <a href="index.html">Beranda</a>
+      <a href="mewarnai.html">Mewarnai</a>
+      <a href="berhitung.html">Berhitung</a>
+      <a href="menulis.html">Menulis</a>
+      <a href="untuk-orang-tua.html">Orang Tua</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="assets/js/app.js" defer></script>
+<script src="assets/js/gambar.js" defer></script>
+<script src="assets/js/mewarnai.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+---
+source_file: "graphify/tests/test_ts_inheritance.py"
+type: "code"
+community: "Community 309"
+location: "L23"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_309
+---
+
+# _has_inherits()
+
+## Connections
+- [[_file_stem()]] - `calls` [INFERRED]
+- [[test_class_extends_same_file()]] - `calls` [EXTRACTED]
+- [[test_class_implements_same_file_interface()]] - `calls` [EXTRACTED]
+- [[test_imported_class_extends_still_works()]] - `calls` [EXTRACTED]
+- [[test_interface_extends_generic_base_same_file()]] - `calls` [EXTRACTED]
+- [[test_interface_extends_imported()]] - `calls` [EXTRACTED]
+- [[test_interface_extends_multiple_same_file()]] - `calls` [EXTRACTED]
+- [[test_interface_extends_same_file()]] - `calls` [EXTRACTED]
+- [[test_js_class_extends_imported()]] - `calls` [EXTRACTED]
+- [[test_js_class_extends_same_file()]] - `calls` [EXTRACTED]
+- [[test_js_dynamic_class_base_does_not_fabricate_inherits()]] - `calls` [EXTRACTED]
+- [[test_ts_inheritance.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_309

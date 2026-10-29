@@ -1,0 +1,314 @@
+---
+type: community
+cohesion: 0.02
+members: 208
+---
+
+# Community 7
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 208 nodes
+
+## Members
+- [[1324 empty communities (e.g. --no-cluster builds) on a populated graph must…]] - rationale - graphify/tests/test_export.py
+- [[1409 an all-punctuation label (e.g. `@`) must not produce a `@.md`-style…]] - rationale - graphify/tests/test_export.py
+- [[1409 same guard on the canvas exporter's file-node names.]] - rationale - graphify/tests/test_export.py
+- [[1452 a community's node cards are laid out in the same ceil(sqrt(n))-column…]] - rationale - graphify/tests/test_export.py
+- [[1506 exporting into an existing vault must not overwrite a user's note that…]] - rationale - graphify/tests/test_export.py
+- [[1775 a node with source_file=None or label=None must not crash to_html…]] - rationale - graphify/tests/test_export.py
+- [[1838 neighbor links dropped an unescaped JSON.stringify(nid) into a quoted…]] - rationale - graphify/tests/test_export.py
+- [[1896 follow-on a node that disappears and later returns must be writable…]] - rationale - graphify/tests/test_export.py
+- [[1896 re-exporting into the same vault must delete graphify's own notes for…]] - rationale - graphify/tests/test_export.py
+- [[2205 Obsidian hides notes whose names start with `.` — `.env` must become…]] - rationale - graphify/tests/test_export.py
+- [[2229 AST growth and a new stub must not replace a saved rationale id.]] - rationale - graphify/tests/test_export.py
+- [[2598  433 title must not embed the generator host absolute path.]] - rationale - graphify/tests/test_export.py
+- [[3699 the Fermat-spiral seed positions reference `i`, so the node map MUST…]] - rationale - graphify/tests/test_export.py
+- [[3914 Execute showInfo in Node.js for a normal node. Type code and Source…]] - rationale - graphify/tests/test_export.py
+- [[3914 Execute showInfo in Node.js for an aggregated community node. Community…]] - rationale - graphify/tests/test_export.py
+- [[3914 nodesDS and showInfo must use canonical un-prefixed field names matching…]] - rationale - graphify/tests/test_export.py
+- [[3999 original_links writes back every original link verbatim, except one…]] - rationale - graphify/tests/test_cli_export.py
+- [[4500 the flag repair must not flip graphs that have no parallel edges.]] - rationale - graphify/tests/test_cli_export.py
+- [[4500 to_json restored original_links (which may hold parallel edges, 3999)…]] - rationale - graphify/tests/test_cli_export.py
+- [[479 refuse to silently overwrite an existing graph with fewer nodes.]] - rationale - graphify/tests/test_export.py
+- [[A 2-node graph where one node's label is all-punctuation (e.g. a `@` tsconfig…]] - rationale - graphify/tests/test_export.py
+- [[A generated `_1` suffix must not collide with a node whose literal label is…]] - rationale - graphify/tests/test_export.py
+- [[A node with an overlay entry gets learning_status + learning_stale fields, a…]] - rationale - graphify/tests/test_export.py
+- [[A non-empty but unparseable existing graph.json (corrupt or mid-write) must NOT…]] - rationale - graphify/tests/test_export.py
+- [[A re-run overwrites graphify's own prior notes (via the manifest) but leaves a…]] - rationale - graphify/tests/test_export.py
+- [[A saved integer id that the new graph dropped is still refused when the total…]] - rationale - graphify/tests/test_export.py
+- [[AMBIGUOUS edges must have confidence_score = 0.4.]] - rationale - graphify/tests/test_confidence.py
+- [[AST nodes may be added when every saved rationale id is still present.]] - rationale - graphify/tests/test_export.py
+- [[All-default labels → no backup (not curated).]] - rationale - graphify/tests/test_export.py
+- [[An emptywhitespace existing file has no nodes to lose, so it is not a shrink…]] - rationale - graphify/tests/test_export.py
+- [[An unstamped integer id that is still in the graph is not a lost semantic node.]] - rationale - graphify/tests/test_export.py
+- [[Both notes must survive as separate files. On a case-insensitive filesystem a…]] - rationale - graphify/tests/test_export.py
+- [[Canvas file-node references for case-only-distinct labels must be distinct…]] - rationale - graphify/tests/test_export.py
+- [[Changed graph.json on same day overwrites the existing backup in place.]] - rationale - graphify/tests/test_export.py
+- [[Coercion must leave GraphML-native scalars (intfloatboolstr) untouched, only…]] - rationale - graphify/tests/test_export.py
+- [[EXTRACTED edges must have confidence_score == 1.0.]] - rationale - graphify/tests/test_confidence.py
+- [[Edges lacking confidence_score get sensible defaults in to_json.]] - rationale - graphify/tests/test_confidence.py
+- [[Execute the emitted convexHull in node the perimeter must be simple (no self-…]] - rationale - graphify/tests/test_export.py
+- [[Export graph as GraphML - opens in Gephi, yEd, and any GraphML-compatible tool.…]] - rationale - graphify/graphify/export.py
+- [[Export graph as an Obsidian Canvas file - communities as groups, nodes as…]] - rationale - graphify/graphify/export.py
+- [[Extract the RAW_EDGES JSON array embedded in the generated HTML.]] - rationale - graphify/tests/test_export.py
+- [[Extract the RAW_NODES JSON array embedded in the generated HTML.]] - rationale - graphify/tests/test_export.py
+- [[GRAPHIFY_NO_BACKUP=1 disables backup entirely.]] - rationale - graphify/tests/test_export.py
+- [[Generate an interactive vis.js HTML visualization of the graph. Features node…]] - rationale - graphify/graphify/exporters/html.py
+- [[Graph_23]] - code
+- [[Helper to execute graph.html's client script in Node.js and return info-…]] - rationale - graphify/tests/test_export.py
+- [[INFERRED edges must have confidence_score between 0.0 and 1.0.]] - rationale - graphify/tests/test_confidence.py
+- [[Issue 3664 Node and edge hover tooltips (vis-network title) must preserve raw…]] - rationale - graphify/tests/test_export.py
+- [[Issue 3664 Node with learning overlay preserves special characters in both…]] - rationale - graphify/tests/test_export.py
+- [[Near the rightbottom edge of the 1280x800 window the 200x30 tooltip is clamped…]] - rationale - graphify/tests/test_export.py
+- [[No graph.json → no backup.]] - rationale - graphify/tests/test_export.py
+- [[No regression a freshempty dir still gets every note + .obsidiangraph.json.]] - rationale - graphify/tests/test_export.py
+- [[Node file paths in canvas must be vault-root-relative (just fname.md), not…]] - rationale - graphify/tests/test_export.py
+- [[One shared .vis-tooltip names only when truncated, counts always as 'N…]] - rationale - graphify/tests/test_export.py
+- [[Report summary line should include avg confidence for INFERRED edges.]] - rationale - graphify/tests/test_confidence.py
+- [[Return (tag, attrs dict, text) for each start tag; HTMLParser decodes entities.]] - rationale - graphify/tests/test_export.py
+- [[Return a minimal extraction dict with one edge of each confidence type.]] - rationale - graphify/tests/test_confidence.py
+- [[Return a portable label for the graph.html title. Tracked artifacts must not…]] - rationale - graphify/graphify/exporters/html.py
+- [[Run Leiden community detection. Returns {community_id node_ids}. Community…_1]] - rationale - graphify/graphify/cluster.py
+- [[Run graph.html's client script in Node.js with DOM mocks that record children…]] - rationale - graphify/tests/test_export.py
+- [[Same content on same day returns existing backup dir without re-copying.]] - rationale - graphify/tests/test_export.py
+- [[Surprising connections section shows confidence score next to INFERRED edges.]] - rationale - graphify/tests/test_confidence.py
+- [[Tests for confidence_score on edges.]] - rationale - graphify/tests/test_confidence.py
+- [[The CLI calls to_obsidian and to_canvas separately with no shared map, so they…]] - rationale - graphify/tests/test_export.py
+- [[The byte-identity guarantee must hold with non-ASCII labels — the fix's round-…]] - rationale - graphify/tests/test_export.py
+- [[The hyperedge polygon must be traced in hull order. Tracing `h.nodes` array…]] - rationale - graphify/tests/test_export.py
+- [[The legend label is HTML-escaped once for the innerHTML sink, so its DOM text…]] - rationale - graphify/tests/test_export.py
+- [[The whole legend row (checkbox, dot, gapspadding) shows the truncated name;…]] - rationale - graphify/tests/test_export.py
+- [[Tooltip `title` is passed to vis-network as a STRING and rendered via…]] - rationale - graphify/tests/test_export.py
+- [[Two community labels differing only by case must each get their own…]] - rationale - graphify/tests/test_export.py
+- [[Two nodes whose labels differ only by case - on macOSAPFS and WindowsNTFS…]] - rationale - graphify/tests/test_export.py
+- [[With no overlay, the HTML is byte-identical whether learning_overlay is omitted…]] - rationale - graphify/tests/test_export.py
+- [[_canonical()_1]] - code - graphify/graphify/export.py
+- [[_case_collision_graph()]] - code - graphify/tests/test_export.py
+- [[_four_node_two_community_graph()]] - code - graphify/tests/test_export.py
+- [[_html_document_title()]] - code - graphify/graphify/exporters/html.py
+- [[_html_script()]] - code - graphify/graphify/exporters/html.py
+- [[_html_styles()]] - code - graphify/graphify/exporters/html.py
+- [[_hyperedge_script()]] - code - graphify/graphify/exporters/html.py
+- [[_js_safe()]] - code - graphify/graphify/exporters/html.py
+- [[_json_sort_key()]] - code - graphify/graphify/export.py
+- [[_make_extraction()]] - code - graphify/tests/test_confidence.py
+- [[_mkG()]] - code - graphify/tests/test_export.py
+- [[_parse_html_fragment()]] - code - graphify/tests/test_export.py
+- [[_punct_graph()]] - code - graphify/tests/test_export.py
+- [[_run_node_info_harness()]] - code - graphify/tests/test_export.py
+- [[_run_sidebar_harness()]] - code - graphify/tests/test_export.py
+- [[_sidebar_tip_graph_html()]] - code - graphify/tests/test_export.py
+- [[_strip_diacritics()_1]] - code - graphify/graphify/export.py
+- [[_two_node_graph()_1]] - code - graphify/tests/test_export.py
+- [[_vis_edges_from_html()]] - code - graphify/tests/test_export.py
+- [[_vis_nodes_from_html()]] - code - graphify/tests/test_export.py
+- [[cluster()_1]] - code - graphify/graphify/cluster.py
+- [[confidence_score survives build_from_json → to_json → JSON parse round-trip.]] - rationale - graphify/tests/test_confidence.py
+- [[git()_1]] - code - graphify/tests/test_export.py
+- [[graph()]] - code - graphify/tests/test_cache_stale_import_target.py
+- [[graph.json + .graphify_semantic_marker → backup taken.]] - rationale - graphify/tests/test_export.py
+- [[graph.json + non-default label in .graphify_labels.json → backup taken.]] - rationale - graphify/tests/test_export.py
+- [[graph.json is loaded as a MultiGraph when it carries parallel edges (4500),…]] - rationale - graphify/tests/test_export.py
+- [[graph.json present but no sentinel and no curated labels → no backup.]] - rationale - graphify/tests/test_export.py
+- [[graph.json survives a build - write - read-back - write round-trip byte-for-…]] - rationale - graphify/tests/test_export.py
+- [[handle_data()]] - code - graphify/tests/test_export.py
+- [[handle_endtag()]] - code - graphify/tests/test_export.py
+- [[handle_starttag()]] - code - graphify/tests/test_export.py
+- [[html — moved verbatim from graphifyexport.py.]] - rationale - graphify/graphify/exporters/html.py
+- [[html.py]] - code - graphify/graphify/exporters/html.py
+- [[make_graph()_2]] - code - graphify/tests/test_export.py
+- [[make_graph()_3]] - code - graphify/tests/test_export.py
+- [[math]] - concept
+- [[nx.write_graphml only accepts scalars; a dictlist attribute (per-node…]] - rationale - graphify/tests/test_export.py
+- [[nx.write_graphml raises ValueError on a None attribute value; to_graphml must…]] - rationale - graphify/tests/test_export.py
+- [[tempfile]] - concept
+- [[test_ambiguous_edges_score_at_most_04()]] - code - graphify/tests/test_confidence.py
+- [[test_backup_curated_labels()]] - code - graphify/tests/test_export.py
+- [[test_backup_default_labels_only()]] - code - graphify/tests/test_export.py
+- [[test_backup_env_disable()]] - code - graphify/tests/test_export.py
+- [[test_backup_no_graph_json()]] - code - graphify/tests/test_export.py
+- [[test_backup_no_markers()]] - code - graphify/tests/test_export.py
+- [[test_backup_same_day_changed_content()]] - code - graphify/tests/test_export.py
+- [[test_backup_same_day_no_accumulation()]] - code - graphify/tests/test_export.py
+- [[test_backup_semantic_marker()]] - code - graphify/tests/test_export.py
+- [[test_confidence.py]] - code - graphify/tests/test_confidence.py
+- [[test_confidence_score_round_trip()]] - code - graphify/tests/test_confidence.py
+- [[test_existing_graph_node_count()]] - code - graphify/tests/test_export.py
+- [[test_export.py]] - code - graphify/tests/test_export.py
+- [[test_extracted_edges_have_score_1()]] - code - graphify/tests/test_confidence.py
+- [[test_html_document_title_helper_windows_and_relative()]] - code - graphify/tests/test_export.py
+- [[test_hyperedge_convex_hull_js_is_geometrically_sound()]] - code - graphify/tests/test_export.py
+- [[test_hyperedge_perimeter_uses_convex_hull_not_member_order()]] - code - graphify/tests/test_export.py
+- [[test_inferred_edges_score_in_range()]] - code - graphify/tests/test_confidence.py
+- [[test_obsidian_canvas_filenames_agree()]] - code - graphify/tests/test_export.py
+- [[test_report_inferred_tag_with_score()]] - code - graphify/tests/test_confidence.py
+- [[test_report_shows_avg_confidence_for_inferred()]] - code - graphify/tests/test_confidence.py
+- [[test_to_canvas_case_only_distinct_labels_get_distinct_files()]] - code - graphify/tests/test_export.py
+- [[test_to_canvas_file_paths_relative_to_vault()]] - code - graphify/tests/test_export.py
+- [[test_to_canvas_never_emits_punctuation_only_filenames()]] - code - graphify/tests/test_export.py
+- [[test_to_canvas_no_communities_still_populates()]] - code - graphify/tests/test_export.py
+- [[test_to_canvas_node_grid_matches_box_columns()]] - code - graphify/tests/test_export.py
+- [[test_to_cypher_contains_merge_statements()]] - code - graphify/tests/test_export.py
+- [[test_to_cypher_creates_file()]] - code - graphify/tests/test_export.py
+- [[test_to_graphml_creates_file()]] - code - graphify/tests/test_export.py
+- [[test_to_graphml_exports_multigraph_parallel_edges()]] - code - graphify/tests/test_export.py
+- [[test_to_graphml_has_community_attribute()]] - code - graphify/tests/test_export.py
+- [[test_to_graphml_preserves_native_scalar_types()]] - code - graphify/tests/test_export.py
+- [[test_to_graphml_tolerates_dict_and_list_attribute_values()]] - code - graphify/tests/test_export.py
+- [[test_to_graphml_tolerates_none_attribute_values()]] - code - graphify/tests/test_export.py
+- [[test_to_graphml_valid_xml()]] - code - graphify/tests/test_export.py
+- [[test_to_html_aggregated_community_nodes_runtime()]] - code - graphify/tests/test_export.py
+- [[test_to_html_annotated_node_gets_learning_status_and_ring()]] - code - graphify/tests/test_export.py
+- [[test_to_html_canonical_node_schema_mapping()]] - code - graphify/tests/test_export.py
+- [[test_to_html_contains_legend_with_labels()]] - code - graphify/tests/test_export.py
+- [[test_to_html_contains_nodes_and_edges()]] - code - graphify/tests/test_export.py
+- [[test_to_html_contains_search()]] - code - graphify/tests/test_export.py
+- [[test_to_html_contains_visjs()]] - code - graphify/tests/test_export.py
+- [[test_to_html_contested_stale_node_gets_dashed_desaturated_ring()]] - code - graphify/tests/test_export.py
+- [[test_to_html_creates_file()]] - code - graphify/tests/test_export.py
+- [[test_to_html_handles_null_source_file_and_label()]] - code - graphify/tests/test_export.py
+- [[test_to_html_learning_overlay_tooltip_preserves_special_characters()]] - code - graphify/tests/test_export.py
+- [[test_to_html_legend_label_escaped_once_without_title()]] - code - graphify/tests/test_export.py
+- [[test_to_html_legend_row_hover_shows_label_anywhere_but_count()]] - code - graphify/tests/test_export.py
+- [[test_to_html_member_counts_accepted()]] - code - graphify/tests/test_export.py
+- [[test_to_html_neighbor_links_have_no_inline_onclick_xss()]] - code - graphify/tests/test_export.py
+- [[test_to_html_pins_vis_network_version_for_tooltip_xss_boundary()]] - code - graphify/tests/test_export.py
+- [[test_to_html_pins_visjs_version_with_sri()]] - code - graphify/tests/test_export.py
+- [[test_to_html_show_info_runtime_renders_node_fields()]] - code - graphify/tests/test_export.py
+- [[test_to_html_sidebar_tooltip_shows_truncated_text_and_node_counts()]] - code - graphify/tests/test_export.py
+- [[test_to_html_sidebar_tooltip_stays_inside_viewport_near_edges()]] - code - graphify/tests/test_export.py
+- [[test_to_html_spiral_seed_uses_a_real_map_index()]] - code - graphify/tests/test_export.py
+- [[test_to_html_title_uses_portable_path_not_host_absolute()]] - code - graphify/tests/test_export.py
+- [[test_to_html_tooltips_preserve_special_characters_without_html_entities()]] - code - graphify/tests/test_export.py
+- [[test_to_html_unannotated_identical_to_pre_feature()]] - code - graphify/tests/test_export.py
+- [[test_to_json_allows_ast_growth_that_keeps_semantic_ids()]] - code - graphify/tests/test_export.py
+- [[test_to_json_commit_fallback_uses_output_repo_not_cwd()]] - code - graphify/tests/test_export.py
+- [[test_to_json_creates_file()]] - code - graphify/tests/test_export.py
+- [[test_to_json_declares_multigraph_when_original_links_have_parallel_edges()]] - code - graphify/tests/test_cli_export.py
+- [[test_to_json_defaults_missing_confidence_score()]] - code - graphify/tests/test_confidence.py
+- [[test_to_json_fails_safe_on_corrupt_existing()]] - code - graphify/tests/test_export.py
+- [[test_to_json_field_order_stable_across_read_rebuild()]] - code - graphify/tests/test_export.py
+- [[test_to_json_field_order_stable_with_non_ascii_labels()]] - code - graphify/tests/test_export.py
+- [[test_to_json_hyperedges_empty_when_none()]] - code - graphify/tests/test_hypergraph.py
+- [[test_to_json_includes_graph_schema_metadata()]] - code - graphify/tests/test_export.py
+- [[test_to_json_includes_hyperedges()]] - code - graphify/tests/test_hypergraph.py
+- [[test_to_json_keeps_multigraph_false_without_parallel_edges()]] - code - graphify/tests/test_cli_export.py
+- [[test_to_json_nodes_have_community()]] - code - graphify/tests/test_export.py
+- [[test_to_json_original_links_drops_only_a_dangling_endpoint()]] - code - graphify/tests/test_cli_export.py
+- [[test_to_json_proceeds_on_empty_existing()]] - code - graphify/tests/test_export.py
+- [[test_to_json_refuses_a_missing_integer_semantic_id()]] - code - graphify/tests/test_export.py
+- [[test_to_json_refuses_lost_semantic_id_when_total_grows()]] - code - graphify/tests/test_export.py
+- [[test_to_json_refuses_shrink()]] - code - graphify/tests/test_export.py
+- [[test_to_json_rewrites_the_same_integer_node_ids()]] - code - graphify/tests/test_export.py
+- [[test_to_json_sorts_graph_collections_across_insertion_order()]] - code - graphify/tests/test_export.py
+- [[test_to_json_valid_json()]] - code - graphify/tests/test_export.py
+- [[test_to_obsidian_case_only_distinct_labels_dont_overwrite()]] - code - graphify/tests/test_export.py
+- [[test_to_obsidian_community_notes_case_collision()]] - code - graphify/tests/test_export.py
+- [[test_to_obsidian_empty_dir_writes_full_vault()]] - code - graphify/tests/test_export.py
+- [[test_to_obsidian_generated_suffix_doesnt_overwrite_literal()]] - code - graphify/tests/test_export.py
+- [[test_to_obsidian_leading_dot_labels_are_not_hidden_filenames()]] - code - graphify/tests/test_export.py
+- [[test_to_obsidian_never_emits_punctuation_only_filenames()]] - code - graphify/tests/test_export.py
+- [[test_to_obsidian_preserves_existing_user_notes_and_obsidian_config()]] - code - graphify/tests/test_export.py
+- [[test_to_obsidian_removed_node_returning_is_writable_again()]] - code - graphify/tests/test_export.py
+- [[test_to_obsidian_rerun_prunes_removed_nodes()]] - code - graphify/tests/test_export.py
+- [[test_to_obsidian_rerun_updates_own_notes_but_not_user_files()]] - code - graphify/tests/test_export.py
+- [[to_canvas()]] - code - graphify/graphify/export.py
+- [[to_graphml()]] - code - graphify/graphify/export.py
+- [[to_html accepts member_counts without raising.]] - rationale - graphify/tests/test_export.py
+- [[to_html()]] - code - graphify/graphify/exporters/html.py
+- [[to_json()]] - code - graphify/graphify/export.py
+- [[vis-network script tag must use a pinned versioned URL with a sha384…]] - rationale - graphify/tests/test_export.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_7
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 39 edges to [[_COMMUNITY_Community 46]]
+- 35 edges to [[_COMMUNITY_Community 115]]
+- 31 edges to [[_COMMUNITY_Community 9]]
+- 25 edges to [[_COMMUNITY_Community 17]]
+- 22 edges to [[_COMMUNITY_Community 47]]
+- 17 edges to [[_COMMUNITY_Community 62]]
+- 12 edges to [[_COMMUNITY_Community 11]]
+- 12 edges to [[_COMMUNITY_Community 3]]
+- 11 edges to [[_COMMUNITY_Community 123]]
+- 10 edges to [[_COMMUNITY_Community 19]]
+- 7 edges to [[_COMMUNITY_Community 155]]
+- 7 edges to [[_COMMUNITY_Community 265]]
+- 6 edges to [[_COMMUNITY_Community 148]]
+- 6 edges to [[_COMMUNITY_Community 340]]
+- 6 edges to [[_COMMUNITY_Community 441]]
+- 5 edges to [[_COMMUNITY_Community 31]]
+- 5 edges to [[_COMMUNITY_Community 53]]
+- 5 edges to [[_COMMUNITY_Community 302]]
+- 4 edges to [[_COMMUNITY_Community 4]]
+- 4 edges to [[_COMMUNITY_Community 41]]
+- 4 edges to [[_COMMUNITY_Community 101]]
+- 4 edges to [[_COMMUNITY_Community 18]]
+- 4 edges to [[_COMMUNITY_Community 256]]
+- 4 edges to [[_COMMUNITY_Community 281]]
+- 4 edges to [[_COMMUNITY_Community 286]]
+- 4 edges to [[_COMMUNITY_Community 48]]
+- 4 edges to [[_COMMUNITY_Community 534]]
+- 3 edges to [[_COMMUNITY_Community 26]]
+- 2 edges to [[_COMMUNITY_Community 192]]
+- 2 edges to [[_COMMUNITY_Community 263]]
+- 2 edges to [[_COMMUNITY_Community 138]]
+- 2 edges to [[_COMMUNITY_Community 169]]
+- 2 edges to [[_COMMUNITY_Community 119]]
+- 2 edges to [[_COMMUNITY_Community 124]]
+- 2 edges to [[_COMMUNITY_Community 128]]
+- 2 edges to [[_COMMUNITY_Community 211]]
+- 2 edges to [[_COMMUNITY_Community 213]]
+- 2 edges to [[_COMMUNITY_Community 215]]
+- 2 edges to [[_COMMUNITY_Community 217]]
+- 2 edges to [[_COMMUNITY_Community 243]]
+- 2 edges to [[_COMMUNITY_Community 271]]
+- 2 edges to [[_COMMUNITY_Community 280]]
+- 2 edges to [[_COMMUNITY_Community 288]]
+- 2 edges to [[_COMMUNITY_Community 30]]
+- 2 edges to [[_COMMUNITY_Community 303]]
+- 2 edges to [[_COMMUNITY_Community 304]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 321]]
+- 2 edges to [[_COMMUNITY_Community 34]]
+- 2 edges to [[_COMMUNITY_Community 350]]
+- 2 edges to [[_COMMUNITY_Community 394]]
+- 2 edges to [[_COMMUNITY_Community 428]]
+- 2 edges to [[_COMMUNITY_Community 455]]
+- 2 edges to [[_COMMUNITY_Community 49]]
+- 2 edges to [[_COMMUNITY_Community 500]]
+- 2 edges to [[_COMMUNITY_Community 508]]
+- 2 edges to [[_COMMUNITY_Community 519]]
+- 2 edges to [[_COMMUNITY_Community 521]]
+- 2 edges to [[_COMMUNITY_Community 598]]
+- 2 edges to [[_COMMUNITY_Community 87]]
+- 2 edges to [[_COMMUNITY_Community 97]]
+- 2 edges to [[_COMMUNITY_Community 92]]
+- 2 edges to [[_COMMUNITY_Community 76]]
+- 2 edges to [[_COMMUNITY_Community 328]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 112]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 489]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 107]]
+- 1 edge to [[_COMMUNITY_Community 52]]
+- 1 edge to [[_COMMUNITY_Community 235]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 432]]
+- 1 edge to [[_COMMUNITY_Community 438]]
+- 1 edge to [[_COMMUNITY_Community 57]]
+- 1 edge to [[_COMMUNITY_Community 63]]
+- 1 edge to [[_COMMUNITY_Community 91]]
+
+## Top bridge nodes
+- [[tempfile]] - degree 121, connects to 34 communities
+- [[to_json()]] - degree 100, connects to 31 communities
+- [[cluster()_1]] - degree 89, connects to 14 communities
+- [[html.py]] - degree 21, connects to 12 communities
+- [[to_html()]] - degree 46, connects to 11 communities

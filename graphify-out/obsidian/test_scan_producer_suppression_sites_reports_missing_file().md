@@ -1,0 +1,19 @@
+---
+source_file: "graphify/tests/test_multigraph_diagnostics.py"
+type: "code"
+community: "Community 187"
+location: "L351"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_187
+---
+
+# test_scan_producer_suppression_sites_reports_missing_file()
+
+## Connections
+- [[Path_57]] - `references` [EXTRACTED]
+- [[scan_producer_suppression_sites()]] - `calls` [EXTRACTED]
+- [[test_multigraph_diagnostics.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_187

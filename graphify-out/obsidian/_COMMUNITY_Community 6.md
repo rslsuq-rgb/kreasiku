@@ -1,0 +1,264 @@
+---
+type: community
+cohesion: 0.01
+members: 213
+---
+
+# Community 6
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 213 nodes
+
+## Members
+- [[09b33b7 guard a doc with NO semantic layer still gets the AST quick-scan so…]] - rationale - graphify/tests/test_watch.py
+- [[1007 graphify update (_rebuild_code with no changed_paths) must remove nodes…]] - rationale - graphify/tests/test_watch.py
+- [[1059 when the rebuild lock is held, an incremental hook must queue its…]] - rationale - graphify/tests/test_watch.py
+- [[1116 a symbol removed from a re-extracted file is a legitimate shrink — every…]] - rationale - graphify/tests/test_watch.py
+- [[1116 graphify update (_rebuild_code with no changed_paths) must prune a…]] - rationale - graphify/tests/test_watch.py
+- [[1348 git-hook paths are repo-root-relative even when the graph root is a…]] - rationale - graphify/tests/test_watch.py
+- [[1755 AST-only updates must not drop semantic hyperedges whose members survive.]] - rationale - graphify/tests/test_watch.py
+- [[1808 `graphify update`  _rebuild_code must forward community_labels to…]] - rationale - graphify/tests/test_watch.py
+- [[1837 after an initial build, a plain `graphify update` (full re-scan, no…]] - rationale - graphify/tests/test_watch.py
+- [[1865 AST-only updates must not evict semantic edges whose source_file is a…]] - rationale - graphify/tests/test_watch.py
+- [[1880 `graphify update` must not emit 0 nodes (and then refuse to overwrite)…]] - rationale - graphify/tests/test_watch.py
+- [[1915 a full _rebuild_code must not AST-quick-scan a doc whose semantic (LLM)…]] - rationale - graphify/tests/test_watch.py
+- [[1915 an incremental rebuild whose change set includes a semantic-backed doc…]] - rationale - graphify/tests/test_watch.py
+- [[2051 a full `graphify update` must evict semantic nodes whose non-AST source…]] - rationale - graphify/tests/test_watch.py
+- [[2056 an incremental rebuild whose change set names a file that exists but has…]] - rationale - graphify/tests/test_watch.py
+- [[2229 AST growth plus a new sourceless stub hides one lost rationale id. The…]] - rationale - graphify/tests/test_watch.py
+- [[2229 a larger total must not write away a saved rationale id.]] - rationale - graphify/tests/test_watch.py
+- [[2298 an update that adds one node to a community keeps the saved name when…]] - rationale - graphify/tests/test_watch.py
+- [[2333 (COEXIST) a doc that carries BOTH an AST heading layer and a semantic…]] - rationale - graphify/tests/test_watch.py
+- [[2334 a legacy heading node without the _origin stamp (pre-0.9.16 graph) must…]] - rationale - graphify/tests/test_watch.py
+- [[2342, --no-cluster path candidate_graph_data was built straight from the raw…]] - rationale - graphify/tests/test_watch.py
+- [[2342 the clustered `graphify update` rebuild path built the graph via…]] - rationale - graphify/tests/test_watch.py
+- [[2418 the graphify merge driver union merges graph.json, which can resurrect a…]] - rationale - graphify/tests/test_watch.py
+- [[2495 extends 2051 a non-AST source (.txt) whose semantic nodes evict on disk…]] - rationale - graphify/tests/test_watch.py
+- [[2495 policy split, other half a .graphifyignore match is unambiguous graph-…]] - rationale - graphify/tests/test_watch.py
+- [[2495 policy split a .gitignore-only match is preserved fail-closed on an…]] - rationale - graphify/tests/test_watch.py
+- [[2495 a file added to .graphifyignore while still on disk must be purged from…]] - rationale - graphify/tests/test_watch.py
+- [[2689 on a VMware HGFS shared folder, os.replace over a graph.json read…]] - rationale - graphify/tests/test_watch.py
+- [[3334 a from-empty rebuild (a fresh clone, a new worktree, any CI job with no…]] - rationale - graphify/tests/test_watch.py
+- [[3375 when GRAPHIFY_OUT is an absolute, shared location (the multi worktree…]] - rationale - graphify/tests/test_watch.py
+- [[3695 invariant 2 Genuine re-extracted sources must retain existing AST…]] - rationale - graphify/tests/test_watch.py
+- [[3881 concurrent processes cannot acquire the rebuild lock simultaneously.]] - rationale - graphify/tests/test_watch.py
+- [[4273 flock() locks the open file's inode, not the path. Unlinking the path on…]] - rationale - graphify/tests/test_watch.py
+- [[4274 'changes queued' is printed only when something was queued.]] - rationale - graphify/tests/test_watch.py
+- [[4274 a full-corpus request that loses the lock must leave a .pending_full…]] - rationale - graphify/tests/test_watch.py
+- [[4750 x 1915 a paper-classified .md that already carries a semantic (LLM)…]] - rationale - graphify/tests/test_watch.py
+- [[4750 a .md that detect() classifies as a paper (arXiv id, arxiv, an…]] - rationale - graphify/tests/test_watch.py
+- [[777 ``.graphify_root`` stores the user-supplied path (``.``), not the…]] - rationale - graphify/tests/test_watch.py
+- [[A changed caller keeps the full-build confidence and target.]] - rationale - graphify/tests/test_watch.py
+- [[A community that starts as an unreviewed hub fallback and then gets a real…]] - rationale - graphify/tests/test_watch.py
+- [[A failed AST extractor must not overwrite its last good graph.]] - rationale - graphify/tests/test_watch.py
+- [[A failed extractor must not account for nodes it dropped during rebuild.]] - rationale - graphify/tests/test_watch.py
+- [[A full rebuild of a subdirectory must not prune graph data outside it.]] - rationale - graphify/tests/test_watch.py
+- [[A hook-style rename list may contain only the destination path.]] - rationale - graphify/tests/test_watch.py
+- [[A hub-fallback name, once written to the pending sidecar, must be REUSED on the…]] - rationale - graphify/tests/test_watch.py
+- [[A rejected candidate keeps the marker paired with the existing graph.]] - rationale - graphify/tests/test_watch.py
+- [[A removed code file may drop its nodes. A rationale id on a file that is still…]] - rationale - graphify/tests/test_watch.py
+- [[An AST-only rebuild cannot clear pending semantic work (3294).]] - rationale - graphify/tests/test_watch.py
+- [[An existing undirected graph (no directed key, the on-disk default) must not be…]] - rationale - graphify/tests/test_watch.py
+- [[An incremental rebuild must not treat .foo.py as a deleted live source.]] - rationale - graphify/tests/test_watch.py
+- [[Build a code-only graph, then add guide.md represented ONLY semantically.…]] - rationale - graphify/tests/test_watch.py
+- [[Build a minimal graph-data dict with n placeholder nodes.]] - rationale - graphify/tests/test_watch.py
+- [[Caller declared deletions → shrink is expected → guard skipped silently.]] - rationale - graphify/tests/test_watch.py
+- [[Changed files under followed symlinks retain their watched lexical path.]] - rationale - graphify/tests/test_watch.py
+- [[Crossing the viz node limit must not leave the project with no graph.html.…]] - rationale - graphify/tests/test_watch.py
+- [[Default case smaller new graph + no force + no declared deletions = refuse.]] - rationale - graphify/tests/test_watch.py
+- [[Deleting the final code file must reconcile the existing graph.]] - rationale - graphify/tests/test_watch.py
+- [[Destination-only rename reconciliation also covers AST-backed docs.]] - rationale - graphify/tests/test_watch.py
+- [[Detached hooks can inherit a CWD that no longer exists. Without…]] - rationale - graphify/tests/test_watch.py
+- [[End-to-end pin for 2603 a graph built from the repo root scoped to a…]] - rationale - graphify/tests/test_watch.py
+- [[End-to-end probe of the post-commit-delete bug fix. Build a tiny graph, delete…]] - rationale - graphify/tests/test_watch.py
+- [[Fail-closed eviction a file that leaves the scan corpus but still exists on…]] - rationale - graphify/tests/test_watch.py
+- [[First-run case no existing graph → guard inert.]] - rationale - graphify/tests/test_watch.py
+- [[GH-858 a non-blocking caller that fails to acquire the lock must not truncate…]] - rationale - graphify/tests/test_watch.py
+- [[GH-858 each acquisition truncates and rewrites the PID line rather than…]] - rationale - graphify/tests/test_watch.py
+- [[GH-858 lock file must be unlinked once the rebuild completes so downstream…]] - rationale - graphify/tests/test_watch.py
+- [[GRAPHIFY_REPO_ROOT lets detached hook rebuilds recover from a deleted CWD.]] - rationale - graphify/tests/test_watch.py
+- [[Incremental rebuild with the validated anchor produces the same node-id set as…]] - rationale - graphify/tests/test_watch.py
+- [[Mirror of the above if the caller declared deletions, the tmp file is NOT…]] - rationale - graphify/tests/test_watch.py
+- [[Module-level so `spawn`-mode multiprocessing can pickle it (4273).]] - rationale - graphify/tests/test_watch.py
+- [[No existing graph at all (first build via _rebuild_code) must still default to…]] - rationale - graphify/tests/test_watch.py
+- [[Per-repo advisory lock around a rebuild. Yields True if acquired, False if…]] - rationale - graphify/graphify/watch.py
+- [[Persisted source paths keep their meaning when invocation style changes.]] - rationale - graphify/tests/test_watch.py
+- [[Pre-rebase subdirectory graphs stored source_file relative to watch_root.]] - rationale - graphify/tests/test_watch.py
+- [[Regression guard for 2495 routing ignore-rule evidence through the corpus…]] - rationale - graphify/tests/test_watch.py
+- [[Removing an import drops its auto-minted stub. Added code can make the total…]] - rationale - graphify/tests/test_watch.py
+- [[Return True (ok to proceed) or False (shrink refused). When False, cleans up…]] - rationale - graphify/graphify/watch.py
+- [[Same 2689 fallback requirement for the default (clustered) rebuild path, the…]] - rationale - graphify/tests/test_watch.py
+- [[Tests for watch.py - file watcher helpers (no watchdog required).]] - rationale - graphify/tests/test_watch.py
+- [[The anchor validation must not over-preserve (2603) once the correct anchor…]] - rationale - graphify/tests/test_watch.py
+- [[The guard's real job is intact a node lost from a file we did NOT re-extract…]] - rationale - graphify/tests/test_watch.py
+- [[The raw update path keeps the same display labels as a fresh extract. File…]] - rationale - graphify/tests/test_watch.py
+- [[When refusing, the temp graph file gets cleaned up so it can't leak across runs.]] - rationale - graphify/tests/test_watch.py
+- [[When the caller supplies an absolute path, ``.graphify_root`` stores that…]] - rationale - graphify/tests/test_watch.py
+- [[Write a flag file and print a notification (fallback for non-code-only corpora).]] - rationale - graphify/graphify/watch.py
+- [[_3567_call()]] - code - graphify/tests/test_watch.py
+- [[_3567_seed()]] - code - graphify/tests/test_watch.py
+- [[_a_items()]] - code - graphify/tests/test_watch.py
+- [[_accounted()]] - code - graphify/graphify/watch.py
+- [[_add_unrelated_semantic_pair()]] - code - graphify/tests/test_watch.py
+- [[_check_shrink()]] - code - graphify/graphify/watch.py
+- [[_cluster_extend_largest()]] - code - graphify/tests/test_watch.py
+- [[_masked_semantic_loss()]] - code - graphify/tests/test_watch.py
+- [[_notify_only()]] - code - graphify/graphify/watch.py
+- [[_rebuild_lock()]] - code - graphify/graphify/watch.py
+- [[_rebuild_lock_holder_for_test()]] - code - graphify/tests/test_watch.py
+- [[_seed_semantic_doc_graph()]] - code - graphify/tests/test_watch.py
+- [[_shrink_payload()]] - code - graphify/tests/test_watch.py
+- [[_watchdog_available()]] - code - graphify/tests/test_watch.py
+- [[ast()]] - code - graphify/tests/test_watch.py
+- [[check_update never removes the needs_update flag (clearing is LLM's job).]] - rationale - graphify/tests/test_watch.py
+- [[check_update returns True and is silent when needs_update flag is absent.]] - rationale - graphify/tests/test_watch.py
+- [[check_update returns True and prints notification when flag exists.]] - rationale - graphify/tests/test_watch.py
+- [[cluster_once()]] - code - graphify/tests/test_watch.py
+- [[counting_loader()]] - code - graphify/tests/test_watch.py
+- [[fail_cluster()]] - code - graphify/tests/test_watch.py
+- [[fail_html_publish()]] - code - graphify/tests/test_watch.py
+- [[flaky_cluster()]] - code - graphify/tests/test_watch.py
+- [[force=True bypasses the guard regardless of node delta.]] - rationale - graphify/tests/test_watch.py
+- [[gh-928 .graphifyignore must be parsed exactly once at watch() startup, not per…]] - rationale - graphify/tests/test_watch.py
+- [[gh-928 the watch Handler must short-circuit paths matching .graphifyignore so…]] - rationale - graphify/tests/test_watch.py
+- [[has_phantom()]] - code - graphify/tests/test_watch.py
+- [[id_for()]] - code - graphify/tests/test_watch.py
+- [[labels()_1]] - code - graphify/tests/test_watch.py
+- [[new  existing is always fine.]] - rationale - graphify/tests/test_watch.py
+- [[parametrize_100]] - code
+- [[rationale()]] - code - graphify/tests/test_watch.py
+- [[skipif_14]] - code
+- [[test_check_shrink_allows_deleted_code_file_when_semantic_ids_remain()]] - code - graphify/tests/test_watch.py
+- [[test_check_shrink_allows_dropped_import_stub_when_total_grows()]] - code - graphify/tests/test_watch.py
+- [[test_check_shrink_allows_explicit_deletions()]] - code - graphify/tests/test_watch.py
+- [[test_check_shrink_allows_force_override()]] - code - graphify/tests/test_watch.py
+- [[test_check_shrink_allows_growth()]] - code - graphify/tests/test_watch.py
+- [[test_check_shrink_allows_no_existing_data()]] - code - graphify/tests/test_watch.py
+- [[test_check_shrink_allows_shrink_within_rebuilt_sources()]] - code - graphify/tests/test_watch.py
+- [[test_check_shrink_blocks_loss_from_failed_rebuilt_source()]] - code - graphify/tests/test_watch.py
+- [[test_check_shrink_blocks_shrink_outside_rebuilt_sources()]] - code - graphify/tests/test_watch.py
+- [[test_check_shrink_blocks_silent_shrink()]] - code - graphify/tests/test_watch.py
+- [[test_check_shrink_keeps_tmp_when_deletions_declared()]] - code - graphify/tests/test_watch.py
+- [[test_check_shrink_refuses_lost_semantic_id_when_total_grows()]] - code - graphify/tests/test_watch.py
+- [[test_check_shrink_unlinks_tmp_on_refuse()]] - code - graphify/tests/test_watch.py
+- [[test_check_update_does_not_clear_flag()]] - code - graphify/tests/test_watch.py
+- [[test_check_update_no_flag_returns_true()]] - code - graphify/tests/test_watch.py
+- [[test_check_update_with_flag_returns_true_and_prints()]] - code - graphify/tests/test_watch.py
+- [[test_clustered_rebuild_survives_a_permission_error_on_replace()]] - code - graphify/tests/test_watch.py
+- [[test_code_rebuild_preserves_semantic_update_flag()]] - code - graphify/tests/test_watch.py
+- [[test_full_rebuild_preserves_semantic_backed_doc_ast_layer()]] - code - graphify/tests/test_watch.py
+- [[test_full_rebuild_regenerates_docs_with_legacy_unstamped_nodes()]] - code - graphify/tests/test_watch.py
+- [[test_gitignore_eviction_gated_on_full_rebuild()]] - code - graphify/tests/test_watch.py
+- [[test_graphify_root_is_resolved_when_graphify_out_is_shared_and_absolute()]] - code - graphify/tests/test_watch.py
+- [[test_graphify_root_preserves_absolute_when_user_supplied()]] - code - graphify/tests/test_watch.py
+- [[test_graphify_root_preserves_relative_when_invoked_with_relative_path()]] - code - graphify/tests/test_watch.py
+- [[test_graphifyignore_eviction_applies_to_incremental_rebuilds()]] - code - graphify/tests/test_watch.py
+- [[test_incremental_ruby_inherited_call_matches_full_build()]] - code - graphify/tests/test_watch.py
+- [[test_no_cluster_rebuild_disambiguates_colliding_file_labels()]] - code - graphify/tests/test_watch.py
+- [[test_no_cluster_rebuild_survives_a_permission_error_on_replace()]] - code - graphify/tests/test_watch.py
+- [[test_notify_only_creates_flag()]] - code - graphify/tests/test_watch.py
+- [[test_notify_only_creates_flag_dir()]] - code - graphify/tests/test_watch.py
+- [[test_notify_only_idempotent()]] - code - graphify/tests/test_watch.py
+- [[test_post_merge_style_unscoped_rebuild_heals_a_resurrected_node()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_accepts_repo_relative_changed_path_for_subdir_root()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_deleted_cwd_uses_graphify_repo_root()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_deleted_cwd_without_repo_root_returns_false()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_does_not_quick_scan_semantic_backed_paper_markdown()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_does_not_update_root_marker_when_write_is_refused()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_empty_change_set_does_not_claim_queued()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_evicts_nodes_from_deleted_files()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_evicts_removed_symbol_from_surviving_file()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_evicts_semantic_nodes_from_deleted_non_ast_source()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_fresh_build_defaults_undirected()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_full_request_queues_marker_on_contention()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_incremental_preserves_present_non_ast_source()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_incremental_preserves_semantic_doc_nodes_and_edges()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_incremental_rename_preserves_symlink_source_path()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_inherits_directed_flag_clustered()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_inherits_directed_flag_no_cluster()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_is_idempotent_when_cluster_ids_flap()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_keeps_a_visualization_when_over_the_viz_cap()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_keeps_hub_fallback_labels_out_of_the_tracked_file()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_keeps_undirected_graph_undirected()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_normalizes_preserved_source_paths()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_preserves_hyperedges_for_rebuilt_surviving_source()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_preserves_nodes_from_excluded_but_alive_file()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_preserves_semantic_edges_from_reextracted_doc()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_promotes_curated_label_and_drops_it_from_pending()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_prunes_deleted_file_nodes()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_prunes_final_deleted_file()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_prunes_legacy_watch_relative_subdir_source()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_prunes_renamed_ast_backed_document()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_prunes_renamed_source_not_listed_by_hook()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_queues_on_lock_contention()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_quick_scans_doc_without_semantic_nodes()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_quick_scans_markdown_classified_as_paper()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_reuses_pending_labels_without_regenerating()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_semantic_doc_not_double_represented_on_full_rebuild()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_skips_cluster_when_topology_unchanged()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_subdir_preserves_outside_ast_nodes()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_subdir_survives_absolute_to_relative_invocation()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_code_writes_community_name()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_keeps_label_on_majority_overlap()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_lock_blocks_concurrent_process()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_lock_does_not_accumulate_pids_across_runs()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_lock_non_blocking_does_not_clobber_holder()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_lock_removed_after_release()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_lock_unlink_does_not_let_a_third_caller_in_while_a_waiter_holds()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_lock_writes_pid_with_newline()]] - code - graphify/tests/test_watch.py
+- [[test_rebuild_refuses_loss_from_failed_source()]] - code - graphify/tests/test_watch.py
+- [[test_reextracted_source_still_evicts_stale_ast_nodes()]] - code - graphify/tests/test_watch.py
+- [[test_subfolder_marker_incremental_matches_cold_build()]] - code - graphify/tests/test_watch.py
+- [[test_subfolder_marker_still_evicts_a_deleted_file()]] - code - graphify/tests/test_watch.py
+- [[test_subfolder_root_marker_preserves_unchanged_nodes()]] - code - graphify/tests/test_watch.py
+- [[test_update_discovers_newly_added_files_and_dirs()]] - code - graphify/tests/test_watch.py
+- [[test_update_evicts_semantic_nodes_from_newly_ignored_non_ast_source()]] - code - graphify/tests/test_watch.py
+- [[test_update_prunes_newly_graphifyignored_file()]] - code - graphify/tests/test_watch.py
+- [[test_update_rebuilds_with_nested_star_gitignore()]] - code - graphify/tests/test_watch.py
+- [[test_update_still_prunes_deleted_file_with_ignore_rules_present()]] - code - graphify/tests/test_watch.py
+- [[test_watch.py]] - code - graphify/tests/test_watch.py
+- [[test_watch_handler_honors_graphifyignore()]] - code - graphify/tests/test_watch.py
+- [[test_watch_loads_graphifyignore_once()]] - code - graphify/tests/test_watch.py
+- [[test_watched_extensions_excludes_noise()]] - code - graphify/tests/test_watch.py
+- [[test_watched_extensions_includes_code()]] - code - graphify/tests/test_watch.py
+- [[test_watched_extensions_includes_docs()]] - code - graphify/tests/test_watch.py
+- [[test_watched_extensions_includes_images()]] - code - graphify/tests/test_watch.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_6
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 86 edges to [[_COMMUNITY_Community 34]]
+- 36 edges to [[_COMMUNITY_Community 18]]
+- 28 edges to [[_COMMUNITY_Community 84]]
+- 24 edges to [[_COMMUNITY_Community 125]]
+- 11 edges to [[_COMMUNITY_Community 171]]
+- 5 edges to [[_COMMUNITY_Community 17]]
+- 4 edges to [[_COMMUNITY_Community 431]]
+- 3 edges to [[_COMMUNITY_Community 155]]
+- 2 edges to [[_COMMUNITY_Community 107]]
+- 2 edges to [[_COMMUNITY_Community 334]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 52]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 417]]
+- 1 edge to [[_COMMUNITY_Community 587]]
+- 1 edge to [[_COMMUNITY_Community 604]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 115]]
+- 1 edge to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 59]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+- 1 edge to [[_COMMUNITY_Community 62]]
+
+## Top bridge nodes
+- [[test_watch.py]] - degree 230, connects to 18 communities
+- [[_check_shrink()]] - degree 22, connects to 4 communities
+- [[parametrize_100]] - degree 16, connects to 2 communities
+- [[_rebuild_lock()]] - degree 14, connects to 2 communities
+- [[test_incremental_ruby_inherited_call_matches_full_build()]] - degree 7, connects to 2 communities

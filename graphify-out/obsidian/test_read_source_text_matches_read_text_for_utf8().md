@@ -1,0 +1,20 @@
+---
+source_file: "graphify/tests/test_source_file_encoding.py"
+type: "code"
+community: "Community 3"
+location: "L120"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_3
+---
+
+# test_read_source_text_matches_read_text_for_utf8()
+
+## Connections
+- [[_read_source_text()]] - `calls` [EXTRACTED]
+- [[_write()_23]] - `calls` [EXTRACTED]
+- [[parametrize_49]] - `references` [EXTRACTED]
+- [[test_source_file_encoding.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_3

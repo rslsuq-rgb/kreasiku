@@ -1,0 +1,19 @@
+---
+source_file: "graphify/tests/test_source_file_encoding.py"
+type: "code"
+community: "Community 3"
+location: "L76"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_3
+---
+
+# test_utf16_le_file_starting_with_nul_is_not_mistaken_for_utf32()
+
+## Connections
+- [[_read_source_bytes()]] - `calls` [EXTRACTED]
+- [[_write()_23]] - `calls` [EXTRACTED]
+- [[test_source_file_encoding.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_3

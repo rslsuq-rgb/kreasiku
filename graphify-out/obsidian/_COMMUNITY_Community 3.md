@@ -1,0 +1,602 @@
+---
+type: community
+cohesion: 0.02
+members: 231
+---
+
+# Community 3
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 231 nodes
+
+## Members
+- [[NOTE there is deliberately NO recovery scan on individual ERROR]] - rationale - graphify/graphify/extractors/sql.py
+- [[dot-http_open()]] - code - graphify/graphify/security.py
+- [[dot-https_open()]] - code - graphify/graphify/security.py
+- [[A call or modifier the contract itself does not declare, for…]] - rationale - graphify/graphify/extractors/solidity.py
+- [[A punctuation-only test name normalizes to empty, so a naive ``_make_id(stem,…]] - rationale - graphify/tests/test_languages.py
+- [[ASP.NET Razor component extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/razor.py
+- [[Any_10]] - code
+- [[Apex extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/apex.py
+- [[Append callable nodes for doctestCatch2 string-named test cases that tree-…]] - rationale - graphify/graphify/extract.py
+- [[Bash extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/bash.py
+- [[Blank every cpp `include` directive, preserving line numbers. cpp always…]] - rationale - graphify/graphify/extractors/fortran.py
+- [[Collapse whitespace and truncate ``text`` to ``width`` chars for a rationale…]] - rationale - graphify/graphify/extract.py
+- [[Common Lisp extractor for .lisp.cl.lsp.asd, backed by tree-sitter-commonlisp.]] - rationale - graphify/graphify/extractors/commonlisp.py
+- [[Connect module calls to scanned .tf directories without reading new files.]] - rationale - graphify/graphify/extractors/terraform.py
+- [[Dart extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/dart.py
+- [[Derive a bare module name from a raw string value. e.g. 'MyModule.psm1' →…]] - rationale - graphify/graphify/extractors/powershell.py
+- [[Deterministic extraction for fixed- and free-format COBOL source.]] - rationale - graphify/graphify/extractors/cobol.py
+- [[Dm extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/dm.py
+- [[Elixir extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/elixir.py
+- [[Extract @extends, @include, livewire components, and wireclick bindings…]] - rationale - graphify/graphify/extractors/blade.py
+- [[Extract icon state names from a .dmi (BYOND PNG icon sheet).]] - rationale - graphify/graphify/extractors/dm.py
+- [[Extract type-path references from a .dmm map file's tile dictionary.]] - rationale - graphify/graphify/extractors/dm.py
+- [[Extract windows and controls from a .dmf interface file.]] - rationale - graphify/graphify/extractors/dm.py
+- [[Fortran extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/fortran.py
+- [[Generate a stable, unique HTML anchor ID.]] - rationale - graphify/graphify/callflow_html.py
+- [[Json_config extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/json_config.py
+- [[Laravel Blade template extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/blade.py
+- [[Make cached directory-scoped IDs portable before the common merge passes.]] - rationale - graphify/graphify/extractors/terraform.py
+- [[Markdown extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/markdown.py
+- [[Node]] - code
+- [[Node_1]] - code
+- [[OCaml extractor (own module, optional tree-sitter-ocaml dependency). Handles…]] - rationale - graphify/graphify/extractors/ocaml.py
+- [[Pascal_forms extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/pascal_forms.py
+- [[Path_110]] - code
+- [[Path_111]] - code
+- [[Path_112]] - code
+- [[Path_113]] - code
+- [[Path_114]] - code
+- [[Path_115]] - code
+- [[Path_116]] - code
+- [[Path_117]] - code
+- [[Per-language extractors, incrementally migrated out of graphifyextract.py.…]] - rationale - graphify/graphify/extractors/__init__.py
+- [[Post-pass extract docstrings and rationale comments from Python source.…]] - rationale - graphify/graphify/extract.py
+- [[Post-pass extract rationale comments and doc references from JSTS source.…]] - rationale - graphify/graphify/extract.py
+- [[Powershell extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/powershell.py
+- [[Pull the BYOND metadata text out of a .dmi PNG, or empty string on failure.]] - rationale - graphify/graphify/extractors/dm.py
+- [[Read a source file as the UTF-8 bytes tree-sitter parses. tree-sitter treats…]] - rationale - graphify/graphify/extractors/base.py
+- [[Registry for cross-file, language-specific resolution passes. Some…]] - rationale - graphify/graphify/resolver_registry.py
+- [[Return True if this Python file is auto-generated and its module docstring is…]] - rationale - graphify/graphify/extract.py
+- [[Return logical COBOL lines with fixed-format continuations joined.]] - rationale - graphify/graphify/extractors/cobol.py
+- [[Robot Framework extractor for .robot.resource files (issue 3192).]] - rationale - graphify/graphify/extractors/robot.py
+- [[Run cpp -w -P on a capital-F Fortran file and return preprocessed bytes. Falls…]] - rationale - graphify/graphify/extractors/fortran.py
+- [[Rust extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/rust.py
+- [[Sln extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/sln.py
+- [[Sql extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/sql.py
+- [[Stem used as the node-ID prefix for a file and its symbols. The full path…]] - rationale - graphify/graphify/extractors/base.py
+- [[Structural extraction for Erlang source and header files.]] - rationale - graphify/graphify/extractors/erlang.py
+- [[Structural extraction for R source files.]] - rationale - graphify/graphify/extractors/r.py
+- [[Structural extraction for Solidity source files.]] - rationale - graphify/graphify/extractors/solidity.py
+- [[Structural extraction for Visual Basic .NET source files.]] - rationale - graphify/graphify/extractors/vbnet.py
+- [[Terraform block extraction and local module-source topology.]] - rationale - graphify/graphify/extractors/terraform.py
+- [[The Markdown extractor read the in-flight scan root via a function-local…]] - rationale - graphify/tests/test_extractor_scan_root_context.py
+- [[The Markdown extractor's _active_scan_root is the base accessor, so the scan…]] - rationale - graphify/tests/test_extractor_scan_root_context.py
+- [[The callee as written, e.g. ``super.supportsInterface`` or ``_check``. tree-…]] - rationale - graphify/graphify/extractors/solidity.py
+- [[The in-flight scan root is shared through extractors.base, not by reaching back…]] - rationale - graphify/tests/test_extractor_scan_root_context.py
+- [[True if the module's source imports graphify.extract anywhere — a top-level or…]] - rationale - graphify/tests/test_extractor_scan_root_context.py
+- [[Verilog extractor. Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/verilog.py
+- [[Whether offset lies inside a COBOL quoted literal.]] - rationale - graphify/graphify/extractors/cobol.py
+- [[YAML structural extractor. Deterministic, PyYAML-based extraction for…]] - rationale - graphify/graphify/extractors/yaml_config.py
+- [[Zig extractor (tree-sitter). Moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/zig.py
+- [[_SSRFGuardedHTTPHandler]] - code - graphify/graphify/security.py
+- [[_SSRFGuardedHTTPSHandler]] - code - graphify/graphify/security.py
+- [[_add_doc_ref()]] - code - graphify/graphify/extract.py
+- [[_add_rationale()]] - code - graphify/graphify/extract.py
+- [[_add_rationale()_1]] - code - graphify/graphify/extract.py
+- [[_atom()]] - code - graphify/graphify/extractors/erlang.py
+- [[_augment_cpp_string_tests()]] - code - graphify/graphify/extract.py
+- [[_augment_systemverilog_semantics()]] - code - graphify/graphify/extractors/verilog.py
+- [[_callee_text()]] - code - graphify/graphify/extractors/solidity.py
+- [[_code_lines()]] - code - graphify/graphify/extractors/cobol.py
+- [[_cpp_preprocess()]] - code - graphify/graphify/extractors/fortran.py
+- [[_descendants()]] - code - graphify/graphify/extractors/erlang.py
+- [[_dmm_type_path()]] - code - graphify/graphify/extractors/dm.py
+- [[_extract_js_rationale()]] - code - graphify/graphify/extract.py
+- [[_extract_python_rationale()]] - code - graphify/graphify/extract.py
+- [[_file_stem()]] - code - graphify/graphify/extractors/base.py
+- [[_fresh_warnings()]] - code - graphify/tests/test_source_file_encoding.py
+- [[_get_docstring()]] - code - graphify/graphify/extract.py
+- [[_graph()_15]] - code - graphify/tests/test_source_file_encoding.py
+- [[_import_js()]] - code - graphify/graphify/extract.py
+- [[_imports_graphify_extract()]] - code - graphify/tests/test_extractor_scan_root_context.py
+- [[_inherited_call()]] - code - graphify/graphify/extractors/solidity.py
+- [[_is_autogenerated_python()]] - code - graphify/graphify/extract.py
+- [[_make_id()]] - code - graphify/graphify/extractors/base.py
+- [[_mask_strings()]] - code - graphify/graphify/extractors/cobol.py
+- [[_psd1_module_name()]] - code - graphify/graphify/extractors/powershell.py
+- [[_read_dmi_description()]] - code - graphify/graphify/extractors/dm.py
+- [[_read_source_bytes()]] - code - graphify/graphify/extractors/base.py
+- [[_read_source_text()]] - code - graphify/graphify/extractors/base.py
+- [[_scope_id()]] - code - graphify/graphify/extractors/terraform.py
+- [[_shorten_rationale_label()]] - code - graphify/graphify/extract.py
+- [[_split_dmm_tile()]] - code - graphify/graphify/extractors/dm.py
+- [[_starts_inside_string()]] - code - graphify/graphify/extractors/cobol.py
+- [[_strip_include_directives()]] - code - graphify/graphify/extractors/fortran.py
+- [[_sv_collect_type_refs()]] - code - graphify/graphify/extractors/verilog.py
+- [[_sv_split_type_list()]] - code - graphify/graphify/extractors/verilog.py
+- [[_sv_strip_comments()]] - code - graphify/graphify/extractors/verilog.py
+- [[_unquote()]] - code - graphify/graphify/extractors/solidity.py
+- [[_write()_23]] - code - graphify/tests/test_source_file_encoding.py
+- [[_xaml_communitytoolkit_members()]] - code - graphify/graphify/extract.py
+- [[_xaml_pascal_name()]] - code - graphify/graphify/extract.py
+- [[``_read_source_bytes`` as text, for extractors that work on ``str``. Matches…]] - rationale - graphify/graphify/extractors/base.py
+- [[add_data_member()]] - code - graphify/graphify/extractors/vbnet.py
+- [[add_edge()_14]] - code - graphify/graphify/extractors/cobol.py
+- [[add_edge()_15]] - code - graphify/graphify/extractors/erlang.py
+- [[add_edge()_16]] - code - graphify/graphify/extractors/solidity.py
+- [[add_edge()_17]] - code - graphify/graphify/extractors/vbnet.py
+- [[add_edge()_18]] - code - graphify/graphify/extractors/verilog.py
+- [[add_import_edge()]] - code - graphify/graphify/extractors/powershell.py
+- [[add_member()]] - code - graphify/graphify/extract.py
+- [[add_member()_1]] - code - graphify/graphify/extractors/solidity.py
+- [[add_node()_14]] - code - graphify/graphify/extractors/cobol.py
+- [[add_node()_15]] - code - graphify/graphify/extractors/erlang.py
+- [[add_node()_16]] - code - graphify/graphify/extractors/solidity.py
+- [[add_node()_17]] - code - graphify/graphify/extractors/vbnet.py
+- [[add_node()_18]] - code - graphify/graphify/extractors/verilog.py
+- [[apex.py]] - code - graphify/graphify/extractors/apex.py
+- [[bash.py]] - code - graphify/graphify/extractors/bash.py
+- [[blade.py]] - code - graphify/graphify/extractors/blade.py
+- [[cobol.py]] - code - graphify/graphify/extractors/cobol.py
+- [[collections_abc]] - concept
+- [[commonlisp.py]] - code - graphify/graphify/extractors/commonlisp.py
+- [[dart.py]] - code - graphify/graphify/extractors/dart.py
+- [[dm.py]] - code - graphify/graphify/extractors/dm.py
+- [[elixir.py]] - code - graphify/graphify/extractors/elixir.py
+- [[ensure_named_node()_3]] - code - graphify/graphify/extractors/fortran.py
+- [[ensure_symbol_node()]] - code - graphify/graphify/extractors/resolution.py
+- [[ensure_type()]] - code - graphify/graphify/extractors/verilog.py
+- [[erlang.py]] - code - graphify/graphify/extractors/erlang.py
+- [[external_stub()]] - code - graphify/graphify/extractors/resolution.py
+- [[extract_blade()]] - code - graphify/graphify/extractors/blade.py
+- [[extract_cobol()]] - code - graphify/graphify/extractors/cobol.py
+- [[extract_dmf()]] - code - graphify/graphify/extractors/dm.py
+- [[extract_dmi()]] - code - graphify/graphify/extractors/dm.py
+- [[extract_dmm()]] - code - graphify/graphify/extractors/dm.py
+- [[extract_erlang()]] - code - graphify/graphify/extractors/erlang.py
+- [[extract_solidity()]] - code - graphify/graphify/extractors/solidity.py
+- [[extract_vbnet()]] - code - graphify/graphify/extractors/vbnet.py
+- [[extractors__init__.py]] - code - graphify/graphify/extractors/__init__.py
+- [[extractorsbase.py]] - code - graphify/graphify/extractors/base.py
+- [[fixture_17]] - code
+- [[fortran.py]] - code - graphify/graphify/extractors/fortran.py
+- [[hashlib]] - concept
+- [[html_anchor_id()]] - code - graphify/graphify/callflow_html.py
+- [[http_client]] - concept
+- [[json_config.py]] - code - graphify/graphify/extractors/json_config.py
+- [[julia — moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/julia.py
+- [[julia.py]] - code - graphify/graphify/extractors/julia.py
+- [[line_for()]] - code - graphify/graphify/extractors/verilog.py
+- [[markdown.py]] - code - graphify/graphify/extractors/markdown.py
+- [[mcp_ingest.py]] - code - graphify/graphify/mcp_ingest.py
+- [[mcp_ingest.py — Extract MCP (Model Context Protocol) server configuration…]] - rationale - graphify/graphify/mcp_ingest.py
+- [[node_kindfrontmatter are additive a heading's id stays _make_id(stem, title),…]] - rationale - graphify/tests/test_languages.py
+- [[objc — moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/objc.py
+- [[objc.py]] - code - graphify/graphify/extractors/objc.py
+- [[ocaml.py]] - code - graphify/graphify/extractors/ocaml.py
+- [[parametrize_49]] - code
+- [[pascal — moved verbatim from graphifyextract.py.]] - rationale - graphify/graphify/extractors/pascal.py
+- [[pascal.py]] - code - graphify/graphify/extractors/pascal.py
+- [[pascal_forms.py]] - code - graphify/graphify/extractors/pascal_forms.py
+- [[pathlib]] - concept
+- [[powershell.py]] - code - graphify/graphify/extractors/powershell.py
+- [[prepare_terraform()]] - code - graphify/graphify/extractors/terraform.py
+- [[process_type()]] - code - graphify/graphify/extractors/vbnet.py
+- [[rA source file that is not UTF-8 must still give the same graph. tree-sitter…]] - rationale - graphify/tests/test_source_file_encoding.py
+- [[r.py]] - code - graphify/graphify/extractors/r.py
+- [[razor.py]] - code - graphify/graphify/extractors/razor.py
+- [[re]] - concept
+- [[reexport_file_target()]] - code - graphify/graphify/extractors/resolution.py
+- [[resolve_terraform_modules()]] - code - graphify/graphify/extractors/terraform.py
+- [[resolver_registry.py]] - code - graphify/graphify/resolver_registry.py
+- [[robot.py]] - code - graphify/graphify/extractors/robot.py
+- [[rust.py]] - code - graphify/graphify/extractors/rust.py
+- [[scan()]] - code - graphify/graphify/extractors/vbnet.py
+- [[security.py]] - code - graphify/graphify/security.py
+- [[sln.py]] - code - graphify/graphify/extractors/sln.py
+- [[solidity.py]] - code - graphify/graphify/extractors/solidity.py
+- [[sql.py]] - code - graphify/graphify/extractors/sql.py
+- [[terraform.py]] - code - graphify/graphify/extractors/terraform.py
+- [[test_bom_marked_utf16_and_utf32_are_decoded_exactly()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_bytes_cp1252_does_not_define_fall_back_to_latin1()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_cp1252_file_warns_once_through_every_pass()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_cp1252_is_read_whole_and_warned_once()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_cpp_string_tests_punctuation_only_names_stay_distinct()]] - code - graphify/tests/test_languages.py
+- [[test_dart.py]] - code - graphify/tests/test_dart.py
+- [[test_dmm_extracts_type_paths_as_uses_edges()]] - code - graphify/tests/test_languages.py
+- [[test_dmm_handles_multiline_tile_definition()]] - code - graphify/tests/test_languages.py
+- [[test_dmm_no_error()]] - code - graphify/tests/test_languages.py
+- [[test_dmm_skips_grid_section()]] - code - graphify/tests/test_languages.py
+- [[test_dmm_strips_var_overrides()]] - code - graphify/tests/test_languages.py
+- [[test_extractor_scan_root_context.py]] - code - graphify/tests/test_extractor_scan_root_context.py
+- [[test_fallback_does_not_follow_the_host_locale()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_graph_is_identical_to_the_utf8_graph()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_markdown_active_scan_root_alias_is_base_accessor()]] - code - graphify/tests/test_extractor_scan_root_context.py
+- [[test_markdown_extractor_does_not_import_graphify_extract()]] - code - graphify/tests/test_extractor_scan_root_context.py
+- [[test_markdown_heading_id_is_stable_regardless_of_frontmatter()]] - code - graphify/tests/test_languages.py
+- [[test_read_source_text_decodes_utf16()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_read_source_text_matches_read_text_for_utf8()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_robot_unique_test_case_name_keeps_the_plain_id()]] - code - graphify/tests/test_languages.py
+- [[test_source_file_encoding.py]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_utf16_catch2_test_case_is_recovered()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_utf16_files_from_windows_tools_are_extracted()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_utf16_le_file_starting_with_nul_is_not_mistaken_for_utf32()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_utf16_python_import_resolves_across_files()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_utf16_spock_spec_keeps_its_feature_methods()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_valid_utf8_is_passed_through_byte_for_byte()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_warn_false_is_silent()]] - code - graphify/tests/test_source_file_encoding.py
+- [[test_whole_file_and_slice_readers_give_the_same_text()]] - code - graphify/tests/test_source_file_encoding.py
+- [[tree_sitter]] - concept
+- [[type_reference()]] - code - graphify/graphify/extractors/vbnet.py
+- [[type_stub()]] - code - graphify/graphify/extractors/solidity.py
+- [[typing]] - concept
+- [[urllib handler that routes http through _SSRFGuardedHTTPConnection.]] - rationale - graphify/graphify/security.py
+- [[urllib handler that routes https through _SSRFGuardedHTTPSConnection.]] - rationale - graphify/graphify/security.py
+- [[urllib_parse]] - concept
+- [[vbnet.py]] - code - graphify/graphify/extractors/vbnet.py
+- [[verilog.py]] - code - graphify/graphify/extractors/verilog.py
+- [[walk_calls()_8]] - code - graphify/graphify/extractors/fortran.py
+- [[walk_docstrings()]] - code - graphify/graphify/extract.py
+- [[yaml_config.py]] - code - graphify/graphify/extractors/yaml_config.py
+- [[zig.py]] - code - graphify/graphify/extractors/zig.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_3
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 127 edges to [[_COMMUNITY_Community 1]]
+- 75 edges to [[_COMMUNITY_Community 16]]
+- 43 edges to [[_COMMUNITY_Community 0]]
+- 31 edges to [[_COMMUNITY_Community 37]]
+- 26 edges to [[_COMMUNITY_Community 45]]
+- 21 edges to [[_COMMUNITY_Community 54]]
+- 21 edges to [[_COMMUNITY_Community 8]]
+- 18 edges to [[_COMMUNITY_Community 14]]
+- 18 edges to [[_COMMUNITY_Community 31]]
+- 18 edges to [[_COMMUNITY_Community 19]]
+- 14 edges to [[_COMMUNITY_Community 29]]
+- 14 edges to [[_COMMUNITY_Community 83]]
+- 13 edges to [[_COMMUNITY_Community 127]]
+- 13 edges to [[_COMMUNITY_Community 188]]
+- 12 edges to [[_COMMUNITY_Community 102]]
+- 12 edges to [[_COMMUNITY_Community 151]]
+- 12 edges to [[_COMMUNITY_Community 38]]
+- 12 edges to [[_COMMUNITY_Community 7]]
+- 11 edges to [[_COMMUNITY_Community 36]]
+- 11 edges to [[_COMMUNITY_Community 4]]
+- 11 edges to [[_COMMUNITY_Community 17]]
+- 11 edges to [[_COMMUNITY_Community 297]]
+- 11 edges to [[_COMMUNITY_Community 67]]
+- 11 edges to [[_COMMUNITY_Community 68]]
+- 11 edges to [[_COMMUNITY_Community 335]]
+- 11 edges to [[_COMMUNITY_Community 30]]
+- 11 edges to [[_COMMUNITY_Community 49]]
+- 10 edges to [[_COMMUNITY_Community 64]]
+- 10 edges to [[_COMMUNITY_Community 81]]
+- 9 edges to [[_COMMUNITY_Community 118]]
+- 9 edges to [[_COMMUNITY_Community 169]]
+- 9 edges to [[_COMMUNITY_Community 95]]
+- 8 edges to [[_COMMUNITY_Community 114]]
+- 8 edges to [[_COMMUNITY_Community 198]]
+- 8 edges to [[_COMMUNITY_Community 218]]
+- 8 edges to [[_COMMUNITY_Community 53]]
+- 8 edges to [[_COMMUNITY_Community 77]]
+- 8 edges to [[_COMMUNITY_Community 242]]
+- 8 edges to [[_COMMUNITY_Community 58]]
+- 8 edges to [[_COMMUNITY_Community 47]]
+- 8 edges to [[_COMMUNITY_Community 26]]
+- 7 edges to [[_COMMUNITY_Community 107]]
+- 7 edges to [[_COMMUNITY_Community 150]]
+- 7 edges to [[_COMMUNITY_Community 177]]
+- 7 edges to [[_COMMUNITY_Community 23]]
+- 7 edges to [[_COMMUNITY_Community 74]]
+- 7 edges to [[_COMMUNITY_Community 92]]
+- 7 edges to [[_COMMUNITY_Community 18]]
+- 7 edges to [[_COMMUNITY_Community 46]]
+- 6 edges to [[_COMMUNITY_Community 264]]
+- 6 edges to [[_COMMUNITY_Community 258]]
+- 6 edges to [[_COMMUNITY_Community 28]]
+- 6 edges to [[_COMMUNITY_Community 33]]
+- 6 edges to [[_COMMUNITY_Community 362]]
+- 6 edges to [[_COMMUNITY_Community 464]]
+- 6 edges to [[_COMMUNITY_Community 90]]
+- 5 edges to [[_COMMUNITY_Community 276]]
+- 5 edges to [[_COMMUNITY_Community 205]]
+- 5 edges to [[_COMMUNITY_Community 60]]
+- 5 edges to [[_COMMUNITY_Community 352]]
+- 5 edges to [[_COMMUNITY_Community 366]]
+- 5 edges to [[_COMMUNITY_Community 316]]
+- 5 edges to [[_COMMUNITY_Community 416]]
+- 4 edges to [[_COMMUNITY_Community 149]]
+- 4 edges to [[_COMMUNITY_Community 197]]
+- 4 edges to [[_COMMUNITY_Community 201]]
+- 4 edges to [[_COMMUNITY_Community 249]]
+- 4 edges to [[_COMMUNITY_Community 483]]
+- 4 edges to [[_COMMUNITY_Community 460]]
+- 4 edges to [[_COMMUNITY_Community 56]]
+- 4 edges to [[_COMMUNITY_Community 491]]
+- 4 edges to [[_COMMUNITY_Community 76]]
+- 4 edges to [[_COMMUNITY_Community 407]]
+- 4 edges to [[_COMMUNITY_Community 484]]
+- 4 edges to [[_COMMUNITY_Community 55]]
+- 4 edges to [[_COMMUNITY_Community 115]]
+- 4 edges to [[_COMMUNITY_Community 136]]
+- 4 edges to [[_COMMUNITY_Community 176]]
+- 4 edges to [[_COMMUNITY_Community 88]]
+- 4 edges to [[_COMMUNITY_Community 57]]
+- 3 edges to [[_COMMUNITY_Community 255]]
+- 3 edges to [[_COMMUNITY_Community 106]]
+- 3 edges to [[_COMMUNITY_Community 128]]
+- 3 edges to [[_COMMUNITY_Community 13]]
+- 3 edges to [[_COMMUNITY_Community 130]]
+- 3 edges to [[_COMMUNITY_Community 154]]
+- 3 edges to [[_COMMUNITY_Community 163]]
+- 3 edges to [[_COMMUNITY_Community 277]]
+- 3 edges to [[_COMMUNITY_Community 111]]
+- 3 edges to [[_COMMUNITY_Community 424]]
+- 3 edges to [[_COMMUNITY_Community 310]]
+- 3 edges to [[_COMMUNITY_Community 250]]
+- 3 edges to [[_COMMUNITY_Community 317]]
+- 3 edges to [[_COMMUNITY_Community 496]]
+- 3 edges to [[_COMMUNITY_Community 52]]
+- 3 edges to [[_COMMUNITY_Community 524]]
+- 3 edges to [[_COMMUNITY_Community 545]]
+- 3 edges to [[_COMMUNITY_Community 82]]
+- 3 edges to [[_COMMUNITY_Community 93]]
+- 3 edges to [[_COMMUNITY_Community 100]]
+- 3 edges to [[_COMMUNITY_Community 119]]
+- 3 edges to [[_COMMUNITY_Community 139]]
+- 3 edges to [[_COMMUNITY_Community 158]]
+- 3 edges to [[_COMMUNITY_Community 207]]
+- 3 edges to [[_COMMUNITY_Community 246]]
+- 3 edges to [[_COMMUNITY_Community 328]]
+- 3 edges to [[_COMMUNITY_Community 312]]
+- 3 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 339]]
+- 2 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 417]]
+- 2 edges to [[_COMMUNITY_Community 101]]
+- 2 edges to [[_COMMUNITY_Community 123]]
+- 2 edges to [[_COMMUNITY_Community 178]]
+- 2 edges to [[_COMMUNITY_Community 248]]
+- 2 edges to [[_COMMUNITY_Community 434]]
+- 2 edges to [[_COMMUNITY_Community 51]]
+- 2 edges to [[_COMMUNITY_Community 577]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 329]]
+- 2 edges to [[_COMMUNITY_Community 309]]
+- 2 edges to [[_COMMUNITY_Community 410]]
+- 2 edges to [[_COMMUNITY_Community 315]]
+- 2 edges to [[_COMMUNITY_Community 85]]
+- 2 edges to [[_COMMUNITY_Community 566]]
+- 2 edges to [[_COMMUNITY_Community 489]]
+- 2 edges to [[_COMMUNITY_Community 549]]
+- 2 edges to [[_COMMUNITY_Community 109]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 113]]
+- 2 edges to [[_COMMUNITY_Community 120]]
+- 2 edges to [[_COMMUNITY_Community 121]]
+- 2 edges to [[_COMMUNITY_Community 156]]
+- 2 edges to [[_COMMUNITY_Community 208]]
+- 2 edges to [[_COMMUNITY_Community 220]]
+- 2 edges to [[_COMMUNITY_Community 224]]
+- 2 edges to [[_COMMUNITY_Community 228]]
+- 2 edges to [[_COMMUNITY_Community 233]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 263]]
+- 2 edges to [[_COMMUNITY_Community 482]]
+- 2 edges to [[_COMMUNITY_Community 494]]
+- 2 edges to [[_COMMUNITY_Community 457]]
+- 2 edges to [[_COMMUNITY_Community 59]]
+- 2 edges to [[_COMMUNITY_Community 34]]
+- 2 edges to [[_COMMUNITY_Community 40]]
+- 2 edges to [[_COMMUNITY_Community 438]]
+- 2 edges to [[_COMMUNITY_Community 44]]
+- 2 edges to [[_COMMUNITY_Community 62]]
+- 2 edges to [[_COMMUNITY_Community 63]]
+- 2 edges to [[_COMMUNITY_Community 73]]
+- 2 edges to [[_COMMUNITY_Community 80]]
+- 2 edges to [[_COMMUNITY_Community 89]]
+- 1 edge to [[_COMMUNITY_Community 226]]
+- 1 edge to [[_COMMUNITY_Community 35]]
+- 1 edge to [[_COMMUNITY_Community 552]]
+- 1 edge to [[_COMMUNITY_Community 389]]
+- 1 edge to [[_COMMUNITY_Community 358]]
+- 1 edge to [[_COMMUNITY_Community 66]]
+- 1 edge to [[_COMMUNITY_Community 79]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 105]]
+- 1 edge to [[_COMMUNITY_Community 112]]
+- 1 edge to [[_COMMUNITY_Community 117]]
+- 1 edge to [[_COMMUNITY_Community 124]]
+- 1 edge to [[_COMMUNITY_Community 126]]
+- 1 edge to [[_COMMUNITY_Community 135]]
+- 1 edge to [[_COMMUNITY_Community 140]]
+- 1 edge to [[_COMMUNITY_Community 141]]
+- 1 edge to [[_COMMUNITY_Community 144]]
+- 1 edge to [[_COMMUNITY_Community 148]]
+- 1 edge to [[_COMMUNITY_Community 155]]
+- 1 edge to [[_COMMUNITY_Community 157]]
+- 1 edge to [[_COMMUNITY_Community 160]]
+- 1 edge to [[_COMMUNITY_Community 164]]
+- 1 edge to [[_COMMUNITY_Community 168]]
+- 1 edge to [[_COMMUNITY_Community 172]]
+- 1 edge to [[_COMMUNITY_Community 174]]
+- 1 edge to [[_COMMUNITY_Community 175]]
+- 1 edge to [[_COMMUNITY_Community 181]]
+- 1 edge to [[_COMMUNITY_Community 183]]
+- 1 edge to [[_COMMUNITY_Community 184]]
+- 1 edge to [[_COMMUNITY_Community 185]]
+- 1 edge to [[_COMMUNITY_Community 187]]
+- 1 edge to [[_COMMUNITY_Community 190]]
+- 1 edge to [[_COMMUNITY_Community 192]]
+- 1 edge to [[_COMMUNITY_Community 195]]
+- 1 edge to [[_COMMUNITY_Community 199]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 202]]
+- 1 edge to [[_COMMUNITY_Community 203]]
+- 1 edge to [[_COMMUNITY_Community 204]]
+- 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 212]]
+- 1 edge to [[_COMMUNITY_Community 213]]
+- 1 edge to [[_COMMUNITY_Community 215]]
+- 1 edge to [[_COMMUNITY_Community 217]]
+- 1 edge to [[_COMMUNITY_Community 219]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 221]]
+- 1 edge to [[_COMMUNITY_Community 222]]
+- 1 edge to [[_COMMUNITY_Community 227]]
+- 1 edge to [[_COMMUNITY_Community 230]]
+- 1 edge to [[_COMMUNITY_Community 231]]
+- 1 edge to [[_COMMUNITY_Community 235]]
+- 1 edge to [[_COMMUNITY_Community 238]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 240]]
+- 1 edge to [[_COMMUNITY_Community 243]]
+- 1 edge to [[_COMMUNITY_Community 245]]
+- 1 edge to [[_COMMUNITY_Community 253]]
+- 1 edge to [[_COMMUNITY_Community 256]]
+- 1 edge to [[_COMMUNITY_Community 259]]
+- 1 edge to [[_COMMUNITY_Community 262]]
+- 1 edge to [[_COMMUNITY_Community 266]]
+- 1 edge to [[_COMMUNITY_Community 268]]
+- 1 edge to [[_COMMUNITY_Community 269]]
+- 1 edge to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 270]]
+- 1 edge to [[_COMMUNITY_Community 271]]
+- 1 edge to [[_COMMUNITY_Community 273]]
+- 1 edge to [[_COMMUNITY_Community 279]]
+- 1 edge to [[_COMMUNITY_Community 280]]
+- 1 edge to [[_COMMUNITY_Community 281]]
+- 1 edge to [[_COMMUNITY_Community 282]]
+- 1 edge to [[_COMMUNITY_Community 283]]
+- 1 edge to [[_COMMUNITY_Community 284]]
+- 1 edge to [[_COMMUNITY_Community 285]]
+- 1 edge to [[_COMMUNITY_Community 286]]
+- 1 edge to [[_COMMUNITY_Community 287]]
+- 1 edge to [[_COMMUNITY_Community 288]]
+- 1 edge to [[_COMMUNITY_Community 289]]
+- 1 edge to [[_COMMUNITY_Community 291]]
+- 1 edge to [[_COMMUNITY_Community 620]]
+- 1 edge to [[_COMMUNITY_Community 96]]
+- 1 edge to [[_COMMUNITY_Community 583]]
+- 1 edge to [[_COMMUNITY_Community 301]]
+- 1 edge to [[_COMMUNITY_Community 302]]
+- 1 edge to [[_COMMUNITY_Community 303]]
+- 1 edge to [[_COMMUNITY_Community 304]]
+- 1 edge to [[_COMMUNITY_Community 306]]
+- 1 edge to [[_COMMUNITY_Community 319]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 322]]
+- 1 edge to [[_COMMUNITY_Community 323]]
+- 1 edge to [[_COMMUNITY_Community 325]]
+- 1 edge to [[_COMMUNITY_Community 327]]
+- 1 edge to [[_COMMUNITY_Community 337]]
+- 1 edge to [[_COMMUNITY_Community 340]]
+- 1 edge to [[_COMMUNITY_Community 344]]
+- 1 edge to [[_COMMUNITY_Community 348]]
+- 1 edge to [[_COMMUNITY_Community 350]]
+- 1 edge to [[_COMMUNITY_Community 356]]
+- 1 edge to [[_COMMUNITY_Community 357]]
+- 1 edge to [[_COMMUNITY_Community 359]]
+- 1 edge to [[_COMMUNITY_Community 361]]
+- 1 edge to [[_COMMUNITY_Community 368]]
+- 1 edge to [[_COMMUNITY_Community 369]]
+- 1 edge to [[_COMMUNITY_Community 370]]
+- 1 edge to [[_COMMUNITY_Community 372]]
+- 1 edge to [[_COMMUNITY_Community 373]]
+- 1 edge to [[_COMMUNITY_Community 374]]
+- 1 edge to [[_COMMUNITY_Community 375]]
+- 1 edge to [[_COMMUNITY_Community 376]]
+- 1 edge to [[_COMMUNITY_Community 377]]
+- 1 edge to [[_COMMUNITY_Community 381]]
+- 1 edge to [[_COMMUNITY_Community 382]]
+- 1 edge to [[_COMMUNITY_Community 383]]
+- 1 edge to [[_COMMUNITY_Community 385]]
+- 1 edge to [[_COMMUNITY_Community 394]]
+- 1 edge to [[_COMMUNITY_Community 399]]
+- 1 edge to [[_COMMUNITY_Community 400]]
+- 1 edge to [[_COMMUNITY_Community 401]]
+- 1 edge to [[_COMMUNITY_Community 402]]
+- 1 edge to [[_COMMUNITY_Community 403]]
+- 1 edge to [[_COMMUNITY_Community 405]]
+- 1 edge to [[_COMMUNITY_Community 406]]
+- 1 edge to [[_COMMUNITY_Community 408]]
+- 1 edge to [[_COMMUNITY_Community 409]]
+- 1 edge to [[_COMMUNITY_Community 414]]
+- 1 edge to [[_COMMUNITY_Community 422]]
+- 1 edge to [[_COMMUNITY_Community 423]]
+- 1 edge to [[_COMMUNITY_Community 426]]
+- 1 edge to [[_COMMUNITY_Community 427]]
+- 1 edge to [[_COMMUNITY_Community 428]]
+- 1 edge to [[_COMMUNITY_Community 429]]
+- 1 edge to [[_COMMUNITY_Community 43]]
+- 1 edge to [[_COMMUNITY_Community 430]]
+- 1 edge to [[_COMMUNITY_Community 432]]
+- 1 edge to [[_COMMUNITY_Community 436]]
+- 1 edge to [[_COMMUNITY_Community 442]]
+- 1 edge to [[_COMMUNITY_Community 452]]
+- 1 edge to [[_COMMUNITY_Community 454]]
+- 1 edge to [[_COMMUNITY_Community 455]]
+- 1 edge to [[_COMMUNITY_Community 458]]
+- 1 edge to [[_COMMUNITY_Community 459]]
+- 1 edge to [[_COMMUNITY_Community 461]]
+- 1 edge to [[_COMMUNITY_Community 469]]
+- 1 edge to [[_COMMUNITY_Community 473]]
+- 1 edge to [[_COMMUNITY_Community 477]]
+- 1 edge to [[_COMMUNITY_Community 478]]
+- 1 edge to [[_COMMUNITY_Community 479]]
+- 1 edge to [[_COMMUNITY_Community 48]]
+- 1 edge to [[_COMMUNITY_Community 480]]
+- 1 edge to [[_COMMUNITY_Community 481]]
+- 1 edge to [[_COMMUNITY_Community 488]]
+- 1 edge to [[_COMMUNITY_Community 490]]
+- 1 edge to [[_COMMUNITY_Community 492]]
+- 1 edge to [[_COMMUNITY_Community 493]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 50]]
+- 1 edge to [[_COMMUNITY_Community 508]]
+- 1 edge to [[_COMMUNITY_Community 509]]
+- 1 edge to [[_COMMUNITY_Community 511]]
+- 1 edge to [[_COMMUNITY_Community 512]]
+- 1 edge to [[_COMMUNITY_Community 515]]
+- 1 edge to [[_COMMUNITY_Community 517]]
+- 1 edge to [[_COMMUNITY_Community 518]]
+- 1 edge to [[_COMMUNITY_Community 519]]
+- 1 edge to [[_COMMUNITY_Community 520]]
+- 1 edge to [[_COMMUNITY_Community 521]]
+- 1 edge to [[_COMMUNITY_Community 522]]
+- 1 edge to [[_COMMUNITY_Community 541]]
+- 1 edge to [[_COMMUNITY_Community 547]]
+- 1 edge to [[_COMMUNITY_Community 557]]
+- 1 edge to [[_COMMUNITY_Community 561]]
+- 1 edge to [[_COMMUNITY_Community 573]]
+- 1 edge to [[_COMMUNITY_Community 575]]
+- 1 edge to [[_COMMUNITY_Community 584]]
+- 1 edge to [[_COMMUNITY_Community 585]]
+- 1 edge to [[_COMMUNITY_Community 588]]
+- 1 edge to [[_COMMUNITY_Community 598]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 600]]
+- 1 edge to [[_COMMUNITY_Community 601]]
+- 1 edge to [[_COMMUNITY_Community 602]]
+- 1 edge to [[_COMMUNITY_Community 603]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 91]]
+- 1 edge to [[_COMMUNITY_Community 94]]
+- 1 edge to [[_COMMUNITY_Community 97]]
+- 1 edge to [[_COMMUNITY_Community 98]]
+
+## Top bridge nodes
+- [[pathlib]] - degree 394, connects to 289 communities
+- [[re]] - degree 187, connects to 74 communities
+- [[_file_stem()]] - degree 135, connects to 43 communities
+- [[_make_id()]] - degree 248, connects to 42 communities
+- [[_read_source_bytes()]] - degree 67, connects to 23 communities

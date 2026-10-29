@@ -1,0 +1,338 @@
+---
+type: community
+cohesion: 0.03
+members: 132
+---
+
+# Community 19
+
+**Cohesion:** 0.03 - loosely connected
+**Members:** 132 nodes
+
+## Members
+- [[3508 `os.replace` can raise WinError 17 (cannot move to a different disk…]] - rationale - graphify/tests/test_atomic_writes.py
+- [[A `for...of`  `for...in` loop binding must shadow indirect_call references.…]] - rationale - graphify/tests/test_indirect_call_for_of_binding_shadow.py
+- [[A destructured loop binding (`for (const { entry } of xs)`) must shadow the…]] - rationale - graphify/tests/test_indirect_call_for_of_binding_shadow.py
+- [[A plain call site (no explicit type args) must not regress.]] - rationale - graphify/tests/test_csharp_call_site_generic_args.py
+- [[A pre-created symlink at .graphify_version.tmp must not overwrite its target.]] - rationale - graphify/tests/test_atomic_version_stamp.py
+- [[Atomically replace ``path`` with content written by ``write_fn(f)``. Writes a…]] - rationale - graphify/graphify/paths.py
+- [[Atomically write ``.graphify_version`` beside ``skill_dst``. Matches the…]] - rationale - graphify/graphify/install.py
+- [[Atomically write ``text`` (UTF-8) to ``path``. See func`_atomic_replace`.]] - rationale - graphify/graphify/paths.py
+- [[Backend-detection tests must not depend on the developer's shell (3481).…]] - rationale - graphify/tests/test_backend_env_isolation.py
+- [[C generic type arguments at CALL SITES. Properties, returns, and parameters…]] - rationale - graphify/tests/test_csharp_call_site_generic_args.py
+- [[Cross-file name resolution respects case in case-sensitive languages (1581).…]] - rationale - graphify/tests/test_case_sensitive_resolution.py
+- [[End-to-end the exact two-file repro from 2911 produces all six edges.]] - rationale - graphify/tests/test_csharp_call_site_generic_args.py
+- [[Extract, returning (source_label, target_label, context) for every…]] - rationale - graphify/tests/test_csharp_call_site_generic_args.py
+- [[Extract, returning {(source_label, target_label)} for `references` edges.]] - rationale - graphify/tests/test_csharp_call_site_generic_args.py
+- [[Handle a downstream reader that closed the pipe early. Redirect stdout to…]] - rationale - graphify/graphify/__main__.py
+- [[Installcache callers replace their own copies, which can be read-only (e.g. a…]] - rationale - graphify/tests/test_atomic_writes.py
+- [[JavaGroovy anonymous-class members (the Java twin of Kotlin 2347). `new…]] - rationale - graphify/tests/test_java_anonymous_class.py
+- [[Managed-dotfile case os.replace must replace the symlink, not write through.]] - rationale - graphify/tests/test_atomic_version_stamp.py
+- [[New stamps keep mkstemp 0600 permissions; existing regular stamps preserve mode…]] - rationale - graphify/tests/test_atomic_version_stamp.py
+- [[On Windows os.replace raises PermissionError when the destination is briefly…]] - rationale - graphify/tests/test_atomic_writes.py
+- [[Path_58]] - code
+- [[Pick the candidate whose source file is closest to the call site.…]] - rationale - graphify/graphify/paths.py
+- [[Regression 3351 atomic write to a path at Windows MAX_PATH limit must succeed.]] - rationale - graphify/tests/test_atomic_writes.py
+- [[Regression 3351 temp filename must not grow with destination filename.]] - rationale - graphify/tests/test_atomic_writes.py
+- [[Regression tests for UnicodeEncodeError on Windows cp1252 console. On Windows…]] - rationale - graphify/tests/test_charmap_encoding.py
+- [[Regression tests for atomic `.graphify_version` stamp writes (3286).]] - rationale - graphify/tests/test_atomic_version_stamp.py
+- [[Replacing a path with itself, if os.replace ever fails for that call, must not…]] - rationale - graphify/tests/test_atomic_writes.py
+- [[Reveal hidden low-contrast content extract frame, histogram-equalize + stretch.]] - rationale - vidrepair/reveal.py
+- [[Segments of ``source_file``'s parent directory, POSIX-normalized.…]] - rationale - graphify/graphify/paths.py
+- [[Single source of truth for the graphify output-directory name. The output…]] - rationale - graphify/graphify/paths.py
+- [[Tests for atomic JSON writes (graph.json  manifest.json). A crash, kill, or…]] - rationale - graphify/tests/test_atomic_writes.py
+- [[The Microsoft.Extensions.DependencyInjection shape that the issue calls out.]] - rationale - graphify/tests/test_csharp_call_site_generic_args.py
+- [[The Windows analogue of the mode-preservation contract. There is no POSIX mode…]] - rationale - graphify/tests/test_atomic_writes.py
+- [[The fallback removes the existing destination before renaming the new content…]] - rationale - graphify/tests/test_atomic_writes.py
+- [[The reported shape a `for...of` binding `entry` used in an object-shorthand…]] - rationale - graphify/tests/test_indirect_call_for_of_binding_shadow.py
+- [[Widening the shadow set must not blanket-suppress a same-named callable…]] - rationale - graphify/tests/test_indirect_call_for_of_binding_shadow.py
+- [[__getattr__()]] - code - graphify/graphify/__init__.py
+- [[_all_refs()]] - code - graphify/tests/test_csharp_call_site_generic_args.py
+- [[_atomic_replace()]] - code - graphify/graphify/paths.py
+- [[_common_prefix_len()]] - code - graphify/graphify/paths.py
+- [[_corpus()_5]] - code - graphify/tests/test_extract_path_memo.py
+- [[_edges()_5]] - code - graphify/tests/test_java_anonymous_class.py
+- [[_extract()_4]] - code - graphify/tests/test_case_sensitive_resolution.py
+- [[_extract()_5]] - code - graphify/tests/test_java_anonymous_class.py
+- [[_extract_js_dir()_2]] - code - graphify/tests/test_indirect_call_for_of_binding_shadow.py
+- [[_find()_3]] - code - graphify/tests/test_java_anonymous_class.py
+- [[_indirect()_2]] - code - graphify/tests/test_indirect_call_for_of_binding_shadow.py
+- [[_labels()_3]] - code - graphify/tests/test_case_sensitive_resolution.py
+- [[_parent_parts()]] - code - graphify/graphify/paths.py
+- [[_path_proximity_winner()]] - code - graphify/graphify/paths.py
+- [[_refs()]] - code - graphify/tests/test_csharp_call_site_generic_args.py
+- [[_silence_broken_pipe()]] - code - graphify/graphify/__main__.py
+- [[_write_version_stamp()]] - code - graphify/graphify/install.py
+- [[``os.replace(src, dst)``, falling back to a copy for a known set of Windows…]] - rationale - graphify/graphify/paths.py
+- [[`os.replace` replaces a symlinked destination itself rather than following it…]] - rationale - graphify/tests/test_atomic_writes.py
+- [[`r.DoT()` carries its type arguments on the member_binding_expression name,…]] - rationale - graphify/tests/test_csharp_call_site_generic_args.py
+- [[boom()]] - code - graphify/tests/test_atomic_version_stamp.py
+- [[boom()_1]] - code - graphify/tests/test_atomic_writes.py
+- [[counting_resolve()]] - code - graphify/tests/test_extract_path_memo.py
+- [[extract()'s id remap and the call tie-break parse each distinct path once. The…]] - rationale - graphify/tests/test_extract_path_memo.py
+- [[flaky_rename()]] - code - graphify/tests/test_atomic_writes.py
+- [[flaky_replace()_2]] - code - graphify/tests/test_atomic_writes.py
+- [[flaky_replace()_3]] - code - graphify/tests/test_atomic_writes.py
+- [[flaky_replace()_4]] - code - graphify/tests/test_atomic_writes.py
+- [[flaky_replace()_5]] - code - graphify/tests/test_atomic_writes.py
+- [[flaky_replace()_6]] - code - graphify/tests/test_atomic_writes.py
+- [[forbid_umask()]] - code - graphify/tests/test_atomic_version_stamp.py
+- [[graphify - extract · build · cluster · analyze · report.]] - rationale - graphify/graphify/__init__.py
+- [[graphify__init__.py]] - code - graphify/graphify/__init__.py
+- [[os]] - concept
+- [[os_replace_with_fallback()]] - code - graphify/graphify/paths.py
+- [[parametrize_21]] - code
+- [[paths.py]] - code - graphify/graphify/paths.py
+- [[reveal.py]] - code - vidrepair/reveal.py
+- [[skipif_6]] - code
+- [[skipif_7]] - code
+- [[stat]] - concept
+- [[sys]] - concept
+- [[test_anonymous_class_member_call_resolves_to_enclosing_method()]] - code - graphify/tests/test_java_anonymous_class.py
+- [[test_anonymous_class_members_get_nodes_and_method_edges()]] - code - graphify/tests/test_java_anonymous_class.py
+- [[test_atomic_replace_temp_name_is_bounded_and_does_not_embed_long_filename()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_atomic_version_stamp.py]] - code - graphify/tests/test_atomic_version_stamp.py
+- [[test_atomic_writes.py]] - code - graphify/tests/test_atomic_writes.py
+- [[test_backend_env_isolation.py]] - code - graphify/tests/test_backend_env_isolation.py
+- [[test_call_site_generic_args_appear_in_issue_repro()]] - code - graphify/tests/test_csharp_call_site_generic_args.py
+- [[test_call_without_type_argument_is_unchanged()]] - code - graphify/tests/test_csharp_call_site_generic_args.py
+- [[test_case_sensitive_cross_file_ref_respects_case()]] - code - graphify/tests/test_case_sensitive_resolution.py
+- [[test_case_sensitive_resolution.py]] - code - graphify/tests/test_case_sensitive_resolution.py
+- [[test_charmap_encoding.py]] - code - graphify/tests/test_charmap_encoding.py
+- [[test_csharp_call_site_generic_args.py]] - code - graphify/tests/test_csharp_call_site_generic_args.py
+- [[test_exact_case_cross_file_still_resolves()]] - code - graphify/tests/test_case_sensitive_resolution.py
+- [[test_extract_path_memo.py]] - code - graphify/tests/test_extract_path_memo.py
+- [[test_extract_resolves_each_distinct_path_once()]] - code - graphify/tests/test_extract_path_memo.py
+- [[test_for_of_binding_does_not_fabricate_indirect_call()]] - code - graphify/tests/test_indirect_call_for_of_binding_shadow.py
+- [[test_for_of_destructuring_binding_shadows()]] - code - graphify/tests/test_indirect_call_for_of_binding_shadow.py
+- [[test_genuine_reference_outside_the_loop_still_emits()]] - code - graphify/tests/test_indirect_call_for_of_binding_shadow.py
+- [[test_indirect_call_for_of_binding_shadow.py]] - code - graphify/tests/test_indirect_call_for_of_binding_shadow.py
+- [[test_java_anonymous_class.py]] - code - graphify/tests/test_java_anonymous_class.py
+- [[test_member_call_with_multiple_type_arguments()]] - code - graphify/tests/test_csharp_call_site_generic_args.py
+- [[test_member_call_with_one_type_argument()]] - code - graphify/tests/test_csharp_call_site_generic_args.py
+- [[test_nested_type_argument_in_call_site()]] - code - graphify/tests/test_csharp_call_site_generic_args.py
+- [[test_null_conditional_member_call_with_type_argument()]] - code - graphify/tests/test_csharp_call_site_generic_args.py
+- [[test_os_replace_with_fallback_is_a_noop_when_src_equals_dst()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_os_replace_with_fallback_replaces_a_symlink_destination_in_place()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_os_replace_with_fallback_restores_destination_on_final_rename_failure()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_os_replace_with_fallback_still_replaces_a_readonly_destination()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_php_case_insensitive_resolution_preserved()]] - code - graphify/tests/test_case_sensitive_resolution.py
+- [[test_proximity_winner_matches_a_fresh_parse()]] - code - graphify/tests/test_extract_path_memo.py
+- [[test_python_Path_does_not_resolve_to_shell_PATH()]] - code - graphify/tests/test_case_sensitive_resolution.py
+- [[test_save_manifest_writes_atomically()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_to_json_writes_atomically_no_tmp_leftover()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_two_anonymous_classes_in_one_method_do_not_collide()]] - code - graphify/tests/test_java_anonymous_class.py
+- [[test_type_parameter_in_call_site_arg_is_not_fabricated()]] - code - graphify/tests/test_csharp_call_site_generic_args.py
+- [[test_write_json_atomic_ensure_ascii_false_preserves_utf8()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_write_json_atomic_roundtrip()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_write_text_atomic_new_file_respects_umask()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_write_text_atomic_preserves_existing_mode()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_write_text_atomic_preserves_existing_on_failure()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_write_text_atomic_refuses_a_readonly_destination_without_leaking_a_temp()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_write_text_atomic_succeeds_near_windows_max_path()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_write_text_atomic_windows_permission_fallback()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_write_text_atomic_windows_winerror_17_fallback()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_write_text_atomic_writes_and_leaves_no_tmp()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_write_text_atomic_writes_through_symlink()]] - code - graphify/tests/test_atomic_writes.py
+- [[test_write_version_stamp_ignores_precreated_predictable_tmp_symlink()]] - code - graphify/tests/test_atomic_version_stamp.py
+- [[test_write_version_stamp_is_atomic_and_cleans_tmp()]] - code - graphify/tests/test_atomic_version_stamp.py
+- [[test_write_version_stamp_permissions_without_touching_umask()]] - code - graphify/tests/test_atomic_version_stamp.py
+- [[test_write_version_stamp_preserves_existing_on_replace_failure()]] - code - graphify/tests/test_atomic_version_stamp.py
+- [[test_write_version_stamp_replaces_symlink_instead_of_following()]] - code - graphify/tests/test_atomic_version_stamp.py
+- [[tracking_mkstemp()]] - code - graphify/tests/test_atomic_writes.py
+- [[unittest_mock]] - concept
+- [[write_text_atomic()]] - code - graphify/graphify/paths.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_19
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 30 edges to [[_COMMUNITY_Community 4]]
+- 21 edges to [[_COMMUNITY_Community 17]]
+- 18 edges to [[_COMMUNITY_Community 3]]
+- 14 edges to [[_COMMUNITY_Community 143]]
+- 12 edges to [[_COMMUNITY_Community 1]]
+- 11 edges to [[_COMMUNITY_Community 14]]
+- 11 edges to [[_COMMUNITY_Community 46]]
+- 10 edges to [[_COMMUNITY_Community 7]]
+- 10 edges to [[_COMMUNITY_Community 18]]
+- 10 edges to [[_COMMUNITY_Community 109]]
+- 8 edges to [[_COMMUNITY_Community 26]]
+- 8 edges to [[_COMMUNITY_Community 115]]
+- 7 edges to [[_COMMUNITY_Community 58]]
+- 6 edges to [[_COMMUNITY_Community 158]]
+- 6 edges to [[_COMMUNITY_Community 89]]
+- 6 edges to [[_COMMUNITY_Community 432]]
+- 5 edges to [[_COMMUNITY_Community 298]]
+- 5 edges to [[_COMMUNITY_Community 192]]
+- 5 edges to [[_COMMUNITY_Community 263]]
+- 5 edges to [[_COMMUNITY_Community 82]]
+- 5 edges to [[_COMMUNITY_Community 33]]
+- 4 edges to [[_COMMUNITY_Community 112]]
+- 4 edges to [[_COMMUNITY_Community 156]]
+- 4 edges to [[_COMMUNITY_Community 157]]
+- 4 edges to [[_COMMUNITY_Community 175]]
+- 4 edges to [[_COMMUNITY_Community 22]]
+- 4 edges to [[_COMMUNITY_Community 34]]
+- 4 edges to [[_COMMUNITY_Community 24]]
+- 4 edges to [[_COMMUNITY_Community 190]]
+- 4 edges to [[_COMMUNITY_Community 256]]
+- 4 edges to [[_COMMUNITY_Community 98]]
+- 4 edges to [[_COMMUNITY_Community 120]]
+- 4 edges to [[_COMMUNITY_Community 91]]
+- 4 edges to [[_COMMUNITY_Community 20]]
+- 4 edges to [[_COMMUNITY_Community 59]]
+- 4 edges to [[_COMMUNITY_Community 62]]
+- 3 edges to [[_COMMUNITY_Community 39]]
+- 3 edges to [[_COMMUNITY_Community 52]]
+- 3 edges to [[_COMMUNITY_Community 106]]
+- 3 edges to [[_COMMUNITY_Community 2]]
+- 3 edges to [[_COMMUNITY_Community 262]]
+- 3 edges to [[_COMMUNITY_Community 357]]
+- 3 edges to [[_COMMUNITY_Community 54]]
+- 3 edges to [[_COMMUNITY_Community 90]]
+- 3 edges to [[_COMMUNITY_Community 10]]
+- 3 edges to [[_COMMUNITY_Community 177]]
+- 3 edges to [[_COMMUNITY_Community 220]]
+- 3 edges to [[_COMMUNITY_Community 70]]
+- 3 edges to [[_COMMUNITY_Community 42]]
+- 3 edges to [[_COMMUNITY_Community 72]]
+- 3 edges to [[_COMMUNITY_Community 53]]
+- 3 edges to [[_COMMUNITY_Community 57]]
+- 3 edges to [[_COMMUNITY_Community 201]]
+- 3 edges to [[_COMMUNITY_Community 25]]
+- 3 edges to [[_COMMUNITY_Community 362]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 484]]
+- 2 edges to [[_COMMUNITY_Community 212]]
+- 2 edges to [[_COMMUNITY_Community 213]]
+- 2 edges to [[_COMMUNITY_Community 217]]
+- 2 edges to [[_COMMUNITY_Community 221]]
+- 2 edges to [[_COMMUNITY_Community 243]]
+- 2 edges to [[_COMMUNITY_Community 271]]
+- 2 edges to [[_COMMUNITY_Community 282]]
+- 2 edges to [[_COMMUNITY_Community 303]]
+- 2 edges to [[_COMMUNITY_Community 304]]
+- 2 edges to [[_COMMUNITY_Community 323]]
+- 2 edges to [[_COMMUNITY_Community 350]]
+- 2 edges to [[_COMMUNITY_Community 373]]
+- 2 edges to [[_COMMUNITY_Community 375]]
+- 2 edges to [[_COMMUNITY_Community 394]]
+- 2 edges to [[_COMMUNITY_Community 400]]
+- 2 edges to [[_COMMUNITY_Community 401]]
+- 2 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 414]]
+- 2 edges to [[_COMMUNITY_Community 422]]
+- 2 edges to [[_COMMUNITY_Community 428]]
+- 2 edges to [[_COMMUNITY_Community 477]]
+- 2 edges to [[_COMMUNITY_Community 496]]
+- 2 edges to [[_COMMUNITY_Community 508]]
+- 2 edges to [[_COMMUNITY_Community 519]]
+- 2 edges to [[_COMMUNITY_Community 521]]
+- 2 edges to [[_COMMUNITY_Community 56]]
+- 2 edges to [[_COMMUNITY_Community 598]]
+- 2 edges to [[_COMMUNITY_Community 130]]
+- 2 edges to [[_COMMUNITY_Community 136]]
+- 2 edges to [[_COMMUNITY_Community 139]]
+- 2 edges to [[_COMMUNITY_Community 160]]
+- 2 edges to [[_COMMUNITY_Community 166]]
+- 2 edges to [[_COMMUNITY_Community 181]]
+- 2 edges to [[_COMMUNITY_Community 182]]
+- 2 edges to [[_COMMUNITY_Community 440]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 240]]
+- 2 edges to [[_COMMUNITY_Community 268]]
+- 2 edges to [[_COMMUNITY_Community 318]]
+- 2 edges to [[_COMMUNITY_Community 583]]
+- 2 edges to [[_COMMUNITY_Community 234]]
+- 2 edges to [[_COMMUNITY_Community 224]]
+- 2 edges to [[_COMMUNITY_Community 65]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 2 edges to [[_COMMUNITY_Community 205]]
+- 2 edges to [[_COMMUNITY_Community 222]]
+- 2 edges to [[_COMMUNITY_Community 223]]
+- 2 edges to [[_COMMUNITY_Community 230]]
+- 2 edges to [[_COMMUNITY_Community 236]]
+- 2 edges to [[_COMMUNITY_Community 258]]
+- 2 edges to [[_COMMUNITY_Community 302]]
+- 2 edges to [[_COMMUNITY_Community 306]]
+- 2 edges to [[_COMMUNITY_Community 312]]
+- 2 edges to [[_COMMUNITY_Community 326]]
+- 2 edges to [[_COMMUNITY_Community 44]]
+- 2 edges to [[_COMMUNITY_Community 463]]
+- 2 edges to [[_COMMUNITY_Community 49]]
+- 2 edges to [[_COMMUNITY_Community 6]]
+- 2 edges to [[_COMMUNITY_Community 61]]
+- 2 edges to [[_COMMUNITY_Community 71]]
+- 2 edges to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 537]]
+- 1 edge to [[_COMMUNITY_Community 178]]
+- 1 edge to [[_COMMUNITY_Community 335]]
+- 1 edge to [[_COMMUNITY_Community 254]]
+- 1 edge to [[_COMMUNITY_Community 464]]
+- 1 edge to [[_COMMUNITY_Community 550]]
+- 1 edge to [[_COMMUNITY_Community 100]]
+- 1 edge to [[_COMMUNITY_Community 101]]
+- 1 edge to [[_COMMUNITY_Community 102]]
+- 1 edge to [[_COMMUNITY_Community 107]]
+- 1 edge to [[_COMMUNITY_Community 117]]
+- 1 edge to [[_COMMUNITY_Community 119]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 132]]
+- 1 edge to [[_COMMUNITY_Community 133]]
+- 1 edge to [[_COMMUNITY_Community 169]]
+- 1 edge to [[_COMMUNITY_Community 172]]
+- 1 edge to [[_COMMUNITY_Community 369]]
+- 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 512]]
+- 1 edge to [[_COMMUNITY_Community 336]]
+- 1 edge to [[_COMMUNITY_Community 219]]
+- 1 edge to [[_COMMUNITY_Community 233]]
+- 1 edge to [[_COMMUNITY_Community 88]]
+- 1 edge to [[_COMMUNITY_Community 338]]
+- 1 edge to [[_COMMUNITY_Community 216]]
+- 1 edge to [[_COMMUNITY_Community 241]]
+- 1 edge to [[_COMMUNITY_Community 50]]
+- 1 edge to [[_COMMUNITY_Community 242]]
+- 1 edge to [[_COMMUNITY_Community 195]]
+- 1 edge to [[_COMMUNITY_Community 208]]
+- 1 edge to [[_COMMUNITY_Community 228]]
+- 1 edge to [[_COMMUNITY_Community 238]]
+- 1 edge to [[_COMMUNITY_Community 249]]
+- 1 edge to [[_COMMUNITY_Community 265]]
+- 1 edge to [[_COMMUNITY_Community 269]]
+- 1 edge to [[_COMMUNITY_Community 279]]
+- 1 edge to [[_COMMUNITY_Community 280]]
+- 1 edge to [[_COMMUNITY_Community 289]]
+- 1 edge to [[_COMMUNITY_Community 310]]
+- 1 edge to [[_COMMUNITY_Community 356]]
+- 1 edge to [[_COMMUNITY_Community 368]]
+- 1 edge to [[_COMMUNITY_Community 372]]
+- 1 edge to [[_COMMUNITY_Community 374]]
+- 1 edge to [[_COMMUNITY_Community 397]]
+- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 403]]
+- 1 edge to [[_COMMUNITY_Community 43]]
+- 1 edge to [[_COMMUNITY_Community 45]]
+- 1 edge to [[_COMMUNITY_Community 500]]
+- 1 edge to [[_COMMUNITY_Community 511]]
+- 1 edge to [[_COMMUNITY_Community 517]]
+- 1 edge to [[_COMMUNITY_Community 544]]
+- 1 edge to [[_COMMUNITY_Community 545]]
+- 1 edge to [[_COMMUNITY_Community 582]]
+- 1 edge to [[_COMMUNITY_Community 63]]
+- 1 edge to [[_COMMUNITY_Community 64]]
+- 1 edge to [[_COMMUNITY_Community 80]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 93]]
+
+## Top bridge nodes
+- [[os]] - degree 207, connects to 110 communities
+- [[sys]] - degree 133, connects to 87 communities
+- [[graphify__init__.py]] - degree 49, connects to 37 communities
+- [[paths.py]] - degree 56, connects to 24 communities
+- [[unittest_mock]] - degree 24, connects to 23 communities

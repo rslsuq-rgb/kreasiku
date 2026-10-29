@@ -1,0 +1,211 @@
+---
+type: community
+cohesion: 0.11
+members: 40
+---
+
+# Community 115
+
+**Cohesion:** 0.11 - loosely connected
+**Members:** 40 nodes
+
+## Members
+- [[3858 each input numbers its own communities from 0, so a fresh merge's…]] - rationale - graphify/tests/test_merge_graphs_cli.py
+- [[4078 --previous restores metadata only for nodes still present.]] - rationale - graphify/tests/test_merge_graphs_cli.py
+- [[A malformed --previous file must fail with a clear message and exit 1, not…]] - rationale - graphify/tests/test_merge_graphs_cli.py
+- [[A node that did not exist in the previous merge has no real previous community…]] - rationale - graphify/tests/test_merge_graphs_cli.py
+- [[For a FIXED input order, the offset assignment must be deterministic merging…]] - rationale - graphify/tests/test_merge_graphs_cli.py
+- [[Path_17]] - code
+- [[Path_18]] - code
+- [[The Gemini CLI BeforeTool guard nudges toward the graph, shell-agnostically.…]] - rationale - graphify/tests/test_gemini_hook.py
+- [[_env()]] - code - graphify/tests/test_gemini_hook.py
+- [[_run()_8]] - code - graphify/tests/test_cargo_missing_manifest.py
+- [[_run()_9]] - code - graphify/tests/test_gemini_hook.py
+- [[_run()_10]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[_write()_49]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[_write_with_communities()]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[_write_with_hyperedges()]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[`graphify extract --cargo` must degrade, not abort, when no Cargo.toml exists…]] - rationale - graphify/tests/test_cargo_missing_manifest.py
+- [[`graphify merge-graphs` tolerates inputs that disagree on graph type (1606).…]] - rationale - graphify/tests/test_merge_graphs_cli.py
+- [[json]] - concept
+- [[test_allows_and_nudges_with_graph()]] - code - graphify/tests/test_gemini_hook.py
+- [[test_allows_without_nudge_when_no_graph()]] - code - graphify/tests/test_gemini_hook.py
+- [[test_cargo_flag_with_a_manifest_still_adds_crate_nodes()]] - code - graphify/tests/test_cargo_missing_manifest.py
+- [[test_cargo_flag_without_a_manifest_still_writes_the_graph()]] - code - graphify/tests/test_cargo_missing_manifest.py
+- [[test_cargo_missing_manifest.py]] - code - graphify/tests/test_cargo_missing_manifest.py
+- [[test_gemini_hook.py]] - code - graphify/tests/test_gemini_hook.py
+- [[test_honors_graphify_out_override()]] - code - graphify/tests/test_gemini_hook.py
+- [[test_matcher_and_command_shape()]] - code - graphify/tests/test_gemini_hook.py
+- [[test_merge_graphs_carries_hyperedges_from_all_inputs()]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[test_merge_graphs_cli.py]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[test_merge_graphs_community_offset_is_byte_reproducible()]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[test_merge_graphs_hyperedges_dedup_on_shared_prefixed_id()]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[test_merge_graphs_mixed_directed_and_multigraph()]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[test_merge_graphs_offsets_communities_so_repos_do_not_fuse()]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[test_merge_graphs_preserves_import_edge_direction()]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[test_merge_graphs_previous_does_not_resurrect_removed_node()]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[test_merge_graphs_previous_drops_community_for_a_new_node()]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[test_merge_graphs_previous_malformed_json_errors_gracefully()]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[test_merge_graphs_previous_restores_the_real_merged_community()]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[test_merge_graphs_reads_top_level_only_hyperedges()]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[test_merge_graphs_same_named_repo_dirs_do_not_collapse()]] - code - graphify/tests/test_merge_graphs_cli.py
+- [[test_never_blocks()]] - code - graphify/tests/test_gemini_hook.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_115
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 36 edges to [[_COMMUNITY_Community 30]]
+- 35 edges to [[_COMMUNITY_Community 7]]
+- 19 edges to [[_COMMUNITY_Community 17]]
+- 14 edges to [[_COMMUNITY_Community 4]]
+- 9 edges to [[_COMMUNITY_Community 109]]
+- 8 edges to [[_COMMUNITY_Community 19]]
+- 7 edges to [[_COMMUNITY_Community 201]]
+- 7 edges to [[_COMMUNITY_Community 102]]
+- 7 edges to [[_COMMUNITY_Community 170]]
+- 7 edges to [[_COMMUNITY_Community 55]]
+- 7 edges to [[_COMMUNITY_Community 65]]
+- 6 edges to [[_COMMUNITY_Community 160]]
+- 6 edges to [[_COMMUNITY_Community 181]]
+- 6 edges to [[_COMMUNITY_Community 72]]
+- 5 edges to [[_COMMUNITY_Community 155]]
+- 5 edges to [[_COMMUNITY_Community 273]]
+- 5 edges to [[_COMMUNITY_Community 47]]
+- 5 edges to [[_COMMUNITY_Community 103]]
+- 5 edges to [[_COMMUNITY_Community 34]]
+- 5 edges to [[_COMMUNITY_Community 399]]
+- 5 edges to [[_COMMUNITY_Community 41]]
+- 5 edges to [[_COMMUNITY_Community 46]]
+- 5 edges to [[_COMMUNITY_Community 53]]
+- 4 edges to [[_COMMUNITY_Community 119]]
+- 4 edges to [[_COMMUNITY_Community 168]]
+- 4 edges to [[_COMMUNITY_Community 169]]
+- 4 edges to [[_COMMUNITY_Community 207]]
+- 4 edges to [[_COMMUNITY_Community 253]]
+- 4 edges to [[_COMMUNITY_Community 290]]
+- 4 edges to [[_COMMUNITY_Community 306]]
+- 4 edges to [[_COMMUNITY_Community 336]]
+- 4 edges to [[_COMMUNITY_Community 362]]
+- 4 edges to [[_COMMUNITY_Community 3]]
+- 3 edges to [[_COMMUNITY_Community 100]]
+- 3 edges to [[_COMMUNITY_Community 81]]
+- 3 edges to [[_COMMUNITY_Community 11]]
+- 3 edges to [[_COMMUNITY_Community 136]]
+- 3 edges to [[_COMMUNITY_Community 18]]
+- 3 edges to [[_COMMUNITY_Community 182]]
+- 3 edges to [[_COMMUNITY_Community 215]]
+- 3 edges to [[_COMMUNITY_Community 254]]
+- 3 edges to [[_COMMUNITY_Community 258]]
+- 3 edges to [[_COMMUNITY_Community 281]]
+- 3 edges to [[_COMMUNITY_Community 295]]
+- 3 edges to [[_COMMUNITY_Community 340]]
+- 3 edges to [[_COMMUNITY_Community 371]]
+- 3 edges to [[_COMMUNITY_Community 372]]
+- 3 edges to [[_COMMUNITY_Community 48]]
+- 3 edges to [[_COMMUNITY_Community 506]]
+- 3 edges to [[_COMMUNITY_Community 511]]
+- 3 edges to [[_COMMUNITY_Community 534]]
+- 3 edges to [[_COMMUNITY_Community 62]]
+- 3 edges to [[_COMMUNITY_Community 82]]
+- 2 edges to [[_COMMUNITY_Community 238]]
+- 2 edges to [[_COMMUNITY_Community 301]]
+- 2 edges to [[_COMMUNITY_Community 107]]
+- 2 edges to [[_COMMUNITY_Community 123]]
+- 2 edges to [[_COMMUNITY_Community 133]]
+- 2 edges to [[_COMMUNITY_Community 140]]
+- 2 edges to [[_COMMUNITY_Community 148]]
+- 2 edges to [[_COMMUNITY_Community 158]]
+- 2 edges to [[_COMMUNITY_Community 230]]
+- 2 edges to [[_COMMUNITY_Community 235]]
+- 2 edges to [[_COMMUNITY_Community 241]]
+- 2 edges to [[_COMMUNITY_Community 269]]
+- 2 edges to [[_COMMUNITY_Community 297]]
+- 2 edges to [[_COMMUNITY_Community 319]]
+- 2 edges to [[_COMMUNITY_Community 456]]
+- 2 edges to [[_COMMUNITY_Community 457]]
+- 2 edges to [[_COMMUNITY_Community 49]]
+- 2 edges to [[_COMMUNITY_Community 545]]
+- 2 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 26]]
+- 2 edges to [[_COMMUNITY_Community 58]]
+- 1 edge to [[_COMMUNITY_Community 178]]
+- 1 edge to [[_COMMUNITY_Community 225]]
+- 1 edge to [[_COMMUNITY_Community 532]]
+- 1 edge to [[_COMMUNITY_Community 86]]
+- 1 edge to [[_COMMUNITY_Community 0]]
+- 1 edge to [[_COMMUNITY_Community 105]]
+- 1 edge to [[_COMMUNITY_Community 112]]
+- 1 edge to [[_COMMUNITY_Community 116]]
+- 1 edge to [[_COMMUNITY_Community 117]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 121]]
+- 1 edge to [[_COMMUNITY_Community 128]]
+- 1 edge to [[_COMMUNITY_Community 132]]
+- 1 edge to [[_COMMUNITY_Community 134]]
+- 1 edge to [[_COMMUNITY_Community 135]]
+- 1 edge to [[_COMMUNITY_Community 145]]
+- 1 edge to [[_COMMUNITY_Community 159]]
+- 1 edge to [[_COMMUNITY_Community 166]]
+- 1 edge to [[_COMMUNITY_Community 177]]
+- 1 edge to [[_COMMUNITY_Community 185]]
+- 1 edge to [[_COMMUNITY_Community 187]]
+- 1 edge to [[_COMMUNITY_Community 195]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 219]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 222]]
+- 1 edge to [[_COMMUNITY_Community 223]]
+- 1 edge to [[_COMMUNITY_Community 224]]
+- 1 edge to [[_COMMUNITY_Community 233]]
+- 1 edge to [[_COMMUNITY_Community 236]]
+- 1 edge to [[_COMMUNITY_Community 247]]
+- 1 edge to [[_COMMUNITY_Community 256]]
+- 1 edge to [[_COMMUNITY_Community 259]]
+- 1 edge to [[_COMMUNITY_Community 266]]
+- 1 edge to [[_COMMUNITY_Community 280]]
+- 1 edge to [[_COMMUNITY_Community 283]]
+- 1 edge to [[_COMMUNITY_Community 284]]
+- 1 edge to [[_COMMUNITY_Community 302]]
+- 1 edge to [[_COMMUNITY_Community 321]]
+- 1 edge to [[_COMMUNITY_Community 326]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 378]]
+- 1 edge to [[_COMMUNITY_Community 383]]
+- 1 edge to [[_COMMUNITY_Community 385]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 396]]
+- 1 edge to [[_COMMUNITY_Community 405]]
+- 1 edge to [[_COMMUNITY_Community 408]]
+- 1 edge to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 423]]
+- 1 edge to [[_COMMUNITY_Community 444]]
+- 1 edge to [[_COMMUNITY_Community 448]]
+- 1 edge to [[_COMMUNITY_Community 50]]
+- 1 edge to [[_COMMUNITY_Community 513]]
+- 1 edge to [[_COMMUNITY_Community 517]]
+- 1 edge to [[_COMMUNITY_Community 52]]
+- 1 edge to [[_COMMUNITY_Community 524]]
+- 1 edge to [[_COMMUNITY_Community 57]]
+- 1 edge to [[_COMMUNITY_Community 583]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 64]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 80]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 9]]
+- 1 edge to [[_COMMUNITY_Community 90]]
+
+## Top bridge nodes
+- [[json]] - degree 434, connects to 143 communities
+- [[test_merge_graphs_cli.py]] - degree 23, connects to 4 communities
+- [[test_gemini_hook.py]] - degree 13, connects to 3 communities
+- [[test_cargo_missing_manifest.py]] - degree 9, connects to 3 communities
+- [[_run()_10]] - degree 14, connects to 1 community

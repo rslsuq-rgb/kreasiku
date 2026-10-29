@@ -1,0 +1,21 @@
+---
+source_file: "graphify/tests/test_js_walk_order.py"
+type: "code"
+community: "Community 1"
+location: "L35"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_1
+---
+
+# test_walk_is_children_preorder()
+
+## Connections
+- [[_parse_js_tree()]] - `calls` [EXTRACTED]
+- [[_reference_preorder()]] - `calls` [EXTRACTED]
+- [[_span()]] - `calls` [EXTRACTED]
+- [[_walk_js_tree()]] - `calls` [EXTRACTED]
+- [[test_js_walk_order.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_1

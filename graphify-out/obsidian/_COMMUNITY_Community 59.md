@@ -1,0 +1,285 @@
+---
+type: community
+cohesion: 0.03
+members: 68
+---
+
+# Community 59
+
+**Cohesion:** 0.03 - loosely connected
+**Members:** 68 nodes
+
+## Members
+- [[2324 a REFERENCES target defined in ANOTHER file must collapse onto the real…]] - rationale - graphify/tests/test_multilang.py
+- [[2577 refinement a WITH inside a subquery is scoped to that subquery only. A…]] - rationale - graphify/tests/test_multilang.py
+- [[2577 `WITH levels(a, b) AS (...)` — the name precedes a column list.]] - rationale - graphify/tests/test_multilang.py
+- [[2577 inside the declaring statement the CTE shadows a real same-named table…]] - rationale - graphify/tests/test_multilang.py
+- [[2577 the reported leak — the CTE's sourceless stub was unique corpus-wide, so…]] - rationale - graphify/tests/test_multilang.py
+- [[3409 reporter repro a closure passed as an argument at FILE SCOPE must…]] - rationale - graphify/tests/test_extract_php_closures.py
+- [[3467 CREATE UNIQUE INDEX parsed fine but the walk never dispatched on…]] - rationale - graphify/tests/test_multilang.py
+- [[3886 with a bare `BEGIN;`, a later `DO $$ ... END $$;` makes the parser read…]] - rationale - graphify/tests/test_multilang.py
+- [[A `--` or `` inside a string literal is data, not a comment opener. Both…]] - rationale - graphify/tests/test_multilang.py
+- [[A closure inside a method its inner call attributes to the closure node, not…]] - rationale - graphify/tests/test_extract_php_closures.py
+- [[A closure passed to a routing method gets a 'VERB path' label.]] - rationale - graphify/tests/test_extract_php_closures.py
+- [[A closure passed to a routing method inside a group() composes the path.]] - rationale - graphify/tests/test_extract_php_closures.py
+- [[A get() call without a '' path is treated as a generic closure, not a route.]] - rationale - graphify/tests/test_extract_php_closures.py
+- [[A mixed-delimiter name (dbo.usp_Mixed) must yield exactly ONE node. The walk-…]] - rationale - graphify/tests/test_multilang.py
+- [[A preserved delimited identifier keeps its text verbatim in the masked scan (it…]] - rationale - graphify/tests/test_multilang.py
+- [[A trigger exists to run a function, yet the EXECUTE FUNCTIONPROCEDURE target…]] - rationale - graphify/tests/test_multilang.py
+- [[A trigger with a `FOR EACH ROW BEGIN ... END` body has no grammar parse, so the…]] - rationale - graphify/tests/test_multilang.py
+- [[A trigger's subject table follows ON, not FOR. The create_trigger branch read…]] - rationale - graphify/tests/test_multilang.py
+- [[ANSI SQL escapes a literal double quote inside a delimited identifier by…]] - rationale - graphify/tests/test_multilang.py
+- [[An unrelated syntax error arms the whole-file recovery scan; DDL that exists…]] - rationale - graphify/tests/test_multilang.py
+- [[CREATE must match as a word without a leading boundary the recovery regex…]] - rationale - graphify/tests/test_multilang.py
+- [[DDL text reachable only through a single-quoted string (dynamic SQL) or an…]] - rationale - graphify/tests/test_multilang.py
+- [[If copytree blows up mid-stage, no half-written references is left visible.]] - rationale - graphify/tests/test_install_roundtrip.py
+- [[MySQLMariaDB `DEFAULT current_timestamp()`  `ON UPDATE current_timestamp()`…]] - rationale - graphify/tests/test_multilang.py
+- [[Non-routing closures get stable ordinal names {closureN}.]] - rationale - graphify/tests/test_extract_php_closures.py
+- [[T-SQL CREATE PROCEDURE Schema.Name ... AS BEGIN...END. The grammar has no…]] - rationale - graphify/tests/test_multilang.py
+- [[T-SQL escapes a literal  inside a bracketed identifier by doubling it ab…]] - rationale - graphify/tests/test_multilang.py
+- [[T-SQL spells idempotent re-creation CREATE OR ALTER (no OR REPLACE).]] - rationale - graphify/tests/test_multilang.py
+- [[T-SQL's official PROC shorthand, including CREATE OR ALTER PROC with a…]] - rationale - graphify/tests/test_multilang.py
+- [[The table recovery runs over the comment-masked source a commented-out CREATE…]] - rationale - graphify/tests/test_multilang.py
+- [[The walk partition must emit each closure exactly once (no double-walk).]] - rationale - graphify/tests/test_extract_php_closures.py
+- [[When the executed routine is not defined in this file, link nothing rather than…]] - rationale - graphify/tests/test_multilang.py
+- [[_php_grammar_available()]] - code - graphify/tests/test_extract_php_closures.py
+- [[pytest]] - concept
+- [[test_extract_php_closures.py]] - code - graphify/tests/test_extract_php_closures.py
+- [[test_failed_copytree_leaves_no_partial_references()]] - code - graphify/tests/test_install_roundtrip.py
+- [[test_pack_chunks_rejects_non_positive_budget()]] - code - graphify/tests/test_chunking.py
+- [[test_php_cache_get_avoids_route_false_positive()]] - code - graphify/tests/test_extract_php_closures.py
+- [[test_php_closures_produce_no_duplicate_nodes()]] - code - graphify/tests/test_extract_php_closures.py
+- [[test_php_file_scope_arg_closure_call_resolves_to_the_closure()]] - code - graphify/tests/test_extract_php_closures.py
+- [[test_php_generic_closure_gets_ordinal_name()]] - code - graphify/tests/test_extract_php_closures.py
+- [[test_php_method_scope_closure_call_attributes_to_closure_not_method()]] - code - graphify/tests/test_extract_php_closures.py
+- [[test_php_nested_route_closure_composes_prefix()]] - code - graphify/tests/test_extract_php_closures.py
+- [[test_php_route_closure_gets_semantic_name()]] - code - graphify/tests/test_extract_php_closures.py
+- [[test_sql_clean_trigger_links_to_its_on_table()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_column_list_cte_is_not_read_as_a_table()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_comment_openers_inside_string_literals_do_not_hide_ddl()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_commented_ddl_is_not_fabricated_by_error_recovery()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_commented_out_create_table_is_not_recovered()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_create_index_emits_index_node_linked_to_its_table()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_create_inside_a_bare_word_does_not_fabricate()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_create_table_before_do_block_in_transaction()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_cross_file_fk_resolves_and_never_leaks_scan_path()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_cte_never_binds_to_cross_language_symbol()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_cte_shadows_same_named_table_within_its_statement()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_ddl_keywords_inside_delimited_identifiers_do_not_fabricate()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_dynamic_sql_and_unclosed_comment_do_not_fabricate_routines()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_escaped_closing_bracket_in_routine_name_is_consumed()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_escaped_double_quote_in_routine_name_is_consumed()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_mysql_current_timestamp_parens_table_is_recovered()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_procedural_body_trigger_is_recovered()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_recovery_sites_agree_on_the_captured_name()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_subquery_cte_does_not_suppress_outer_real_table()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_trigger_executing_an_undefined_function_fails_closed()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_trigger_links_to_the_function_it_executes()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_tsql_bracketed_procedure_is_recovered()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_tsql_create_or_alter_procedure_is_recovered()]] - code - graphify/tests/test_multilang.py
+- [[test_sql_tsql_proc_shorthand_is_recovered()]] - code - graphify/tests/test_multilang.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_59
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 26 edges to [[_COMMUNITY_Community 28]]
+- 23 edges to [[_COMMUNITY_Community 83]]
+- 7 edges to [[_COMMUNITY_Community 76]]
+- 6 edges to [[_COMMUNITY_Community 38]]
+- 6 edges to [[_COMMUNITY_Community 73]]
+- 5 edges to [[_COMMUNITY_Community 85]]
+- 5 edges to [[_COMMUNITY_Community 14]]
+- 4 edges to [[_COMMUNITY_Community 100]]
+- 4 edges to [[_COMMUNITY_Community 176]]
+- 4 edges to [[_COMMUNITY_Community 273]]
+- 4 edges to [[_COMMUNITY_Community 1]]
+- 4 edges to [[_COMMUNITY_Community 19]]
+- 3 edges to [[_COMMUNITY_Community 147]]
+- 3 edges to [[_COMMUNITY_Community 166]]
+- 3 edges to [[_COMMUNITY_Community 21]]
+- 3 edges to [[_COMMUNITY_Community 23]]
+- 3 edges to [[_COMMUNITY_Community 258]]
+- 3 edges to [[_COMMUNITY_Community 263]]
+- 3 edges to [[_COMMUNITY_Community 349]]
+- 3 edges to [[_COMMUNITY_Community 45]]
+- 3 edges to [[_COMMUNITY_Community 65]]
+- 3 edges to [[_COMMUNITY_Community 139]]
+- 3 edges to [[_COMMUNITY_Community 22]]
+- 3 edges to [[_COMMUNITY_Community 25]]
+- 3 edges to [[_COMMUNITY_Community 4]]
+- 3 edges to [[_COMMUNITY_Community 82]]
+- 2 edges to [[_COMMUNITY_Community 109]]
+- 2 edges to [[_COMMUNITY_Community 120]]
+- 2 edges to [[_COMMUNITY_Community 123]]
+- 2 edges to [[_COMMUNITY_Community 126]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 154]]
+- 2 edges to [[_COMMUNITY_Community 205]]
+- 2 edges to [[_COMMUNITY_Community 250]]
+- 2 edges to [[_COMMUNITY_Community 255]]
+- 2 edges to [[_COMMUNITY_Community 265]]
+- 2 edges to [[_COMMUNITY_Community 269]]
+- 2 edges to [[_COMMUNITY_Community 324]]
+- 2 edges to [[_COMMUNITY_Community 49]]
+- 2 edges to [[_COMMUNITY_Community 511]]
+- 2 edges to [[_COMMUNITY_Community 32]]
+- 2 edges to [[_COMMUNITY_Community 192]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 2 edges to [[_COMMUNITY_Community 112]]
+- 2 edges to [[_COMMUNITY_Community 18]]
+- 2 edges to [[_COMMUNITY_Community 26]]
+- 2 edges to [[_COMMUNITY_Community 3]]
+- 2 edges to [[_COMMUNITY_Community 34]]
+- 2 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 58]]
+- 2 edges to [[_COMMUNITY_Community 89]]
+- 2 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 96]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 101]]
+- 1 edge to [[_COMMUNITY_Community 107]]
+- 1 edge to [[_COMMUNITY_Community 113]]
+- 1 edge to [[_COMMUNITY_Community 114]]
+- 1 edge to [[_COMMUNITY_Community 117]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 121]]
+- 1 edge to [[_COMMUNITY_Community 124]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 131]]
+- 1 edge to [[_COMMUNITY_Community 132]]
+- 1 edge to [[_COMMUNITY_Community 133]]
+- 1 edge to [[_COMMUNITY_Community 135]]
+- 1 edge to [[_COMMUNITY_Community 136]]
+- 1 edge to [[_COMMUNITY_Community 141]]
+- 1 edge to [[_COMMUNITY_Community 142]]
+- 1 edge to [[_COMMUNITY_Community 148]]
+- 1 edge to [[_COMMUNITY_Community 157]]
+- 1 edge to [[_COMMUNITY_Community 160]]
+- 1 edge to [[_COMMUNITY_Community 164]]
+- 1 edge to [[_COMMUNITY_Community 168]]
+- 1 edge to [[_COMMUNITY_Community 17]]
+- 1 edge to [[_COMMUNITY_Community 172]]
+- 1 edge to [[_COMMUNITY_Community 174]]
+- 1 edge to [[_COMMUNITY_Community 187]]
+- 1 edge to [[_COMMUNITY_Community 190]]
+- 1 edge to [[_COMMUNITY_Community 193]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 203]]
+- 1 edge to [[_COMMUNITY_Community 204]]
+- 1 edge to [[_COMMUNITY_Community 208]]
+- 1 edge to [[_COMMUNITY_Community 209]]
+- 1 edge to [[_COMMUNITY_Community 210]]
+- 1 edge to [[_COMMUNITY_Community 219]]
+- 1 edge to [[_COMMUNITY_Community 220]]
+- 1 edge to [[_COMMUNITY_Community 223]]
+- 1 edge to [[_COMMUNITY_Community 233]]
+- 1 edge to [[_COMMUNITY_Community 234]]
+- 1 edge to [[_COMMUNITY_Community 235]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 244]]
+- 1 edge to [[_COMMUNITY_Community 246]]
+- 1 edge to [[_COMMUNITY_Community 247]]
+- 1 edge to [[_COMMUNITY_Community 249]]
+- 1 edge to [[_COMMUNITY_Community 251]]
+- 1 edge to [[_COMMUNITY_Community 253]]
+- 1 edge to [[_COMMUNITY_Community 256]]
+- 1 edge to [[_COMMUNITY_Community 262]]
+- 1 edge to [[_COMMUNITY_Community 267]]
+- 1 edge to [[_COMMUNITY_Community 268]]
+- 1 edge to [[_COMMUNITY_Community 270]]
+- 1 edge to [[_COMMUNITY_Community 279]]
+- 1 edge to [[_COMMUNITY_Community 280]]
+- 1 edge to [[_COMMUNITY_Community 284]]
+- 1 edge to [[_COMMUNITY_Community 286]]
+- 1 edge to [[_COMMUNITY_Community 289]]
+- 1 edge to [[_COMMUNITY_Community 295]]
+- 1 edge to [[_COMMUNITY_Community 298]]
+- 1 edge to [[_COMMUNITY_Community 30]]
+- 1 edge to [[_COMMUNITY_Community 302]]
+- 1 edge to [[_COMMUNITY_Community 306]]
+- 1 edge to [[_COMMUNITY_Community 308]]
+- 1 edge to [[_COMMUNITY_Community 31]]
+- 1 edge to [[_COMMUNITY_Community 310]]
+- 1 edge to [[_COMMUNITY_Community 319]]
+- 1 edge to [[_COMMUNITY_Community 321]]
+- 1 edge to [[_COMMUNITY_Community 322]]
+- 1 edge to [[_COMMUNITY_Community 327]]
+- 1 edge to [[_COMMUNITY_Community 336]]
+- 1 edge to [[_COMMUNITY_Community 338]]
+- 1 edge to [[_COMMUNITY_Community 340]]
+- 1 edge to [[_COMMUNITY_Community 344]]
+- 1 edge to [[_COMMUNITY_Community 345]]
+- 1 edge to [[_COMMUNITY_Community 356]]
+- 1 edge to [[_COMMUNITY_Community 360]]
+- 1 edge to [[_COMMUNITY_Community 361]]
+- 1 edge to [[_COMMUNITY_Community 366]]
+- 1 edge to [[_COMMUNITY_Community 369]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 370]]
+- 1 edge to [[_COMMUNITY_Community 378]]
+- 1 edge to [[_COMMUNITY_Community 382]]
+- 1 edge to [[_COMMUNITY_Community 385]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 396]]
+- 1 edge to [[_COMMUNITY_Community 397]]
+- 1 edge to [[_COMMUNITY_Community 404]]
+- 1 edge to [[_COMMUNITY_Community 408]]
+- 1 edge to [[_COMMUNITY_Community 409]]
+- 1 edge to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 424]]
+- 1 edge to [[_COMMUNITY_Community 429]]
+- 1 edge to [[_COMMUNITY_Community 43]]
+- 1 edge to [[_COMMUNITY_Community 436]]
+- 1 edge to [[_COMMUNITY_Community 438]]
+- 1 edge to [[_COMMUNITY_Community 44]]
+- 1 edge to [[_COMMUNITY_Community 444]]
+- 1 edge to [[_COMMUNITY_Community 456]]
+- 1 edge to [[_COMMUNITY_Community 46]]
+- 1 edge to [[_COMMUNITY_Community 47]]
+- 1 edge to [[_COMMUNITY_Community 473]]
+- 1 edge to [[_COMMUNITY_Community 474]]
+- 1 edge to [[_COMMUNITY_Community 478]]
+- 1 edge to [[_COMMUNITY_Community 479]]
+- 1 edge to [[_COMMUNITY_Community 494]]
+- 1 edge to [[_COMMUNITY_Community 5]]
+- 1 edge to [[_COMMUNITY_Community 50]]
+- 1 edge to [[_COMMUNITY_Community 506]]
+- 1 edge to [[_COMMUNITY_Community 51]]
+- 1 edge to [[_COMMUNITY_Community 512]]
+- 1 edge to [[_COMMUNITY_Community 513]]
+- 1 edge to [[_COMMUNITY_Community 515]]
+- 1 edge to [[_COMMUNITY_Community 517]]
+- 1 edge to [[_COMMUNITY_Community 52]]
+- 1 edge to [[_COMMUNITY_Community 544]]
+- 1 edge to [[_COMMUNITY_Community 546]]
+- 1 edge to [[_COMMUNITY_Community 583]]
+- 1 edge to [[_COMMUNITY_Community 585]]
+- 1 edge to [[_COMMUNITY_Community 6]]
+- 1 edge to [[_COMMUNITY_Community 60]]
+- 1 edge to [[_COMMUNITY_Community 61]]
+- 1 edge to [[_COMMUNITY_Community 62]]
+- 1 edge to [[_COMMUNITY_Community 64]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 72]]
+- 1 edge to [[_COMMUNITY_Community 8]]
+- 1 edge to [[_COMMUNITY_Community 80]]
+- 1 edge to [[_COMMUNITY_Community 81]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 88]]
+- 1 edge to [[_COMMUNITY_Community 91]]
+- 1 edge to [[_COMMUNITY_Community 93]]
+
+## Top bridge nodes
+- [[pytest]] - degree 301, connects to 187 communities
+- [[test_extract_php_closures.py]] - degree 13, connects to 4 communities
+- [[test_sql_cross_file_fk_resolves_and_never_leaks_scan_path()]] - degree 5, connects to 3 communities
+- [[test_sql_clean_trigger_links_to_its_on_table()]] - degree 4, connects to 2 communities
+- [[test_sql_column_list_cte_is_not_read_as_a_table()]] - degree 4, connects to 2 communities

@@ -1,0 +1,20 @@
+---
+source_file: "graphify/tests/test_serve.py"
+type: "code"
+community: "Community 12"
+location: "L393"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_12
+---
+
+# test_find_node_node_id_prefilter_is_identical_to_full_scan()
+
+## Connections
+- [[_find_node()]] - `calls` [EXTRACTED]
+- [[_force_full_scan()]] - `calls` [EXTRACTED]
+- [[_make_non_ascii_id_graph()]] - `calls` [EXTRACTED]
+- [[test_serve.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_12

@@ -1,0 +1,19 @@
+---
+source_file: "graphify/tests/test_watch.py"
+type: "code"
+community: "Community 6"
+location: "L4603"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_6
+---
+
+# test_subfolder_root_marker_preserves_unchanged_nodes()
+
+## Connections
+- [[End-to-end pin for 2603 a graph built from the repo root scoped to a…]] - `rationale_for` [EXTRACTED]
+- [[_rebuild_code()]] - `calls` [EXTRACTED]
+- [[test_watch.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_6

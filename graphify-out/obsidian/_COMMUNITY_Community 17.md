@@ -1,0 +1,274 @@
+---
+type: community
+cohesion: 0.02
+members: 142
+---
+
+# Community 17
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 142 nodes
+
+## Members
+- [[(command, node lines) for a nudge nodes whose label matches the searched…]] - rationale - graphify/graphify/cli.py
+- [[dot-__init__()_8]] - code - graphify/graphify/cli.py
+- [[dot-mark()]] - code - graphify/graphify/cli.py
+- [[dot-total()]] - code - graphify/graphify/cli.py
+- [[A graph field as one inert line graph.json is repository content, so no…]] - rationale - graphify/graphify/cli.py
+- [[A path inside the configured output dir, e.g. ``out_path(cache)``.…]] - rationale - graphify/graphify/paths.py
+- [[Add or update a project graph in the global graph. Returns a summary dict with…]] - rationale - graphify/graphify/global_graph.py
+- [[Append the call-specific command and matching graph nodes to a nudge or deny.…]] - rationale - graphify/graphify/cli.py
+- [[Append this run's token usage to graphify-outcost.json, the same ledger the…]] - rationale - graphify/graphify/cli.py
+- [[Apply build_from_json's endpoint rules to a raw (``--no-cluster``) graph. The…]] - rationale - graphify/graphify/build.py
+- [[Assemble the report's work-memory inputs from sibling artifacts. Reads the…]] - rationale - graphify/graphify/report.py
+- [[Atomically claim a one-time strict block for this session. Returns True only on…]] - rationale - graphify/graphify/cli.py
+- [[Atomically write ``obj`` as JSON to ``path``, streaming the encode into the…]] - rationale - graphify/graphify/paths.py
+- [[Best-effort removal of per-session hook markers older than 24h.]] - rationale - graphify/graphify/cli.py
+- [[Check for pending semantic update flag and notify the user if set. Cron-safe…]] - rationale - graphify/graphify/watch.py
+- [[Collapse exact parallel edges by ``(source, target, relation)``, keeping the…]] - rationale - graphify/graphify/build.py
+- [[Collapse nodes sharing an ``id``, last-writer-wins on attributes. Mirrors what…]] - rationale - graphify/graphify/build.py
+- [[Drop nodesedgeshyperedges owned by ``stale_sources`` from graph.json in…]] - rationale - graphify/graphify/cli.py
+- [[Estimate USD cost for a given token count using published pricing.]] - rationale - graphify/graphify/llm.py
+- [[Explicit backend selection + disable switch for ambient-key auto-detection…]] - rationale - graphify/tests/test_backend_opt_in.py
+- [[Graph_7]] - code
+- [[Guard the strict deny only block a read of a file the graph actually indexes.…]] - rationale - graphify/graphify/cli.py
+- [[Link identically declared types across repos. Returns the edge count added. A…]] - rationale - graphify/graphify/cross_repo_types.py
+- [[Load a graphify graph.json into a networkx graph, accepting both writers. The…]] - rationale - graphify/graphify/paths.py
+- [[Manifest-safe files dict only stamp semantic files that actually produced…]] - rationale - graphify/graphify/cli.py
+- [[Manifest-stamped code files with a registered extractor but ZERO nodes in the…]] - rationale - graphify/graphify/cli.py
+- [[Manifest-stamped semantic files (docpaperimage) with ZERO nodes and ZERO…]] - rationale - graphify/graphify/cli.py
+- [[Mark every node and edge of a semantic extraction ``_origin semantic``.…]] - rationale - graphify/graphify/llm.py
+- [[Name the effective graph.json in a hook-guard reminder (4040). The reminder…]] - rationale - graphify/graphify/cli.py
+- [[Node count of an existing graph.json. Returns - an ``int`` node count when the…]] - rationale - graphify/graphify/export.py
+- [[Nudge toward Graphify Cloud once after a successful local graph build. Kept…]] - rationale - graphify/graphify/cli.py
+- [[Path_45]] - code
+- [[Path_46]] - code
+- [[Path_47]] - code
+- [[Path_48]] - code
+- [[Print per-stage wall-clock timings to stderr when --timing is set (1490).…]] - rationale - graphify/graphify/cli.py
+- [[Reconcile directory ownership and incoming links on incremental scans. Callers…]] - rationale - graphify/graphify/extractors/terraform.py
+- [[Record that graphify oriented the agent recently, next to the queried graph.…]] - rationale - graphify/graphify/cli.py
+- [[Reject path if its size exceeds the configured graph-file cap. Protects…]] - rationale - graphify/graphify/security.py
+- [[Reject oversized graph files before parsing (CLI exit-on-fail flavor).…]] - rationale - graphify/graphify/cli.py
+- [[Remap community IDs to maximize overlap with a previous assignment. Uses greedy…]] - rationale - graphify/graphify/cluster.py
+- [[Remove all nodes for repo_tag from the global graph. Returns count removed.]] - rationale - graphify/graphify/global_graph.py
+- [[Remove the internal ``_partial`` marker from every item in ``result``. Call…]] - rationale - graphify/graphify/llm.py
+- [[Return ``(backend, source)`` the backend to use and what selected it.…]] - rationale - graphify/graphify/llm.py
+- [[Return current git HEAD commit hash, or None outside a repo. ``cwd`` selects…]] - rationale - graphify/graphify/watch.py
+- [[Return the effective viz node limit, honoring GRAPHIFY_VIZ_NODE_LIMIT env var.…]] - rationale - graphify/graphify/exporters/html.py
+- [[Return the manifest repos dict.]] - rationale - graphify/graphify/global_graph.py
+- [[Return the persisted ``--exclude`` patterns for this graph, or .]] - rationale - graphify/graphify/watch.py
+- [[Shared handling for the 3203 unverified-semantic-shrink guard on both the raw…]] - rationale - graphify/graphify/cli.py
+- [[Snapshot graph artifacts to a dated subfolder before an overwrite. Triggers…]] - rationale - graphify/graphify/export.py
+- [[Stamp each link's stored direction as ``_src````_tgt`` before loading.…]] - rationale - graphify/graphify/paths.py
+- [[The analysed repo root for a graph file rootGRAPHIFY_OUT_NAMEgraph.json,…]] - rationale - graphify/graphify/cli.py
+- [[The raw ``GRAPHIFY_BACKEND`` value, or None when unsetblank. Unlike the…]] - rationale - graphify/graphify/llm.py
+- [[True if a queryexplainpath ran within GRAPHIFY_HOOK_STRICT_TTL (default…]] - rationale - graphify/graphify/cli.py
+- [[True when ``GRAPHIFY_BACKEND`` explicitly disables every LLM backend. Lets a…]] - rationale - graphify/graphify/llm.py
+- [[Warn if OLLAMA_BASE_URL looks unsafe; hard-block link-localmetadata (F3).…]] - rationale - graphify/graphify/llm.py
+- [[Whether a saved label still names this community (2298). An equal membership…]] - rationale - graphify/graphify/cluster.py
+- [[Whether to emit a soft readsearch nudge for this tool call (3435). The nudge…]] - rationale - graphify/graphify/cli.py
+- [[_StageTimer]] - code - graphify/graphify/cli.py
+- [[_clear_html_stale_marker()]] - code - graphify/graphify/cli.py
+- [[_ctx_identity()]] - code - graphify/graphify/cli.py
+- [[_default_graph_path()]] - code - graphify/graphify/cli.py
+- [[_enforce_graph_size_cap_or_exit()]] - code - graphify/graphify/cli.py
+- [[_file_hash()]] - code - graphify/graphify/global_graph.py
+- [[_gc_hook_session_markers()]] - code - graphify/graphify/cli.py
+- [[_git_head()]] - code - graphify/graphify/watch.py
+- [[_graph_hint()]] - code - graphify/graphify/cli.py
+- [[_graph_root_for()]] - code - graphify/graphify/cli.py
+- [[_graphify_backend_setting()]] - code - graphify/graphify/llm.py
+- [[_handle_unverified_semantic_shrink()]] - code - graphify/graphify/cli.py
+- [[_hint_text()]] - code - graphify/graphify/cli.py
+- [[_invalidate_file_manifest_for_db_graph()]] - code - graphify/graphify/cli.py
+- [[_load_global_graph()]] - code - graphify/graphify/global_graph.py
+- [[_load_graph()_1]] - code - graphify/graphify/cli.py
+- [[_load_manifest()]] - code - graphify/graphify/global_graph.py
+- [[_mark_session_denied()]] - code - graphify/graphify/cli.py
+- [[_nudge_allowed()]] - code - graphify/graphify/cli.py
+- [[_nudge_for_out()]] - code - graphify/graphify/cli.py
+- [[_parse_float()]] - code - graphify/graphify/cli.py
+- [[_parse_int()]] - code - graphify/graphify/cli.py
+- [[_print_cloud_cta()]] - code - graphify/graphify/cli.py
+- [[_progress()]] - code - graphify/graphify/cli.py
+- [[_prune_graph_json_sources()]] - code - graphify/graphify/cli.py
+- [[_query_stamp_fresh()]] - code - graphify/graphify/cli.py
+- [[_read_build_excludes()]] - code - graphify/graphify/watch.py
+- [[_record_extract_cost()]] - code - graphify/graphify/cli.py
+- [[_reenter_main()]] - code - graphify/graphify/cli.py
+- [[_resolve()]] - code - graphify/graphify/cli.py
+- [[_save_global_graph()]] - code - graphify/graphify/global_graph.py
+- [[_save_manifest()]] - code - graphify/graphify/global_graph.py
+- [[_stamp_semantic_origin()]] - code - graphify/graphify/llm.py
+- [[_stamped_manifest_files()]] - code - graphify/graphify/cli.py
+- [[_strip_partial_markers()]] - code - graphify/graphify/llm.py
+- [[_target_is_indexed()]] - code - graphify/graphify/cli.py
+- [[_to_simple()]] - code - graphify/graphify/cli.py
+- [[_touch_query_stamp()]] - code - graphify/graphify/cli.py
+- [[_validate_ollama_base_url()]] - code - graphify/graphify/llm.py
+- [[_viz_node_limit()]] - code - graphify/graphify/exporters/html.py
+- [[_with_hint()]] - code - graphify/graphify/cli.py
+- [[_zero_node_stamped_code_sources()]] - code - graphify/graphify/cli.py
+- [[_zero_node_stamped_semantic_sources()]] - code - graphify/graphify/cli.py
+- [[backend_disabled_by_env()]] - code - graphify/graphify/llm.py
+- [[backup_if_protected()]] - code - graphify/graphify/export.py
+- [[check_graph_file_size_cap()]] - code - graphify/graphify/security.py
+- [[check_update()]] - code - graphify/graphify/watch.py
+- [[cli.py]] - code - graphify/graphify/cli.py
+- [[dedupe_edges()]] - code - graphify/graphify/build.py
+- [[dedupe_nodes()]] - code - graphify/graphify/build.py
+- [[detect_backend_with_source()]] - code - graphify/graphify/llm.py
+- [[dispatch_command()]] - code - graphify/graphify/cli.py
+- [[estimate_cost()]] - code - graphify/graphify/llm.py
+- [[existing_graph_node_count()]] - code - graphify/graphify/export.py
+- [[finalize_raw_graph_endpoints()]] - code - graphify/graphify/build.py
+- [[global_add()]] - code - graphify/graphify/global_graph.py
+- [[global_graph.py]] - code - graphify/graphify/global_graph.py
+- [[global_list()]] - code - graphify/graphify/global_graph.py
+- [[global_path()]] - code - graphify/graphify/global_graph.py
+- [[global_remove()]] - code - graphify/graphify/global_graph.py
+- [[graphify command dispatch — every non-install subcommand. Extracted verbatim…]] - rationale - graphify/graphify/cli.py
+- [[key()]] - code - graphify/graphify/cli.py
+- [[label_still_applies()]] - code - graphify/graphify/cluster.py
+- [[line_of()_1]] - code - graphify/graphify/cli.py
+- [[link_shared_type_declarations()]] - code - graphify/graphify/cross_repo_types.py
+- [[load_learning_for_report()]] - code - graphify/graphify/report.py
+- [[load_node_link_graph()]] - code - graphify/graphify/paths.py
+- [[out_path()]] - code - graphify/graphify/paths.py
+- [[parametrize_16]] - code
+- [[refresh_terraform_paths()]] - code - graphify/graphify/extractors/terraform.py
+- [[remap_communities_to_previous()]] - code - graphify/graphify/cluster.py
+- [[restore_arc_direction()]] - code - graphify/graphify/paths.py
+- [[test_backend_not_disabled_when_unset()]] - code - graphify/tests/test_backend_opt_in.py
+- [[test_backend_opt_in.py]] - code - graphify/tests/test_backend_opt_in.py
+- [[test_backend_registered_with_zero_cost()]] - code - graphify/tests/test_claude_cli_backend.py
+- [[test_detect_backend_with_source_names_the_ambient_variable()]] - code - graphify/tests/test_backend_opt_in.py
+- [[test_estimate_cost_azure_no_keyerror()]] - code - graphify/tests/test_llm_backends.py
+- [[test_extract_files_direct_refuses_cleanly_when_disabled()]] - code - graphify/tests/test_backend_opt_in.py
+- [[test_graphify_backend_none_disables()]] - code - graphify/tests/test_backend_opt_in.py
+- [[test_graphify_backend_selects_explicitly()]] - code - graphify/tests/test_backend_opt_in.py
+- [[test_strip_partial_markers_removes_internal_key()]] - code - graphify/tests/test_partial_cache.py
+- [[time]] - concept
+- [[write_json_atomic()]] - code - graphify/graphify/paths.py
+- [[write_tree_html()]] - code - graphify/graphify/tree_html.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_17
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 29 edges to [[_COMMUNITY_Community 18]]
+- 25 edges to [[_COMMUNITY_Community 7]]
+- 23 edges to [[_COMMUNITY_Community 132]]
+- 21 edges to [[_COMMUNITY_Community 19]]
+- 19 edges to [[_COMMUNITY_Community 115]]
+- 19 edges to [[_COMMUNITY_Community 82]]
+- 16 edges to [[_COMMUNITY_Community 58]]
+- 13 edges to [[_COMMUNITY_Community 34]]
+- 11 edges to [[_COMMUNITY_Community 9]]
+- 11 edges to [[_COMMUNITY_Community 3]]
+- 10 edges to [[_COMMUNITY_Community 46]]
+- 9 edges to [[_COMMUNITY_Community 53]]
+- 9 edges to [[_COMMUNITY_Community 64]]
+- 8 edges to [[_COMMUNITY_Community 4]]
+- 8 edges to [[_COMMUNITY_Community 131]]
+- 8 edges to [[_COMMUNITY_Community 20]]
+- 7 edges to [[_COMMUNITY_Community 57]]
+- 7 edges to [[_COMMUNITY_Community 47]]
+- 7 edges to [[_COMMUNITY_Community 254]]
+- 7 edges to [[_COMMUNITY_Community 32]]
+- 6 edges to [[_COMMUNITY_Community 107]]
+- 6 edges to [[_COMMUNITY_Community 44]]
+- 6 edges to [[_COMMUNITY_Community 24]]
+- 6 edges to [[_COMMUNITY_Community 216]]
+- 5 edges to [[_COMMUNITY_Community 65]]
+- 5 edges to [[_COMMUNITY_Community 33]]
+- 5 edges to [[_COMMUNITY_Community 269]]
+- 5 edges to [[_COMMUNITY_Community 26]]
+- 5 edges to [[_COMMUNITY_Community 201]]
+- 5 edges to [[_COMMUNITY_Community 62]]
+- 5 edges to [[_COMMUNITY_Community 6]]
+- 4 edges to [[_COMMUNITY_Community 23]]
+- 4 edges to [[_COMMUNITY_Community 176]]
+- 4 edges to [[_COMMUNITY_Community 158]]
+- 4 edges to [[_COMMUNITY_Community 52]]
+- 4 edges to [[_COMMUNITY_Community 11]]
+- 4 edges to [[_COMMUNITY_Community 117]]
+- 4 edges to [[_COMMUNITY_Community 136]]
+- 4 edges to [[_COMMUNITY_Community 187]]
+- 4 edges to [[_COMMUNITY_Community 207]]
+- 4 edges to [[_COMMUNITY_Community 334]]
+- 4 edges to [[_COMMUNITY_Community 80]]
+- 4 edges to [[_COMMUNITY_Community 295]]
+- 4 edges to [[_COMMUNITY_Community 21]]
+- 3 edges to [[_COMMUNITY_Community 100]]
+- 3 edges to [[_COMMUNITY_Community 119]]
+- 3 edges to [[_COMMUNITY_Community 5]]
+- 3 edges to [[_COMMUNITY_Community 397]]
+- 3 edges to [[_COMMUNITY_Community 177]]
+- 3 edges to [[_COMMUNITY_Community 238]]
+- 2 edges to [[_COMMUNITY_Community 226]]
+- 2 edges to [[_COMMUNITY_Community 41]]
+- 2 edges to [[_COMMUNITY_Community 48]]
+- 2 edges to [[_COMMUNITY_Community 164]]
+- 2 edges to [[_COMMUNITY_Community 178]]
+- 2 edges to [[_COMMUNITY_Community 255]]
+- 2 edges to [[_COMMUNITY_Community 124]]
+- 2 edges to [[_COMMUNITY_Community 128]]
+- 2 edges to [[_COMMUNITY_Community 14]]
+- 2 edges to [[_COMMUNITY_Community 147]]
+- 2 edges to [[_COMMUNITY_Community 148]]
+- 2 edges to [[_COMMUNITY_Community 159]]
+- 2 edges to [[_COMMUNITY_Community 166]]
+- 2 edges to [[_COMMUNITY_Community 45]]
+- 2 edges to [[_COMMUNITY_Community 530]]
+- 2 edges to [[_COMMUNITY_Community 170]]
+- 2 edges to [[_COMMUNITY_Community 196]]
+- 2 edges to [[_COMMUNITY_Community 314]]
+- 2 edges to [[_COMMUNITY_Community 73]]
+- 2 edges to [[_COMMUNITY_Community 215]]
+- 2 edges to [[_COMMUNITY_Community 532]]
+- 2 edges to [[_COMMUNITY_Community 538]]
+- 2 edges to [[_COMMUNITY_Community 302]]
+- 2 edges to [[_COMMUNITY_Community 440]]
+- 2 edges to [[_COMMUNITY_Community 280]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 39]]
+- 2 edges to [[_COMMUNITY_Community 366]]
+- 2 edges to [[_COMMUNITY_Community 414]]
+- 2 edges to [[_COMMUNITY_Community 223]]
+- 1 edge to [[_COMMUNITY_Community 120]]
+- 1 edge to [[_COMMUNITY_Community 534]]
+- 1 edge to [[_COMMUNITY_Community 133]]
+- 1 edge to [[_COMMUNITY_Community 146]]
+- 1 edge to [[_COMMUNITY_Community 253]]
+- 1 edge to [[_COMMUNITY_Community 211]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 86]]
+- 1 edge to [[_COMMUNITY_Community 312]]
+- 1 edge to [[_COMMUNITY_Community 168]]
+- 1 edge to [[_COMMUNITY_Community 49]]
+- 1 edge to [[_COMMUNITY_Community 87]]
+- 1 edge to [[_COMMUNITY_Community 531]]
+- 1 edge to [[_COMMUNITY_Community 195]]
+- 1 edge to [[_COMMUNITY_Community 606]]
+- 1 edge to [[_COMMUNITY_Community 10]]
+- 1 edge to [[_COMMUNITY_Community 116]]
+- 1 edge to [[_COMMUNITY_Community 396]]
+- 1 edge to [[_COMMUNITY_Community 247]]
+- 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 103]]
+- 1 edge to [[_COMMUNITY_Community 59]]
+- 1 edge to [[_COMMUNITY_Community 185]]
+
+## Top bridge nodes
+- [[cli.py]] - degree 165, connects to 67 communities
+- [[dispatch_command()]] - degree 143, connects to 60 communities
+- [[time]] - degree 29, connects to 18 communities
+- [[check_graph_file_size_cap()]] - degree 36, connects to 16 communities
+- [[global_graph.py]] - degree 22, connects to 8 communities

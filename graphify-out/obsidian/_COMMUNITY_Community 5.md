@@ -1,0 +1,281 @@
+---
+type: community
+cohesion: 0.02
+members: 215
+---
+
+# Community 5
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 215 nodes
+
+## Members
+- [[1666 a bare snapshots dir with no .snap files is a legit code namespace…]] - rationale - graphify/tests/test_detect.py
+- [[1964 the same collapse must happen on the WRITE side too. If the seeded rows…]] - rationale - graphify/tests/test_detect.py
+- [[2058 must not loosen the unambiguous names venv.venv_venv are still pruned…]] - rationale - graphify/tests/test_detect.py
+- [[2058 a real source directory named env or _env with no virtualenv markers…]] - rationale - graphify/tests/test_detect.py
+- [[2058 an env dir that IS a real virtualenv (has markers) is still pruned, and…]] - rationale - graphify/tests/test_detect.py
+- [[2112 .graphifyinclude support was removed (dead since 873). A leftover…]] - rationale - graphify/tests/test_detect.py
+- [[2273 a nested output basename must not prune same-named source dirs.]] - rationale - graphify/tests/test_detect.py
+- [[2339 a coverage dir holding real modules and no coverage artefacts is a…]] - rationale - graphify/tests/test_detect.py
+- [[2787 detect() with cache_root must write converted sidecars under…]] - rationale - graphify/tests/test_detect.py
+- [[dot-gitinfoexclude (where `git worktree add` records nested worktree paths, and…]] - rationale - graphify/tests/test_detect.py
+- [[dot-graphify (extraction cache) must never be re-indexed as source (873).]] - rationale - graphify/tests/test_detect.py
+- [[dot-graphifyignore is evaluated after .gitignore, so a `!` negation in it can re-…]] - rationale - graphify/tests/test_detect.py
+- [[dot-next (Next.js build cache) must be excluded even after dot-dir fix (873).]] - rationale - graphify/tests/test_detect.py
+- [[dot-nox (nox virtualenvs, tox's successor) must be excluded like .tox (1804).]] - rationale - graphify/tests/test_detect.py
+- [[A .gitignore below the scan root is loaded by the walk itself; its patterns…]] - rationale - graphify/tests/test_detect.py
+- [[A .gitignore in a subdirectory below the scan root is honored too (1206).…]] - rationale - graphify/tests/test_detect.py
+- [[A .graphifyignore containing only a BOM yields zero patterns, not one bogus…]] - rationale - graphify/tests/test_detect.py
+- [[A BOM at the start of $GIT_DIRinfoexclude must not corrupt the first pattern…]] - rationale - graphify/tests/test_detect.py
+- [[A BOM followed by a comment must still parse as a comment, not become a…]] - rationale - graphify/tests/test_detect.py
+- [[A BOM'd .gitignore below the scan root (loaded live during the walk, 1206…]] - rationale - graphify/tests/test_detect.py
+- [[A BOM'd .gitignore first pattern must match, exactly like git (2163).]] - rationale - graphify/tests/test_detect.py
+- [[A UTF-8 BOM at the start of .graphifyignore must not corrupt the first pattern…]] - rationale - graphify/tests/test_detect.py
+- [[A closer (nested) .gitignore's `!` re-include wins over a root exclude,…]] - rationale - graphify/tests/test_detect.py
+- [[A coverage dir is still pruned on any single artefact file — an lcov.info with…]] - rationale - graphify/tests/test_detect.py
+- [[A file git ignores only through core.excludesFile must stay out of the graph…]] - rationale - graphify/tests/test_detect.py
+- [[A nested .gitignore ('data') in one project must not drop a sibling project's…]] - rationale - graphify/tests/test_detect.py
+- [[A nested .gitignore containing a bare `` (auto-written by e.g. the hypothesis…]] - rationale - graphify/tests/test_detect.py
+- [[A nested .gitignore excluding a directory prevents descending into it.]] - rationale - graphify/tests/test_detect.py
+- [[A parent `.gitignore` should still ignore unrelated directories (like…]] - rationale - graphify/tests/test_detect.py
+- [[A project `.gitignore` `!` re-include beats the global file, and --no-gitignore…]] - rationale - graphify/tests/test_detect.py
+- [[A prose file whose stem IS exactly a bare keyword still reads as a dump.]] - rationale - graphify/tests/test_detect.py
+- [[A regular `` matches one component; recursive matching requires ``.]] - rationale - graphify/tests/test_detect.py
+- [[A submodule's .git file points at super.gitmodulesname, which carries no…]] - rationale - graphify/tests/test_detect.py
+- [[A trailing slash restricts a pattern to directories, as in gitignore.]] - rationale - graphify/tests/test_detect.py
+- [[An accented pattern excludes its directory even when the FS stores NFD. macOS…]] - rationale - graphify/tests/test_detect.py
+- [[An explicit follow_symlinks=False skips symlinked directories.]] - rationale - graphify/tests/test_detect.py
+- [[Bare plural tokens in a prose file is a design-token reference doc, not a…]] - rationale - graphify/tests/test_detect.py
+- [[Comment lines in .graphifyignore are not treated as patterns.]] - rationale - graphify/tests/test_detect.py
+- [[Counterpart guard the anchor-scoped fix must not stop nested ignore files from…]] - rationale - graphify/tests/test_detect.py
+- [[Every project-scope skill destination install.py knows about is pruned, so a…]] - rationale - graphify/tests/test_detect.py
+- [[Files inside .claudeworktrees (nested placement) are never indexed (1023).]] - rationale - graphify/tests/test_detect.py
+- [[Files inside .github (workflows etc.) are now indexed (873).]] - rationale - graphify/tests/test_detect.py
+- [[Files inside .worktrees are never indexed (947).]] - rationale - graphify/tests/test_detect.py
+- [[Files matching .graphifyignore patterns are excluded from detect().]] - rationale - graphify/tests/test_detect.py
+- [[Genuine design-token source files (.dart.ts) are graphable source and exempt…]] - rationale - graphify/tests/test_detect.py
+- [[If a parent `.gitignore` (at the repo root) ignores the directory being scanned…]] - rationale - graphify/tests/test_detect.py
+- [[No .graphifyignore is not an error.]] - rationale - graphify/tests/test_detect.py
+- [[Noise dot dirs (.next, .nuxt, .graphify cache, …) are skipped (873). Non-noise…]] - rationale - graphify/tests/test_detect.py
+- [[Normalization is a no-op for ASCII patterns — no regression.]] - rationale - graphify/tests/test_detect.py
+- [[Normalize detect() output to forward slashes before matching on it. detect()…]] - rationale - graphify/tests/test_detect.py
+- [[Obsidian metadata and plugin caches are not part of the source corpus (2493).]] - rationale - graphify/tests/test_detect.py
+- [[Only graphify's installed skill path shape is pruned, not the bare names…]] - rationale - graphify/tests/test_detect.py
+- [[Ordinary scans still walk normal directories by default.]] - rationale - graphify/tests/test_detect.py
+- [[Placeholder-only committed templates must not be treated as live secrets.]] - rationale - graphify/tests/test_detect.py
+- [[Precedence across all three sources a nested `.gitignore` `!` re-include…]] - rationale - graphify/tests/test_detect.py
+- [[Re-including a child cannot rescue it while its parent stays excluded.]] - rationale - graphify/tests/test_detect.py
+- [[Return True if this file likely contains secrets and should be skipped.]] - rationale - graphify/graphify/detect.py
+- [[Stage 1 dir guard runs before the Stage 2 template exemption anything under a…]] - rationale - graphify/tests/test_detect.py
+- [[Symlink directory following is explicit opt-in.]] - rationale - graphify/tests/test_detect.py
+- [[The plural exemption is scoped to prose extensions only — tokens.txt is still…]] - rationale - graphify/tests/test_detect.py
+- [[The reverse direction also holds NFD pattern, NFC path on disk.]] - rationale - graphify/tests/test_detect.py
+- [[The single-file rule matches the holder dir plus the exact path, never a bare…]] - rationale - graphify/tests/test_detect.py
+- [[The skill `graphify install --project --platform claude` writes (SKILL.md plus…]] - rationale - graphify/tests/test_detect.py
+- [[The template carve-out is suffix-anchored; live env files stay excluded.]] - rationale - graphify/tests/test_detect.py
+- [[The walk meets directories first and the watcher meets files first; a shared…]] - rationale - graphify/tests/test_detect.py
+- [[Video files do not contribute to total_words.]] - rationale - graphify/tests/test_detect.py
+- [[When both exist, their patterns are MERGED — a file excluded only by .gitignore…]] - rationale - graphify/tests/test_detect.py
+- [[When no .graphifyignore exists, .gitignore patterns are honored (945).]] - rationale - graphify/tests/test_detect.py
+- [[With core.excludesFile unset git still reads ~.configgitignore (or…]] - rationale - graphify/tests/test_detect.py
+- [[Without a VCS root, parent .graphifyignore does NOT apply (hermetic).]] - rationale - graphify/tests/test_detect.py
+- [[__snapshots__ and real jestvitest snapshots dirs are artefacts — excluded.]] - rationale - graphify/tests/test_detect.py
+- [[_all_detected()]] - code - graphify/tests/test_detect.py
+- [[_detected()]] - code - graphify/tests/test_detect.py
+- [[_git_init()]] - code - graphify/tests/test_detect.py
+- [[_ignored_among()]] - code - graphify/tests/test_detect.py
+- [[_is_sensitive()]] - code - graphify/graphify/detect.py
+- [[_on_walk_error()]] - code - graphify/graphify/detect.py
+- [[_touch()]] - code - graphify/tests/test_detect.py
+- [[`!dir` re-includes the directory and what is in it, unless a pattern names the…]] - rationale - graphify/tests/test_detect.py
+- [[`` retains recursive gitignore matching at zero or more depths.]] - rationale - graphify/tests/test_detect.py
+- [[`` stays at the root, so `!src` makes the subtree walkable (1975).]] - rationale - graphify/tests/test_detect.py
+- [[as_posix_list()]] - code - graphify/tests/test_detect.py
+- [[coverage and lcov-report are noise dirs — HTML reports inside must be…]] - rationale - graphify/tests/test_detect.py
+- [[detect()]] - code - graphify/graphify/detect.py
+- [[detect() always surfaces a walk_errors list so callers can tell whether…]] - rationale - graphify/tests/test_detect.py
+- [[detect() correctly counts video files and does not add them to word count.]] - rationale - graphify/tests/test_detect.py
+- [[detect() result always includes a 'video' key even with no video files.]] - rationale - graphify/tests/test_detect.py
+- [[detect(), the extractor's collect_files and ignored_predicate (watch, markdown…]] - rationale - graphify/tests/test_detect.py
+- [[extra_excludes patterns exclude matching files from detect() (947).]] - rationale - graphify/tests/test_detect.py
+- [[git only applies its global excludes inside a repo; neither should we.]] - rationale - graphify/tests/test_detect.py
+- [[parametrize_86]] - code
+- [[storybook-static is a build artefact — must be excluded.]] - rationale - graphify/tests/test_detect.py
+- [[test_anchored_double_star_crosses_path_segments()]] - code - graphify/tests/test_detect.py
+- [[test_anchored_negation_cannot_skip_excluded_parent()]] - code - graphify/tests/test_detect.py
+- [[test_anchored_root_wildcard_negation_reincludes_subtree()]] - code - graphify/tests/test_detect.py
+- [[test_configured_core_excludes_file_is_honoured()]] - code - graphify/tests/test_detect.py
+- [[test_default_global_git_ignore_is_honoured()]] - code - graphify/tests/test_detect.py
+- [[test_detect.py]] - code - graphify/tests/test_detect.py
+- [[test_detect_allows_github_dir()]] - code - graphify/tests/test_detect.py
+- [[test_detect_default_does_not_auto_follow_direct_symlink_child()]] - code - graphify/tests/test_detect.py
+- [[test_detect_default_does_not_follow_when_no_symlinks()]] - code - graphify/tests/test_detect.py
+- [[test_detect_does_not_ignore_scan_root_itself_via_parent_gitignore()]] - code - graphify/tests/test_detect.py
+- [[test_detect_explicit_false_overrides_auto_detect()]] - code - graphify/tests/test_detect.py
+- [[test_detect_extra_excludes_pattern()]] - code - graphify/tests/test_detect.py
+- [[test_detect_finds_fixtures()]] - code - graphify/tests/test_detect.py
+- [[test_detect_finds_video_files()]] - code - graphify/tests/test_detect.py
+- [[test_detect_follows_symlinked_directory()]] - code - graphify/tests/test_detect.py
+- [[test_detect_follows_symlinked_file()]] - code - graphify/tests/test_detect.py
+- [[test_detect_handles_circular_symlinks()]] - code - graphify/tests/test_detect.py
+- [[test_detect_honors_git_info_exclude()]] - code - graphify/tests/test_detect.py
+- [[test_detect_includes_video_key()]] - code - graphify/tests/test_detect.py
+- [[test_detect_keeps_coverage_code_namespace()]] - code - graphify/tests/test_detect.py
+- [[test_detect_keeps_env_source_dirs()]] - code - graphify/tests/test_detect.py
+- [[test_detect_keeps_files_named_like_graphify_installs()]] - code - graphify/tests/test_detect.py
+- [[test_detect_keeps_skills_graphify_source_layouts()]] - code - graphify/tests/test_detect.py
+- [[test_detect_keeps_snapshots_code_namespace()]] - code - graphify/tests/test_detect.py
+- [[test_detect_keeps_submodule_gitdir_without_commondir()]] - code - graphify/tests/test_detect.py
+- [[test_detect_office_conversion_respects_cache_root()]] - code - graphify/tests/test_detect.py
+- [[test_detect_preserves_unrelated_parent_ignores_inside_scan_root()]] - code - graphify/tests/test_detect.py
+- [[test_detect_prunes_venv_names_without_markers()]] - code - graphify/tests/test_detect.py
+- [[test_detect_records_unclassified_extensionless_files()]] - code - graphify/tests/test_detect.py
+- [[test_detect_reports_walk_errors_key()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_coverage_dir()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_coverage_dir_by_lcov_info()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_google_workspace_shortcuts_by_default()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_graphify_own_cache()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_graphify_skill_for_every_project_platform()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_installed_graphify_skill()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_nested_worktrees_dir()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_next_cache()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_noise_dot_dirs()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_nox_virtualenv()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_obsidian_vault_metadata_dirs()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_out_of_root_symlinked_directory_even_when_following()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_out_of_root_symlinked_file_by_default()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_snapshots_dir()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_storybook_static_dir()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_visual_tests_dir()]] - code - graphify/tests/test_detect.py
+- [[test_detect_skips_worktrees_dir()]] - code - graphify/tests/test_detect.py
+- [[test_detect_still_prunes_real_env_venv()]] - code - graphify/tests/test_detect.py
+- [[test_detect_unclassified_empty_when_all_supported()]] - code - graphify/tests/test_detect.py
+- [[test_detect_video_not_in_words()]] - code - graphify/tests/test_detect.py
+- [[test_detect_warns_small_corpus()]] - code - graphify/tests/test_detect.py
+- [[test_directory_only_negation_does_not_reinclude_file()]] - code - graphify/tests/test_detect.py
+- [[test_git_info_exclude_utf8_bom()]] - code - graphify/tests/test_detect.py
+- [[test_gitignore_fallback_when_no_graphifyignore()]] - code - graphify/tests/test_detect.py
+- [[test_gitignore_nested_below_root_excludes_file()]] - code - graphify/tests/test_detect.py
+- [[test_gitignore_nested_below_root_prunes_whole_directory()]] - code - graphify/tests/test_detect.py
+- [[test_gitignore_nested_negation_overrides_broader_root_rule()]] - code - graphify/tests/test_detect.py
+- [[test_gitignore_utf8_bom_matches_git()]] - code - graphify/tests/test_detect.py
+- [[test_global_git_ignore_needs_a_git_repo()]] - code - graphify/tests/test_detect.py
+- [[test_global_git_ignore_ranks_lowest_and_respects_no_gitignore()]] - code - graphify/tests/test_detect.py
+- [[test_graphifyignore_and_gitignore_are_merged()]] - code - graphify/tests/test_detect.py
+- [[test_graphifyignore_ascii_patterns_unaffected()]] - code - graphify/tests/test_detect.py
+- [[test_graphifyignore_bom_only_file()]] - code - graphify/tests/test_detect.py
+- [[test_graphifyignore_bom_then_comment()]] - code - graphify/tests/test_detect.py
+- [[test_graphifyignore_comments_ignored()]] - code - graphify/tests/test_detect.py
+- [[test_graphifyignore_excludes_file()]] - code - graphify/tests/test_detect.py
+- [[test_graphifyignore_hermetic_without_vcs()]] - code - graphify/tests/test_detect.py
+- [[test_graphifyignore_matches_nfc_path_with_nfd_pattern()]] - code - graphify/tests/test_detect.py
+- [[test_graphifyignore_matches_nfd_path_with_nfc_pattern()]] - code - graphify/tests/test_detect.py
+- [[test_graphifyignore_missing_is_fine()]] - code - graphify/tests/test_detect.py
+- [[test_graphifyignore_negation_overrides_gitignore()]] - code - graphify/tests/test_detect.py
+- [[test_graphifyignore_utf8_bom_first_pattern_honored()]] - code - graphify/tests/test_detect.py
+- [[test_graphifyinclude_is_inert_and_not_unclassified()]] - code - graphify/tests/test_detect.py
+- [[test_nested_gitignore_does_not_govern_sibling_project()]] - code - graphify/tests/test_detect.py
+- [[test_nested_gitignore_patterns_still_apply_inside_their_dir()]] - code - graphify/tests/test_detect.py
+- [[test_nested_gitignore_star_does_not_ignore_outside_its_dir()]] - code - graphify/tests/test_detect.py
+- [[test_nested_gitignore_utf8_bom()]] - code - graphify/tests/test_detect.py
+- [[test_nested_graphify_out_prunes_only_configured_path()]] - code - graphify/tests/test_detect.py
+- [[test_nested_ignore_overrides_git_info_exclude_and_root()]] - code - graphify/tests/test_detect.py
+- [[test_path_pattern_single_star_does_not_cross_segment()]] - code - graphify/tests/test_detect.py
+- [[test_reincluded_directory_brings_its_files_back()]] - code - graphify/tests/test_detect.py
+- [[test_save_manifest_relativize_step_collapses_seeded_duplicates()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_bare_keyword_prose_still_dropped()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_bare_plural_tokens_prose_indexed()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_bare_plural_tokens_still_flagged_outside_prose()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_design_token_source_files_indexed()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_dir_carveout_does_not_bypass_name_screens()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_dir_carveout_still_drops_tfvars_values_store()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_does_not_flag_password_policy_discussion()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_does_not_flag_passwords_py()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_does_not_flag_root_file_named_credentials()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_does_not_flag_ruby_code_modules()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_does_not_flag_source_under_secrets_dir()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_does_not_flag_token_economics_note()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_does_not_flag_tokenize_py()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_does_not_flag_tokenizer_py()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_env_template_inside_secrets_dir_still_dropped()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_filter_indexes_env_templates()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_filter_indexes_topic_prose_and_source()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_filter_still_excludes_real_env_files()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_filter_still_excludes_real_secrets()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_flags_api_token_txt()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_flags_credentials_json()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_flags_dotfile_token()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_flags_everything_under_credential_store_dirs()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_flags_keyword_at_end_of_long_name()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_flags_my_private_key_txt()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_flags_oauth_token_json()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_flags_plural_tokens_txt()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_flags_secrets_dir()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_flags_ssh_dir()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_flags_token_txt()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_flags_underscore_secret()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_secret_handler_txt()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_still_flags_data_secret_stores()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_still_flags_data_under_secrets_dir()]] - code - graphify/tests/test_detect.py
+- [[test_sensitive_token_config_yaml()]] - code - graphify/tests/test_detect.py
+- [[test_unanchored_pattern_in_nested_gitignore_matches_a_name()]] - code - graphify/tests/test_detect.py
+- [[test_unanchored_pattern_matches_a_name_not_a_path()]] - code - graphify/tests/test_detect.py
+- [[test_unanchored_pattern_reaches_every_consumer_of_the_engine()]] - code - graphify/tests/test_detect.py
+- [[test_unanchored_pattern_verdicts_do_not_depend_on_cache_order()]] - code - graphify/tests/test_detect.py
+- [[test_xdg_config_home_global_git_ignore_is_honoured()]] - code - graphify/tests/test_detect.py
+- [[visual-tests bundles and snapshots are noise — must be excluded (869).]] - rationale - graphify/tests/test_detect.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_5
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 57 edges to [[_COMMUNITY_Community 35]]
+- 57 edges to [[_COMMUNITY_Community 24]]
+- 31 edges to [[_COMMUNITY_Community 33]]
+- 28 edges to [[_COMMUNITY_Community 108]]
+- 27 edges to [[_COMMUNITY_Community 180]]
+- 16 edges to [[_COMMUNITY_Community 232]]
+- 8 edges to [[_COMMUNITY_Community 89]]
+- 8 edges to [[_COMMUNITY_Community 210]]
+- 6 edges to [[_COMMUNITY_Community 262]]
+- 6 edges to [[_COMMUNITY_Community 4]]
+- 6 edges to [[_COMMUNITY_Community 540]]
+- 5 edges to [[_COMMUNITY_Community 34]]
+- 4 edges to [[_COMMUNITY_Community 18]]
+- 4 edges to [[_COMMUNITY_Community 2]]
+- 3 edges to [[_COMMUNITY_Community 17]]
+- 3 edges to [[_COMMUNITY_Community 254]]
+- 3 edges to [[_COMMUNITY_Community 388]]
+- 3 edges to [[_COMMUNITY_Community 576]]
+- 3 edges to [[_COMMUNITY_Community 52]]
+- 2 edges to [[_COMMUNITY_Community 169]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 379]]
+- 2 edges to [[_COMMUNITY_Community 380]]
+- 2 edges to [[_COMMUNITY_Community 47]]
+- 2 edges to [[_COMMUNITY_Community 88]]
+- 2 edges to [[_COMMUNITY_Community 6]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 112]]
+- 1 edge to [[_COMMUNITY_Community 263]]
+- 1 edge to [[_COMMUNITY_Community 32]]
+- 1 edge to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 96]]
+- 1 edge to [[_COMMUNITY_Community 617]]
+- 1 edge to [[_COMMUNITY_Community 26]]
+- 1 edge to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 176]]
+- 1 edge to [[_COMMUNITY_Community 59]]
+- 1 edge to [[_COMMUNITY_Community 3]]
+
+## Top bridge nodes
+- [[detect()]] - degree 175, connects to 26 communities
+- [[test_detect.py]] - degree 314, connects to 22 communities
+- [[_is_sensitive()]] - degree 46, connects to 3 communities
+- [[as_posix_list()]] - degree 16, connects to 2 communities
+- [[parametrize_86]] - degree 12, connects to 2 communities

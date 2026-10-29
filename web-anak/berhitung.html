@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Belajar Berhitung — Belajar Yuk!</title>
+<meta name="description" content="Latihan berhitung untuk anak: menghitung benda, penjumlahan, pengurangan, dan membandingkan angka. 10 soal per sesi, dengan bintang.">
+<meta name="theme-color" content="#fff8ef">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#utama">Langsung ke isi</a>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 3l2.6 5.6 6.1.8-4.5 4.2 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.4l6.1-.8z" fill="#fff"/></svg>
+      </span>
+      <span>Belajar Yuk!<small>Main sambil belajar</small></span>
+    </a>
+
+    <nav class="nav" aria-label="Menu utama">
+      <a href="index.html"><span class="ico" aria-hidden="true">🏠</span>Beranda</a>
+      <a href="mewarnai.html"><span class="ico" aria-hidden="true">🎨</span>Mewarnai</a>
+      <a href="berhitung.html"><span class="ico" aria-hidden="true">🔢</span>Berhitung</a>
+      <a href="menulis.html"><span class="ico" aria-hidden="true">✏️</span>Menulis</a>
+      <a href="untuk-orang-tua.html"><span class="ico" aria-hidden="true">👨‍👩‍👧</span>Orang Tua</a>
+    </nav>
+
+    <span class="star-badge" title="Bintang yang sudah dikumpulkan">
+      <span aria-hidden="true">⭐</span><span data-stars>0</span>
+      <span class="sr-only">bintang</span>
+    </span>
+    <button class="icon-btn" type="button" data-sound-toggle aria-pressed="true" title="Nyalakan/matikan suara">🔊</button>
+  </div>
+</header>
+
+<main id="utama">
+  <div class="wrap">
+    <section class="page-head">
+      <a class="back-link" href="index.html">← Beranda</a>
+      <h1>🔢 Berhitung</h1>
+      <p>Satu sesi berisi 10 soal. Pilih jenis latihan dan level, lalu jawab dengan menekan tombol angka. Salah tidak apa-apa — kita coba soal berikutnya.</p>
+    </section>
+
+    <div class="game-wrap">
+      <section class="question-card" aria-label="Soal berhitung">
+        <div id="play">
+          <div class="q-top">
+            <span class="q-label" id="q-label">Soal 1 dari 10</span>
+            <span class="muted" id="q-streak" aria-hidden="true"></span>
+          </div>
+          <div class="q-prompt" id="q-prompt">Siap?</div>
+          <div class="visual" id="visual" aria-live="polite"></div>
+          <div class="answers" id="answers"></div>
+          <div class="feedback" id="feedback" aria-live="polite"></div>
+        </div>
+
+        <div class="result" id="result" hidden>
+          <div class="big" id="res-emoji" aria-hidden="true">🏆</div>
+          <h2 id="res-title">Selesai!</h2>
+          <p class="muted" id="res-text"></p>
+          <div class="stars-row" id="res-stars" style="justify-content:center;font-size:2.4rem;margin:10px 0"></div>
+          <p class="score-big" id="res-score">0 / 10</p>
+          <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:14px">
+            <button class="btn btn-green" type="button" id="btn-again">🔁 Main lagi</button>
+            <a class="btn btn-ghost" href="menulis.html">✏️ Coba menulis</a>
+          </div>
+        </div>
+      </section>
+
+      <aside class="panel" aria-label="Pengaturan latihan">
+        <h2>Jenis latihan</h2>
+        <div class="chip-row" id="mode-chips" role="group" aria-label="Jenis latihan">
+          <button class="chip" type="button" data-mode="hitung" aria-pressed="true">Hitung benda</button>
+          <button class="chip" type="button" data-mode="tambah" aria-pressed="false">Tambah</button>
+          <button class="chip" type="button" data-mode="kurang" aria-pressed="false">Kurang</button>
+          <button class="chip" type="button" data-mode="banding" aria-pressed="false">Bandingkan</button>
+        </div>
+
+        <h2 style="margin-top:20px">Level</h2>
+        <div class="chip-row" role="group" aria-label="Level kesulitan">
+          <button class="chip" type="button" data-level="mudah" aria-pressed="true">Mudah</button>
+          <button class="chip" type="button" data-level="sedang" aria-pressed="false">Sedang</button>
+        </div>
+
+        <div style="margin-top:22px">
+          <div class="stat-line"><span>Progres</span><strong id="stat-q">1 / 10</strong></div>
+          <div class="bar"><span id="bar"></span></div>
+        </div>
+
+        <div class="stat-line" style="margin-top:16px"><span>Benar</span><strong id="stat-benar">0</strong></div>
+        <div class="stat-line"><span>Beruntun</span><strong id="stat-streak">0</strong></div>
+
+        <button class="btn btn-ghost btn-block btn-sm" type="button" id="btn-restart" style="margin-top:18px">🔄 Mulai ulang</button>
+        <p class="muted" style="margin:14px 0 0;font-size:.8rem">Tips: untuk anak yang baru mulai, pakai level Mudah dan mode Hitung benda.</p>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div><strong>Belajar Yuk!</strong> · Tanpa login, tanpa iklan.</div>
+    <nav aria-label="Menu footer">
+      <a href="index.html">Beranda</a>
+      <a href="mewarnai.html">Mewarnai</a>
+      <a href="berhitung.html">Berhitung</a>
+      <a href="menulis.html">Menulis</a>
+      <a href="untuk-orang-tua.html">Orang Tua</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="assets/js/app.js" defer></script>
+<script src="assets/js/berhitung.js" defer></script>
+</body>
+</html>

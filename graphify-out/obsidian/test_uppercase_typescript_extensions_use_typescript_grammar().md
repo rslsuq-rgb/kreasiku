@@ -1,0 +1,19 @@
+---
+source_file: "graphify/tests/test_typescript_module_extensions.py"
+type: "code"
+community: "Community 461"
+location: "L81"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_461
+---
+
+# test_uppercase_typescript_extensions_use_typescript_grammar()
+
+## Connections
+- [[_extract()_33]] - `calls` [EXTRACTED]
+- [[_labels()_22]] - `calls` [EXTRACTED]
+- [[test_typescript_module_extensions.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_461

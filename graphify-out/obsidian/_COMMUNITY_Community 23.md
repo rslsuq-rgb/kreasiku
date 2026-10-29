@@ -1,0 +1,218 @@
+---
+type: community
+cohesion: 0.04
+members: 123
+---
+
+# Community 23
+
+**Cohesion:** 0.04 - loosely connected
+**Members:** 123 nodes
+
+## Members
+- [[4508 — a community relabelled only by letter case lost its article. `to_wiki`…]] - rationale - graphify/tests/test_wiki_case_only_relabel.py
+- [[A god node links its neighbours, but only communities and god nodes get article…]] - rationale - graphify/tests/test_wiki.py
+- [[A god-node article says when a relation group was cut (3127).…]] - rationale - graphify/tests/test_wiki_truncation_indicator.py
+- [[A label containing ``  `` (e.g. a generic like `ArrayT`) produces a…]] - rationale - graphify/tests/test_wiki.py
+- [[Communities with more than 25 nodes show a truncation notice.]] - rationale - graphify/tests/test_wiki.py
+- [[Community and god-node articles share one slug-dedup set, so a god-node label…]] - rationale - graphify/tests/test_wiki.py
+- [[Cross-community links must work even when nodes have no 'community' attribute…]] - rationale - graphify/tests/test_wiki.py
+- [[Each incident edge is counted exactly ONCE (2633). The Parsing Layer (n1, n2)…]] - rationale - graphify/tests/test_wiki.py
+- [[Every article `to_wiki` writes must be reachable from the index. This is the…]] - rationale - graphify/tests/test_wiki.py
+- [[Every inline markdown link target across the whole wiki must point at a file…]] - rationale - graphify/tests/test_wiki.py
+- [[Generate a Wikipedia-style wiki from the graph. Writes - index.md — agent…]] - rationale - graphify/graphify/wiki.py
+- [[God node article must show community name even when node has no 'community'…]] - rationale - graphify/tests/test_wiki.py
+- [[God node with bad ID should not crash.]] - rationale - graphify/tests/test_wiki.py
+- [[Graph_9]] - code
+- [[Graph_10]] - code
+- [[If every community node is stale, raise ValueError with a helpful message…]] - rationale - graphify/tests/test_wiki.py
+- [[Labels with spaces, &, , and parentheses must produce a link whose target IS…]] - rationale - graphify/tests/test_wiki.py
+- [[Make a label safe for use as a filename across platforms AND as a markdown link…]] - rationale - graphify/graphify/wiki.py
+- [[Merge multiple extraction results into one graph.]] - rationale - graphify/worked/mixed-corpus/raw/build.py
+- [[No generated file may contain Obsidian ... syntax. Those links resolve only…]] - rationale - graphify/tests/test_wiki.py
+- [[On a MultiGraph each parallel edge is its own row in the split (2633).…]] - rationale - graphify/tests/test_wiki.py
+- [[Path_73]] - code
+- [[Regression tests for issue 2597 a wiki link's target must BE the on-disk…]] - rationale - graphify/tests/test_wiki_link_filename_parity.py
+- [[Render ``label(slug.md)`` for a slug that is already known. Same output as…]] - rationale - graphify/graphify/wiki.py
+- [[Render a link to another wiki article as a portable relative markdown link.…]] - rationale - graphify/graphify/wiki.py
+- [[Render index.md. Takes the slugs the articles were actually written under —…]] - rationale - graphify/graphify/wiki.py
+- [[Return (community_label, edge_count) pairs for cross-community connections,…]] - rationale - graphify/graphify/wiki.py
+- [[Same for god nodes two nodes sharing a label get one article each, and the…]] - rationale - graphify/tests/test_wiki.py
+- [[Stale node IDs in communities dict are silently dropped without crash (936).]] - rationale - graphify/tests/test_wiki.py
+- [[Stale node IDs trigger a stderr warning showing the drop count (936).]] - rationale - graphify/tests/test_wiki.py
+- [[Tests for graphify.wiki — Wikipedia-style article generation.]] - rationale - graphify/tests/test_wiki.py
+- [[The fix's whole point a link's display text is the human label (with spaces)…]] - rationale - graphify/tests/test_wiki.py
+- [[The folded comparison must not keep unrelated stale articles alive.]] - rationale - graphify/tests/test_wiki_case_only_relabel.py
+- [[The rename must reach disk, so the link in index.md resolves.]] - rationale - graphify/tests/test_wiki_case_only_relabel.py
+- [[The surviving article must carry the NEW label's body, not the stale one. On a…]] - rationale - graphify/tests/test_wiki_case_only_relabel.py
+- [[Two communities may carry the same label. Each is written to its own file…]] - rationale - graphify/tests/test_wiki.py
+- [[Two community labels differing only by case must each get their own article.…]] - rationale - graphify/tests/test_wiki.py
+- [[When two labels collide on disk and the second article gets a numeric suffix…]] - rationale - graphify/tests/test_wiki.py
+- [[Yield (display, target) for each inline markdown link, skipping external URLs.…]] - rationale - graphify/tests/test_wiki.py
+- [[_assert_every_link_resolves()]] - code - graphify/tests/test_wiki_link_filename_parity.py
+- [[_community_article()]] - code - graphify/graphify/wiki.py
+- [[_cross_community_links()]] - code - graphify/graphify/wiki.py
+- [[_god_node_article()]] - code - graphify/graphify/wiki.py
+- [[_graph()_4]] - code - graphify/tests/test_wiki_case_only_relabel.py
+- [[_index_md()]] - code - graphify/graphify/wiki.py
+- [[_inline_links()]] - code - graphify/tests/test_wiki_case_only_relabel.py
+- [[_inline_links()_1]] - code - graphify/tests/test_wiki.py
+- [[_make_graph()_5]] - code - graphify/tests/test_wiki.py
+- [[_md_link()]] - code - graphify/graphify/wiki.py
+- [[_md_link_to()]] - code - graphify/graphify/wiki.py
+- [[_safe_filename()]] - code - graphify/graphify/wiki.py
+- [[_star()]] - code - graphify/tests/test_wiki_truncation_indicator.py
+- [[_targets()_3]] - code - graphify/tests/test_wiki_link_filename_parity.py
+- [[_unique_slug()]] - code - graphify/graphify/wiki.py
+- [[_wiki()]] - code - graphify/tests/test_wiki_link_filename_parity.py
+- [[`groups` - `Groups` must leave one article behind, not zero.]] - rationale - graphify/tests/test_wiki_case_only_relabel.py
+- [[build()]] - code - graphify/worked/mixed-corpus/raw/build.py
+- [[build_from_json()]] - code - graphify/worked/mixed-corpus/raw/build.py
+- [[graphify_worked_mixed_corpus_raw_validate]] - concept
+- [[index.md is the wiki's reserved entry point. A community whose label slugs to…]] - rationale - graphify/tests/test_wiki.py
+- [[index.md must not point at an article the sweep deleted.]] - rationale - graphify/tests/test_wiki_case_only_relabel.py
+- [[networkx]] - concept
+- [[parametrize_33]] - code
+- [[rawbuild.py]] - code - graphify/worked/mixed-corpus/raw/build.py
+- [[source_file=None on a node must not crash sorted() with TypeError (1016).]] - rationale - graphify/tests/test_wiki.py
+- [[test_a_genuinely_absent_article_is_still_swept()]] - code - graphify/tests/test_wiki_case_only_relabel.py
+- [[test_a_group_at_or_under_the_cap_has_no_indicator()]] - code - graphify/tests/test_wiki_truncation_indicator.py
+- [[test_an_over_cap_group_names_how_much_was_cut()]] - code - graphify/tests/test_wiki_truncation_indicator.py
+- [[test_article_navigation_footer()]] - code - graphify/tests/test_wiki.py
+- [[test_audit_trail_counts_parallel_edges_individually()]] - code - graphify/tests/test_wiki.py
+- [[test_case_only_relabel_keeps_the_article()]] - code - graphify/tests/test_wiki_case_only_relabel.py
+- [[test_case_only_relabel_keeps_the_new_content_not_the_stale_twin()]] - code - graphify/tests/test_wiki_case_only_relabel.py
+- [[test_case_only_relabel_leaves_no_dangling_link()]] - code - graphify/tests/test_wiki_case_only_relabel.py
+- [[test_case_only_relabel_puts_the_new_case_on_disk()]] - code - graphify/tests/test_wiki_case_only_relabel.py
+- [[test_community_article_handles_null_source_file()]] - code - graphify/tests/test_wiki.py
+- [[test_community_article_has_audit_trail()]] - code - graphify/tests/test_wiki.py
+- [[test_community_article_has_cross_links()]] - code - graphify/tests/test_wiki.py
+- [[test_community_article_shows_cohesion()]] - code - graphify/tests/test_wiki.py
+- [[test_community_article_truncation_notice()]] - code - graphify/tests/test_wiki.py
+- [[test_cross_community_links_without_node_community_attrs()]] - code - graphify/tests/test_wiki.py
+- [[test_distinct_labels_collapsing_to_one_slug_stay_distinct()]] - code - graphify/tests/test_wiki_link_filename_parity.py
+- [[test_god_node_article_community_without_node_attr()]] - code - graphify/tests/test_wiki.py
+- [[test_god_node_article_has_connections()]] - code - graphify/tests/test_wiki.py
+- [[test_god_node_article_links_community()]] - code - graphify/tests/test_wiki.py
+- [[test_index_links_all_communities()]] - code - graphify/tests/test_wiki.py
+- [[test_index_links_every_article_written()]] - code - graphify/tests/test_wiki.py
+- [[test_index_links_same_labelled_communities_to_own_articles()]] - code - graphify/tests/test_wiki.py
+- [[test_index_links_same_labelled_god_nodes_to_own_articles()]] - code - graphify/tests/test_wiki.py
+- [[test_index_lists_god_nodes()]] - code - graphify/tests/test_wiki.py
+- [[test_link_target_is_the_filename_verbatim()]] - code - graphify/tests/test_wiki_link_filename_parity.py
+- [[test_no_link_target_is_percent_encoded()]] - code - graphify/tests/test_wiki_link_filename_parity.py
+- [[test_slug_drops_parens_without_mangling_dunders()]] - code - graphify/tests/test_wiki_link_filename_parity.py
+- [[test_slug_has_nothing_that_needs_url_encoding()]] - code - graphify/tests/test_wiki_link_filename_parity.py
+- [[test_slug_keeps_non_ascii()]] - code - graphify/tests/test_wiki_link_filename_parity.py
+- [[test_slug_still_strips_windows_reserved_characters()]] - code - graphify/tests/test_wiki_link_filename_parity.py
+- [[test_the_header_degree_and_the_body_now_agree()]] - code - graphify/tests/test_wiki_truncation_indicator.py
+- [[test_to_wiki_all_stale_raises()]] - code - graphify/tests/test_wiki.py
+- [[test_to_wiki_article_labelled_index_does_not_overwrite_index_md()]] - code - graphify/tests/test_wiki.py
+- [[test_to_wiki_case_only_distinct_labels_dont_overwrite()]] - code - graphify/tests/test_wiki.py
+- [[test_to_wiki_community_articles_created()]] - code - graphify/tests/test_wiki.py
+- [[test_to_wiki_drops_stale_community_nodes()]] - code - graphify/tests/test_wiki.py
+- [[test_to_wiki_god_node_article_created()]] - code - graphify/tests/test_wiki.py
+- [[test_to_wiki_god_node_label_case_collides_with_community()]] - code - graphify/tests/test_wiki.py
+- [[test_to_wiki_no_labels_uses_fallback()]] - code - graphify/tests/test_wiki.py
+- [[test_to_wiki_returns_article_count()]] - code - graphify/tests/test_wiki.py
+- [[test_to_wiki_skips_missing_god_node_ids()]] - code - graphify/tests/test_wiki.py
+- [[test_to_wiki_stale_nodes_prints_warning()]] - code - graphify/tests/test_wiki.py
+- [[test_to_wiki_writes_index()]] - code - graphify/tests/test_wiki.py
+- [[test_whole_wiki_has_no_dangling_link_with_callable_god_nodes()]] - code - graphify/tests/test_wiki_link_filename_parity.py
+- [[test_wiki.py]] - code - graphify/tests/test_wiki.py
+- [[test_wiki_case_only_relabel.py]] - code - graphify/tests/test_wiki_case_only_relabel.py
+- [[test_wiki_emits_no_obsidian_wikilinks()]] - code - graphify/tests/test_wiki.py
+- [[test_wiki_link_display_keeps_label_but_target_is_filename()]] - code - graphify/tests/test_wiki.py
+- [[test_wiki_link_filename_parity.py]] - code - graphify/tests/test_wiki_link_filename_parity.py
+- [[test_wiki_link_with_bracketed_label_resolves()]] - code - graphify/tests/test_wiki.py
+- [[test_wiki_links_resolve_to_real_files()]] - code - graphify/tests/test_wiki.py
+- [[test_wiki_links_to_nodes_without_articles_are_plain_text()]] - code - graphify/tests/test_wiki.py
+- [[test_wiki_links_use_collision_suffixed_slug()]] - code - graphify/tests/test_wiki.py
+- [[test_wiki_safe_filename_honours_an_explicit_limit()]] - code - graphify/tests/test_export_path_length.py
+- [[test_wiki_special_characters_in_label_resolve()]] - code - graphify/tests/test_wiki.py
+- [[test_wiki_truncation_indicator.py]] - code - graphify/tests/test_wiki_truncation_indicator.py
+- [[to_wiki()]] - code - graphify/graphify/wiki.py
+- [[wiki.py]] - code - graphify/graphify/wiki.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_23
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 40 edges to [[_COMMUNITY_Community 11]]
+- 18 edges to [[_COMMUNITY_Community 46]]
+- 10 edges to [[_COMMUNITY_Community 256]]
+- 9 edges to [[_COMMUNITY_Community 129]]
+- 8 edges to [[_COMMUNITY_Community 148]]
+- 7 edges to [[_COMMUNITY_Community 228]]
+- 7 edges to [[_COMMUNITY_Community 103]]
+- 7 edges to [[_COMMUNITY_Community 3]]
+- 7 edges to [[_COMMUNITY_Community 47]]
+- 6 edges to [[_COMMUNITY_Community 53]]
+- 5 edges to [[_COMMUNITY_Community 65]]
+- 5 edges to [[_COMMUNITY_Community 122]]
+- 5 edges to [[_COMMUNITY_Community 9]]
+- 4 edges to [[_COMMUNITY_Community 101]]
+- 4 edges to [[_COMMUNITY_Community 17]]
+- 4 edges to [[_COMMUNITY_Community 208]]
+- 4 edges to [[_COMMUNITY_Community 48]]
+- 4 edges to [[_COMMUNITY_Community 62]]
+- 3 edges to [[_COMMUNITY_Community 230]]
+- 3 edges to [[_COMMUNITY_Community 265]]
+- 3 edges to [[_COMMUNITY_Community 165]]
+- 3 edges to [[_COMMUNITY_Community 59]]
+- 3 edges to [[_COMMUNITY_Community 334]]
+- 3 edges to [[_COMMUNITY_Community 349]]
+- 3 edges to [[_COMMUNITY_Community 534]]
+- 3 edges to [[_COMMUNITY_Community 98]]
+- 2 edges to [[_COMMUNITY_Community 238]]
+- 2 edges to [[_COMMUNITY_Community 301]]
+- 2 edges to [[_COMMUNITY_Community 117]]
+- 2 edges to [[_COMMUNITY_Community 132]]
+- 2 edges to [[_COMMUNITY_Community 245]]
+- 2 edges to [[_COMMUNITY_Community 253]]
+- 2 edges to [[_COMMUNITY_Community 340]]
+- 2 edges to [[_COMMUNITY_Community 357]]
+- 2 edges to [[_COMMUNITY_Community 441]]
+- 2 edges to [[_COMMUNITY_Community 447]]
+- 2 edges to [[_COMMUNITY_Community 458]]
+- 2 edges to [[_COMMUNITY_Community 476]]
+- 2 edges to [[_COMMUNITY_Community 489]]
+- 2 edges to [[_COMMUNITY_Community 49]]
+- 2 edges to [[_COMMUNITY_Community 546]]
+- 2 edges to [[_COMMUNITY_Community 19]]
+- 2 edges to [[_COMMUNITY_Community 312]]
+- 2 edges to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 73]]
+- 1 edge to [[_COMMUNITY_Community 12]]
+- 1 edge to [[_COMMUNITY_Community 128]]
+- 1 edge to [[_COMMUNITY_Community 133]]
+- 1 edge to [[_COMMUNITY_Community 134]]
+- 1 edge to [[_COMMUNITY_Community 140]]
+- 1 edge to [[_COMMUNITY_Community 145]]
+- 1 edge to [[_COMMUNITY_Community 158]]
+- 1 edge to [[_COMMUNITY_Community 159]]
+- 1 edge to [[_COMMUNITY_Community 172]]
+- 1 edge to [[_COMMUNITY_Community 176]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 207]]
+- 1 edge to [[_COMMUNITY_Community 22]]
+- 1 edge to [[_COMMUNITY_Community 280]]
+- 1 edge to [[_COMMUNITY_Community 295]]
+- 1 edge to [[_COMMUNITY_Community 319]]
+- 1 edge to [[_COMMUNITY_Community 385]]
+- 1 edge to [[_COMMUNITY_Community 396]]
+- 1 edge to [[_COMMUNITY_Community 513]]
+- 1 edge to [[_COMMUNITY_Community 57]]
+- 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 80]]
+
+## Top bridge nodes
+- [[networkx]] - degree 229, connects to 63 communities
+- [[wiki.py]] - degree 23, connects to 7 communities
+- [[to_wiki()]] - degree 65, connects to 3 communities
+- [[test_wiki.py]] - degree 47, connects to 2 communities
+- [[test_wiki_link_filename_parity.py]] - degree 18, connects to 2 communities

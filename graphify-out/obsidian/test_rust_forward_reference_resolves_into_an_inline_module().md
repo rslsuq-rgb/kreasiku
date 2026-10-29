@@ -1,0 +1,19 @@
+---
+source_file: "graphify/tests/test_multilang.py"
+type: "code"
+community: "Community 28"
+location: "L544"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_28
+---
+
+# test_rust_forward_reference_resolves_into_an_inline_module()
+
+## Connections
+- [[3782 the pre-scan reaches the same items walk() does, so a type declared in…]] - `rationale_for` [EXTRACTED]
+- [[extract_rust()]] - `calls` [INFERRED]
+- [[test_multilang.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_28

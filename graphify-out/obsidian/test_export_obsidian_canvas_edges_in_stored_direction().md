@@ -1,0 +1,21 @@
+---
+source_file: "graphify/tests/test_export_direction.py"
+type: "code"
+community: "Community 201"
+location: "L161"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_201
+---
+
+# test_export_obsidian_canvas_edges_in_stored_direction()
+
+## Connections
+- [[JSON Canvas draws the arrowhead at ``toNode`` by default.]] - `rationale_for` [EXTRACTED]
+- [[_graph_json()]] - `calls` [EXTRACTED]
+- [[_run()_3]] - `calls` [EXTRACTED]
+- [[json]] - `calls` [EXTRACTED]
+- [[test_export_direction.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_201

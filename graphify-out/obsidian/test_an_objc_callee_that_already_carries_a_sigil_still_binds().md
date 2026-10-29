@@ -1,0 +1,23 @@
+---
+source_file: "graphify/tests/test_cross_repo_member_calls.py"
+type: "code"
+community: "Community 117"
+location: "L279"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_117
+---
+
+# test_an_objc_callee_that_already_carries_a_sigil_still_binds()
+
+## Connections
+- [[_added_calls()]] - `calls` [EXTRACTED]
+- [[_caller()]] - `calls` [EXTRACTED]
+- [[_declaration()]] - `calls` [EXTRACTED]
+- [[_graph()_2]] - `calls` [EXTRACTED]
+- [[_method()]] - `calls` [EXTRACTED]
+- [[link_cross_repo_member_calls()]] - `calls` [EXTRACTED]
+- [[test_cross_repo_member_calls.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_117

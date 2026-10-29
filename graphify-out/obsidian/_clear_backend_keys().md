@@ -1,0 +1,30 @@
+---
+source_file: "graphify/tests/test_extract_cli.py"
+type: "code"
+community: "Community 342"
+location: "L687"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_342
+---
+
+# _clear_backend_keys()
+
+## Connections
+- [[Clear every env var that detect_backend() or _get_backend_api_key() reads.]] - `rationale_for` [EXTRACTED]
+- [[test_declined_by_design_file_is_not_requeued_every_run()]] - `calls` [EXTRACTED]
+- [[test_extract_cli.py]] - `contains` [EXTRACTED]
+- [[test_extract_codeonly_succeeds_without_api_key()]] - `calls` [EXTRACTED]
+- [[test_extract_out_keeps_project_root_clean()]] - `calls` [EXTRACTED]
+- [[test_extract_without_key_still_errors_when_docs_present()]] - `calls` [EXTRACTED]
+- [[test_failed_extra_is_retried_and_recovers()]] - `calls` [EXTRACTED]
+- [[test_incremental_extract_prunes_excluded_file_listed_in_manifest()]] - `calls` [EXTRACTED]
+- [[test_incremental_extract_prunes_newly_excluded_file_not_in_manifest()]] - `calls` [EXTRACTED]
+- [[test_missing_manifest_code_only_preserves_semantic_layer()]] - `calls` [EXTRACTED]
+- [[test_no_cluster_incremental_prunes_newly_excluded_file()]] - `calls` [EXTRACTED]
+- [[test_permanent_failure_does_not_wedge()]] - `calls` [EXTRACTED]
+- [[test_poisoned_manifest_is_healed()]] - `calls` [EXTRACTED]
+- [[test_success_and_unchanged_unaffected()]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_342

@@ -1,0 +1,20 @@
+---
+source_file: "graphify/tests/test_report_gap_thresholds.py"
+type: "code"
+community: "Community 47"
+location: "L219"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_47
+---
+
+# test_ast_node_with_non_contains_single_edge_still_flags()
+
+## Connections
+- [[The exclusion is specifically for contains-only AST nodes an AST node whose…]] - `rationale_for` [EXTRACTED]
+- [[generate()]] - `calls` [EXTRACTED]
+- [[networkx]] - `calls` [EXTRACTED]
+- [[test_report_gap_thresholds.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_47

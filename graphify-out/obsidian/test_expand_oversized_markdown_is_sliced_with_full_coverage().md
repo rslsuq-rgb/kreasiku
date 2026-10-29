@@ -1,0 +1,21 @@
+---
+source_file: "graphify/tests/test_file_slice.py"
+type: "code"
+community: "Community 38"
+location: "L72"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_38
+---
+
+# test_expand_oversized_markdown_is_sliced_with_full_coverage()
+
+## Connections
+- [[FileSlice]] - `uses` [INFERRED]
+- [[_write()_30]] - `calls` [EXTRACTED]
+- [[expand_oversized_files()]] - `calls` [EXTRACTED]
+- [[read_slice_text()]] - `calls` [EXTRACTED]
+- [[test_file_slice.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_38

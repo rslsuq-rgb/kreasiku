@@ -1,0 +1,325 @@
+---
+type: community
+cohesion: 0.03
+members: 219
+---
+
+# Community 4
+
+**Cohesion:** 0.03 - loosely connected
+**Members:** 219 nodes
+
+## Members
+- [[A hook relocated to .claudesettings.local.json is removed on uninstall.]] - rationale - graphify/tests/test_claude_md.py
+- [[A non-UTF-8 CLAUDE.local.md must not abort uninstall (it has no marker to…]] - rationale - graphify/tests/test_claude_md.py
+- [[A resolved install path containing spaces must be double-quoted in every hook…]] - rationale - graphify/tests/test_install.py
+- [[Abort a hook install rather than clobber a config file we can't parse (2167).]] - rationale - graphify/graphify/install.py
+- [[Add graphify PreToolUse hook to .claudesettings.json. A project-scoped install…]] - rationale - graphify/graphify/install.py
+- [[Add graphify PreToolUse hook to .codebuddysettings.json.]] - rationale - graphify/graphify/install.py
+- [[Add graphify PreToolUse hook to .codexhooks.json. A project-scoped install…]] - rationale - graphify/graphify/install.py
+- [[Appends to an existing CLAUDE.md without clobbering it.]] - rationale - graphify/tests/test_claude_md.py
+- [[Atomically install a packaged references sidecar next to SKILL.md. Stages the…]] - rationale - graphify/graphify/install.py
+- [[Best-effort removal of the pre-fix ~.ampskillsgraphify install dir. Older…]] - rationale - graphify/graphify/install.py
+- [[Copy a packaged skill file and write its version stamp. For progressive…]] - rationale - graphify/graphify/install.py
+- [[Copy skill file, write GEMINI.md section, and install BeforeTool hook.]] - rationale - graphify/graphify/install.py
+- [[Creates CLAUDE.md when none exists.]] - rationale - graphify/tests/test_claude_md.py
+- [[Drop graphify PreToolUse hooks from a single Claude settings file, if present.]] - rationale - graphify/graphify/install.py
+- [[Drop graphify's own hook entries from groups, keeping everything else. Only…]] - rationale - graphify/graphify/install.py
+- [[Gemini CLI BeforeTool hook, resolved to a shell-agnostic `graphify` call. A…]] - rationale - graphify/graphify/install.py
+- [[Green graphify logo banner on graphify install. TTY-only, never raises.]] - rationale - graphify/graphify/install.py
+- [[Handle `graphify install-command` dispatch (installuninstall + every per-…]] - rationale - graphify/graphify/install.py
+- [[Idempotently add or refresh an always-on registration in target, degrading…]] - rationale - graphify/graphify/install.py
+- [[Install graphify for Google Antigravity (global skill + .agentsrules +…]] - rationale - graphify/graphify/install.py
+- [[Install graphify skill for VS Code Copilot Chat + write .githubcopilot-…]] - rationale - graphify/graphify/install.py
+- [[Install native Kilo skill + command globally and always-on project wiring…]] - rationale - graphify/graphify/install.py
+- [[Install platform skillconfig files in the current project.]] - rationale - graphify/graphify/install.py
+- [[Instructions relocated to .claudeCLAUDE.local.md are removed on uninstall.]] - rationale - graphify/tests/test_claude_md.py
+- [[Instructions relocated to root CLAUDE.local.md are removed on uninstall.]] - rationale - graphify/tests/test_claude_md.py
+- [[Load an existing settingshooks JSON file for a read-modify-write merge. A…]] - rationale - graphify/graphify/install.py
+- [[Name path for installuninstall output, plus the file it points to when it is…]] - rationale - graphify/graphify/install.py
+- [[Path_162]] - code
+- [[Re-copy one platform's skill and report it in one line on stderr.]] - rationale - graphify/graphify/__main__.py
+- [[Read path as UTF-8 and return ``(text, newline)``. ``text`` uses bare ``n``…]] - rationale - graphify/graphify/install.py
+- [[Read a packaged always-on instruction block from graphifyalways_on. The six…]] - rationale - graphify/graphify/install.py
+- [[Remove .cursorrulesgraphify.mdc.]] - rationale - graphify/graphify/install.py
+- [[Remove .windsurfrulesgraphify.md.]] - rationale - graphify/graphify/install.py
+- [[Remove JSONC-style comments while leaving string content intact.]] - rationale - graphify/graphify/install.py
+- [[Remove Kilo always-on project wiring and global skillcommand files.]] - rationale - graphify/graphify/install.py
+- [[Remove a platform skill file and its version stamp without touching other…]] - rationale - graphify/graphify/install.py
+- [[Remove every section whose heading line is exactly ``marker``. The heading is…]] - rationale - graphify/graphify/install.py
+- [[Remove graphify Antigravity rules, workflow, and skill files.]] - rationale - graphify/graphify/install.py
+- [[Remove graphify PreToolUse hook from .codebuddysettings.json.]] - rationale - graphify/graphify/install.py
+- [[Remove graphify PreToolUse hook from .codexhooks.json.]] - rationale - graphify/graphify/install.py
+- [[Remove graphify VS Code Copilot Chat skill and .githubcopilot-instructions.md…]] - rationale - graphify/graphify/install.py
+- [[Remove graphify from every platform detected in the current project.]] - rationale - graphify/graphify/install.py
+- [[Remove graphify skill + steering file for Kiro.]] - rationale - graphify/graphify/install.py
+- [[Remove graphify.js plugin and deregister from opencode.json.]] - rationale - graphify/graphify/install.py
+- [[Remove graphify.js plugin and deregister it without rewriting user JSONC.]] - rationale - graphify/graphify/install.py
+- [[Remove project-scoped install files without touching user-scope installs.]] - rationale - graphify/graphify/install.py
+- [[Remove project-scoped platform skillconfig files only.]] - rationale - graphify/graphify/install.py
+- [[Remove the graphify PreToolUse hook from .claudesettings.json and its local-…]] - rationale - graphify/graphify/install.py
+- [[Remove the graphify section from GEMINI.md, uninstall hook, and remove skill…]] - rationale - graphify/graphify/install.py
+- [[Remove the graphify section from the local AGENTS.md.]] - rationale - graphify/graphify/install.py
+- [[Remove the graphify skill tree (SKILL.md + references) and the graphify…]] - rationale - graphify/graphify/install.py
+- [[Remove the plugin entry older releases wrote into opencode.json. The entry was…]] - rationale - graphify/graphify/install.py
+- [[Remove the project-scoped Claude skill registration filesection.]] - rationale - graphify/graphify/install.py
+- [[Removes the graphify section after it was installed.]] - rationale - graphify/tests/test_claude_md.py
+- [[Resolve a CLI platform alias to its real _PLATFORM_CONFIG key.]] - rationale - graphify/graphify/install.py
+- [[Return the absolute path to the graphify executable, with forward slashes. With…]] - rationale - graphify/graphify/install.py
+- [[Return the packaged references source dir for a progressive platform, else…]] - rationale - graphify/graphify/install.py
+- [[Return the top-level project artifact for a project-scoped skill path.]] - rationale - graphify/graphify/install.py
+- [[Run every project install in install.py (plus the CLI installers that write…]] - rationale - graphify/tests/test_detect.py
+- [[Running claude_install twice does not duplicate the PreToolUse hook.]] - rationale - graphify/tests/test_claude_md.py
+- [[Running install twice does not duplicate the section.]] - rationale - graphify/tests/test_claude_md.py
+- [[Scope regression tests for the uninstall API trap (issue 2215).…]] - rationale - graphify/tests/test_uninstall_scope.py
+- [[Second install prints the 'already configured' message.]] - rationale - graphify/tests/test_claude_md.py
+- [[Serialize ``settings`` to ``settings_path``, backing up the previous file.…]] - rationale - graphify/graphify/install.py
+- [[Serialize every process that writes ``skill_dir``. Install, uninstall and the…]] - rationale - graphify/graphify/install.py
+- [[Skill path written by ``graphify vscode install``. The same directory as the…]] - rationale - graphify/graphify/install.py
+- [[Strip the  graphify section from one CLAUDE.md-style file. Returns True if a…]] - rationale - graphify/graphify/install.py
+- [[Take the lock on ``fh`` without waiting; False if another process holds it.…]] - rationale - graphify/graphify/install.py
+- [[Tests for graphify claude install  uninstall commands.]] - rationale - graphify/tests/test_claude_md.py
+- [[The lock file for ``skill_dir``, kept out of the skill directory. Inside it, a…]] - rationale - graphify/graphify/install.py
+- [[True when opencode.json still mentions the bare plugin path.]] - rationale - graphify/graphify/install.py
+- [[Uninstall keeps non-graphify content in CLAUDE.local.md.]] - rationale - graphify/tests/test_claude_md.py
+- [[Uninstall keeps pre-existing content outside the graphify section.]] - rationale - graphify/tests/test_claude_md.py
+- [[Uninstall on a CLAUDE.md without graphify section prints a message and exits…]] - rationale - graphify/tests/test_claude_md.py
+- [[Uninstall through a symlinked instructions file. When removing graphify's…]] - rationale - graphify/tests/test_uninstall_symlink.py
+- [[Uninstall when no CLAUDE.md exists prints a message and exits cleanly.]] - rationale - graphify/tests/test_claude_md.py
+- [[User-scope Amp install skill into ~.configagentsskills + AGENTS.md.]] - rationale - graphify/graphify/install.py
+- [[User-scope Amp uninstall remove the skill and the AGENTS.md section.]] - rationale - graphify/graphify/install.py
+- [[When the section lives in both CLAUDE.md and a local variant, both are cleaned.]] - rationale - graphify/tests/test_claude_md.py
+- [[Write .cursorrulesgraphify.mdc with alwaysApply true.]] - rationale - graphify/graphify/install.py
+- [[Write Antigravity's always-on layer next to an installed skill. Injects the…]] - rationale - graphify/graphify/install.py
+- [[Write automated Kilo edits to kilo.json so existing JSONC stays untouched.]] - rationale - graphify/graphify/install.py
+- [[Write bare-``n`` text using newline endings, without translation.…]] - rationale - graphify/graphify/install.py
+- [[Write graphify skill + steering file for Kiro IDECLI.]] - rationale - graphify/graphify/install.py
+- [[Write graphify.js into .opencodeplugins, where OpenCode discovers it. Both…]] - rationale - graphify/graphify/install.py
+- [[Write graphify.js plugin and register it without rewriting user JSONC.]] - rationale - graphify/graphify/install.py
+- [[Write the graphify section to the local AGENTS.md for always-on platforms.]] - rationale - graphify/graphify/install.py
+- [[Write the graphify section to the local CLAUDE.md.]] - rationale - graphify/graphify/install.py
+- [[Written section includes the three rules.]] - rationale - graphify/tests/test_claude_md.py
+- [[__getattr__()_1]] - code - graphify/graphify/__main__.py
+- [[_agents_install()_1]] - code - graphify/graphify/install.py
+- [[_agents_platform_install()]] - code - graphify/graphify/install.py
+- [[_agents_platform_uninstall()]] - code - graphify/graphify/install.py
+- [[_agents_uninstall()_1]] - code - graphify/graphify/install.py
+- [[_always_on()]] - code - graphify/graphify/install.py
+- [[_amp_install()]] - code - graphify/graphify/install.py
+- [[_amp_legacy_cleanup()]] - code - graphify/graphify/install.py
+- [[_amp_uninstall()]] - code - graphify/graphify/install.py
+- [[_antigravity_finalize()]] - code - graphify/graphify/install.py
+- [[_antigravity_install()]] - code - graphify/graphify/install.py
+- [[_antigravity_uninstall()]] - code - graphify/graphify/install.py
+- [[_canonical_platform()]] - code - graphify/graphify/install.py
+- [[_claude_pretooluse_hooks()]] - code - graphify/graphify/install.py
+- [[_copy_skill_file()]] - code - graphify/graphify/install.py
+- [[_cursor_install()]] - code - graphify/graphify/install.py
+- [[_cursor_uninstall()]] - code - graphify/graphify/install.py
+- [[_devin_rules_uninstall()]] - code - graphify/graphify/install.py
+- [[_drop_opencode_config_entry()]] - code - graphify/graphify/install.py
+- [[_gemini_hook()]] - code - graphify/graphify/install.py
+- [[_install_claude_hook()]] - code - graphify/graphify/install.py
+- [[_install_codebuddy_hook()]] - code - graphify/graphify/install.py
+- [[_install_codex_hook()]] - code - graphify/graphify/install.py
+- [[_install_gemini_hook()]] - code - graphify/graphify/install.py
+- [[_install_kilo_plugin()]] - code - graphify/graphify/install.py
+- [[_install_opencode_plugin()]] - code - graphify/graphify/install.py
+- [[_install_skill_references()]] - code - graphify/graphify/install.py
+- [[_kilo_config_path()]] - code - graphify/graphify/install.py
+- [[_kilo_config_write_path()]] - code - graphify/graphify/install.py
+- [[_kilo_install()_1]] - code - graphify/graphify/install.py
+- [[_kilo_uninstall()_1]] - code - graphify/graphify/install.py
+- [[_kilo_uninstall_global()]] - code - graphify/graphify/install.py
+- [[_kiro_install()]] - code - graphify/graphify/install.py
+- [[_kiro_uninstall()]] - code - graphify/graphify/install.py
+- [[_load_json_like()]] - code - graphify/graphify/install.py
+- [[_opencode_config_names_plugin()]] - code - graphify/graphify/install.py
+- [[_packaged_skill_refs_dir()]] - code - graphify/graphify/install.py
+- [[_print_banner()]] - code - graphify/graphify/install.py
+- [[_print_install_usage()]] - code - graphify/graphify/install.py
+- [[_print_project_git_add_hint()]] - code - graphify/graphify/install.py
+- [[_project_install()]] - code - graphify/graphify/install.py
+- [[_project_scope_root()]] - code - graphify/graphify/install.py
+- [[_project_uninstall()]] - code - graphify/graphify/install.py
+- [[_project_uninstall_all()]] - code - graphify/graphify/install.py
+- [[_read_keep_newline()]] - code - graphify/graphify/install.py
+- [[_read_settings_for_merge()]] - code - graphify/graphify/install.py
+- [[_refresh_one_skill()]] - code - graphify/graphify/__main__.py
+- [[_refuse_to_modify()]] - code - graphify/graphify/install.py
+- [[_register_always_on_block()]] - code - graphify/graphify/install.py
+- [[_release_skill_lock()]] - code - graphify/graphify/install.py
+- [[_remove_claude_skill_registration()]] - code - graphify/graphify/install.py
+- [[_remove_marker_section()]] - code - graphify/graphify/install.py
+- [[_remove_skill_file()]] - code - graphify/graphify/install.py
+- [[_resolve_graphify_exe()]] - code - graphify/graphify/install.py
+- [[_section()_1]] - code - graphify/tests/test_uninstall_symlink.py
+- [[_shown_path()]] - code - graphify/graphify/install.py
+- [[_skill_lock()]] - code - graphify/graphify/install.py
+- [[_skill_lock_path()]] - code - graphify/graphify/install.py
+- [[_skill_registration()]] - code - graphify/graphify/install.py
+- [[_strip_graphify_hook()]] - code - graphify/graphify/install.py
+- [[_strip_graphify_hooks()]] - code - graphify/graphify/install.py
+- [[_strip_graphify_md_section()]] - code - graphify/graphify/install.py
+- [[_strip_json_comments()]] - code - graphify/graphify/install.py
+- [[_try_skill_lock()]] - code - graphify/graphify/install.py
+- [[_uninstall_claude_hook()]] - code - graphify/graphify/install.py
+- [[_uninstall_codebuddy_hook()]] - code - graphify/graphify/install.py
+- [[_uninstall_codex_hook()]] - code - graphify/graphify/install.py
+- [[_uninstall_gemini_hook()]] - code - graphify/graphify/install.py
+- [[_uninstall_kilo_plugin()]] - code - graphify/graphify/install.py
+- [[_uninstall_opencode_plugin()]] - code - graphify/graphify/install.py
+- [[_vscode_skill_destination()]] - code - graphify/graphify/install.py
+- [[_write_keep_newline()]] - code - graphify/graphify/install.py
+- [[_write_settings_with_backup()]] - code - graphify/graphify/install.py
+- [[`graphify agents install` skill into ~.agentsskills + AGENTS.md. The amp-…]] - rationale - graphify/graphify/install.py
+- [[`graphify agents uninstall` remove the skill and the AGENTS.md section.]] - rationale - graphify/graphify/install.py
+- [[claude_install also writes .claudesettings.json with PreToolUse hook.]] - rationale - graphify/tests/test_claude_md.py
+- [[claude_install()]] - code - graphify/graphify/install.py
+- [[claude_uninstall removes the PreToolUse hook from settings.json.]] - rationale - graphify/tests/test_claude_md.py
+- [[claude_uninstall()]] - code - graphify/graphify/install.py
+- [[codebuddy_uninstall()]] - code - graphify/graphify/install.py
+- [[contextlib]] - concept
+- [[cursor uninstall removes the rule file.]] - rationale - graphify/tests/test_install.py
+- [[dispatch_install_cli()]] - code - graphify/graphify/install.py
+- [[errno]] - concept
+- [[fcntl]] - concept
+- [[functools]] - concept
+- [[gemini_install()]] - code - graphify/graphify/install.py
+- [[gemini_uninstall()]] - code - graphify/graphify/install.py
+- [[graphify CLI - `graphify install` sets up the Claude Code skill.]] - rationale - graphify/graphify/__main__.py
+- [[graphify installuninstall subsystem. The per-platform skillhook installers…]] - rationale - graphify/graphify/install.py
+- [[graphify's ClaudeCodebuddy PreToolUse hooks, resolved at install time. The…]] - rationale - graphify/graphify/install.py
+- [[graphify__main__.py]] - code - graphify/graphify/__main__.py
+- [[importlib_metadata]] - concept
+- [[install()]] - code - graphify/graphify/install.py
+- [[install.py]] - code - graphify/graphify/install.py
+- [[msvcrt]] - concept
+- [[parametrize_69]] - code
+- [[shutil]] - concept
+- [[test_claude_md.py]] - code - graphify/tests/test_claude_md.py
+- [[test_cursor_uninstall_removes_rule()]] - code - graphify/tests/test_install.py
+- [[test_detect_skips_every_file_graphify_install_writes()]] - code - graphify/tests/test_detect.py
+- [[test_gemini_uninstall_removes_hook()]] - code - graphify/tests/test_install.py
+- [[test_gemini_uninstall_removes_section()]] - code - graphify/tests/test_install.py
+- [[test_hook_command_has_no_backslashes()]] - code - graphify/tests/test_search_hook.py
+- [[test_hook_commands_quote_a_spaced_resolved_exe()]] - code - graphify/tests/test_install.py
+- [[test_install_appends_to_existing_claude_md()]] - code - graphify/tests/test_claude_md.py
+- [[test_install_contains_expected_rules()]] - code - graphify/tests/test_claude_md.py
+- [[test_install_creates_claude_md()]] - code - graphify/tests/test_claude_md.py
+- [[test_install_creates_settings_json()]] - code - graphify/tests/test_claude_md.py
+- [[test_install_idempotent_message()]] - code - graphify/tests/test_claude_md.py
+- [[test_install_is_idempotent()]] - code - graphify/tests/test_claude_md.py
+- [[test_install_settings_json_idempotent()]] - code - graphify/tests/test_claude_md.py
+- [[test_uninstall_cleans_both_standard_and_local()]] - code - graphify/tests/test_claude_md.py
+- [[test_uninstall_empties_symlink_target_and_keeps_link()]] - code - graphify/tests/test_uninstall_symlink.py
+- [[test_uninstall_no_op_when_no_file()]] - code - graphify/tests/test_claude_md.py
+- [[test_uninstall_no_op_when_not_installed()]] - code - graphify/tests/test_claude_md.py
+- [[test_uninstall_preserves_other_content()]] - code - graphify/tests/test_claude_md.py
+- [[test_uninstall_preserves_other_content_in_local_md()]] - code - graphify/tests/test_claude_md.py
+- [[test_uninstall_removes_hook_from_settings_local_json()]] - code - graphify/tests/test_claude_md.py
+- [[test_uninstall_removes_section()]] - code - graphify/tests/test_claude_md.py
+- [[test_uninstall_removes_section_from_dot_claude_local_md()]] - code - graphify/tests/test_claude_md.py
+- [[test_uninstall_removes_section_from_root_claude_local_md()]] - code - graphify/tests/test_claude_md.py
+- [[test_uninstall_removes_settings_hook()]] - code - graphify/tests/test_claude_md.py
+- [[test_uninstall_scope.py]] - code - graphify/tests/test_uninstall_scope.py
+- [[test_uninstall_still_deletes_a_regular_file_left_empty()]] - code - graphify/tests/test_uninstall_symlink.py
+- [[test_uninstall_symlink.py]] - code - graphify/tests/test_uninstall_symlink.py
+- [[test_uninstall_tolerates_unreadable_local_md()]] - code - graphify/tests/test_claude_md.py
+- [[uninstall_all()]] - code - graphify/graphify/install.py
+- [[vscode_install()]] - code - graphify/graphify/install.py
+- [[vscode_uninstall()]] - code - graphify/graphify/install.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_4
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 39 edges to [[_COMMUNITY_Community 25]]
+- 38 edges to [[_COMMUNITY_Community 10]]
+- 30 edges to [[_COMMUNITY_Community 19]]
+- 29 edges to [[_COMMUNITY_Community 52]]
+- 18 edges to [[_COMMUNITY_Community 61]]
+- 14 edges to [[_COMMUNITY_Community 115]]
+- 11 edges to [[_COMMUNITY_Community 3]]
+- 11 edges to [[_COMMUNITY_Community 22]]
+- 8 edges to [[_COMMUNITY_Community 17]]
+- 8 edges to [[_COMMUNITY_Community 157]]
+- 8 edges to [[_COMMUNITY_Community 268]]
+- 8 edges to [[_COMMUNITY_Community 499]]
+- 7 edges to [[_COMMUNITY_Community 336]]
+- 6 edges to [[_COMMUNITY_Community 5]]
+- 6 edges to [[_COMMUNITY_Community 31]]
+- 5 edges to [[_COMMUNITY_Community 26]]
+- 5 edges to [[_COMMUNITY_Community 517]]
+- 5 edges to [[_COMMUNITY_Community 273]]
+- 5 edges to [[_COMMUNITY_Community 62]]
+- 4 edges to [[_COMMUNITY_Community 192]]
+- 4 edges to [[_COMMUNITY_Community 7]]
+- 3 edges to [[_COMMUNITY_Community 236]]
+- 3 edges to [[_COMMUNITY_Community 44]]
+- 3 edges to [[_COMMUNITY_Community 59]]
+- 2 edges to [[_COMMUNITY_Community 93]]
+- 2 edges to [[_COMMUNITY_Community 306]]
+- 2 edges to [[_COMMUNITY_Community 112]]
+- 2 edges to [[_COMMUNITY_Community 169]]
+- 2 edges to [[_COMMUNITY_Community 182]]
+- 2 edges to [[_COMMUNITY_Community 223]]
+- 2 edges to [[_COMMUNITY_Community 448]]
+- 2 edges to [[_COMMUNITY_Community 91]]
+- 1 edge to [[_COMMUNITY_Community 2]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+- 1 edge to [[_COMMUNITY_Community 646]]
+- 1 edge to [[_COMMUNITY_Community 82]]
+- 1 edge to [[_COMMUNITY_Community 1]]
+- 1 edge to [[_COMMUNITY_Community 116]]
+- 1 edge to [[_COMMUNITY_Community 128]]
+- 1 edge to [[_COMMUNITY_Community 134]]
+- 1 edge to [[_COMMUNITY_Community 135]]
+- 1 edge to [[_COMMUNITY_Community 145]]
+- 1 edge to [[_COMMUNITY_Community 146]]
+- 1 edge to [[_COMMUNITY_Community 154]]
+- 1 edge to [[_COMMUNITY_Community 159]]
+- 1 edge to [[_COMMUNITY_Community 168]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 187]]
+- 1 edge to [[_COMMUNITY_Community 190]]
+- 1 edge to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 224]]
+- 1 edge to [[_COMMUNITY_Community 228]]
+- 1 edge to [[_COMMUNITY_Community 244]]
+- 1 edge to [[_COMMUNITY_Community 247]]
+- 1 edge to [[_COMMUNITY_Community 249]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 284]]
+- 1 edge to [[_COMMUNITY_Community 295]]
+- 1 edge to [[_COMMUNITY_Community 321]]
+- 1 edge to [[_COMMUNITY_Community 347]]
+- 1 edge to [[_COMMUNITY_Community 356]]
+- 1 edge to [[_COMMUNITY_Community 369]]
+- 1 edge to [[_COMMUNITY_Community 378]]
+- 1 edge to [[_COMMUNITY_Community 385]]
+- 1 edge to [[_COMMUNITY_Community 396]]
+- 1 edge to [[_COMMUNITY_Community 397]]
+- 1 edge to [[_COMMUNITY_Community 233]]
+- 1 edge to [[_COMMUNITY_Community 109]]
+- 1 edge to [[_COMMUNITY_Community 535]]
+- 1 edge to [[_COMMUNITY_Community 444]]
+- 1 edge to [[_COMMUNITY_Community 513]]
+- 1 edge to [[_COMMUNITY_Community 582]]
+- 1 edge to [[_COMMUNITY_Community 71]]
+- 1 edge to [[_COMMUNITY_Community 70]]
+- 1 edge to [[_COMMUNITY_Community 43]]
+- 1 edge to [[_COMMUNITY_Community 46]]
+- 1 edge to [[_COMMUNITY_Community 50]]
+- 1 edge to [[_COMMUNITY_Community 88]]
+
+## Top bridge nodes
+- [[graphify__main__.py]] - degree 149, connects to 42 communities
+- [[install.py]] - degree 127, connects to 20 communities
+- [[shutil]] - degree 43, connects to 19 communities
+- [[contextlib]] - degree 21, connects to 11 communities
+- [[Path_162]] - degree 69, connects to 5 communities

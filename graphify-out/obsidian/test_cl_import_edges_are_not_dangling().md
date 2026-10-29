@@ -1,0 +1,20 @@
+---
+source_file: "graphify/tests/test_languages.py"
+type: "code"
+community: "Community 29"
+location: "L5325"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_29
+---
+
+# test_cl_import_edges_are_not_dangling()
+
+## Connections
+- [[Every `imports` edge must target a real node (a sourceless stub the corpus…]] - `rationale_for` [EXTRACTED]
+- [[_needs_commonlisp]] - `references` [EXTRACTED]
+- [[extract_commonlisp()]] - `calls` [INFERRED]
+- [[test_languages.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_29

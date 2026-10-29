@@ -1,0 +1,34 @@
+---
+source_file: "graphify/graphify/install.py"
+type: "code"
+community: "Community 4"
+location: "L2022"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_4
+---
+
+# _project_install()
+
+## Connections
+- [[Install platform skillconfig files in the current project.]] - `rationale_for` [EXTRACTED]
+- [[Path_162]] - `references` [EXTRACTED]
+- [[_agents_install()_1]] - `calls` [EXTRACTED]
+- [[_antigravity_finalize()]] - `calls` [EXTRACTED]
+- [[_canonical_platform()]] - `calls` [EXTRACTED]
+- [[_copy_skill_file()]] - `calls` [EXTRACTED]
+- [[_cursor_install()]] - `calls` [EXTRACTED]
+- [[_devin_rules_install()]] - `calls` [EXTRACTED]
+- [[_kiro_install()]] - `calls` [EXTRACTED]
+- [[_print_project_git_add_hint()]] - `calls` [EXTRACTED]
+- [[_project_scope_root()]] - `calls` [EXTRACTED]
+- [[claude_install()]] - `calls` [EXTRACTED]
+- [[dispatch_install_cli()]] - `calls` [EXTRACTED]
+- [[gemini_install()]] - `calls` [EXTRACTED]
+- [[graphify__main__.py]] - `imports` [EXTRACTED]
+- [[install()]] - `calls` [EXTRACTED]
+- [[install.py]] - `contains` [EXTRACTED]
+- [[test_detect_skips_every_file_graphify_install_writes()]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_4

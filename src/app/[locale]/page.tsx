@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import ColorFrame from '@/components/ColorFrame';
+import ColorFrame from '../../components/ColorFrame';
 
 export default function IndexPage() {
   const t = useTranslations('index');

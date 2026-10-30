@@ -1,6 +1,7 @@
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
+import './../globals.css'; // INI YANG TADI TERLEWAT
 
 export default async function LocaleLayout({
   children,
